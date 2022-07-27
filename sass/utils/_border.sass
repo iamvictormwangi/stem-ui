@@ -1,5 +1,5 @@
 .bd
-  border-color: var(--black)
+  border-color: ($black)
   border-style: solid
   border-width: 0.1rem
 
@@ -29,6 +29,45 @@
 
 .bds--outset
   border-style: outset
+
+@mixin border-color($clr)
+  border-color: $clr
+
+  &--hvr:hover
+    border-color: $clr
+
+  &--fcs:focus
+    border-color: $clr
+
+.bdc--primary
+  @include border-color($primary)
+
+.bdc--secondary
+  @include border-color($primary)
+
+.bdc--muted
+  @include border-color($primary)
+
+.bdc--accent
+  @include border-color($primary)
+
+.bdc--error
+  @include border-color($primary)
+
+.bdc--warning
+  @include border-color($primary)
+
+.bdc--info
+  @include border-color($primary)
+
+.bdc--success
+  @include border-color($primary)
+
+.bdc--light
+  @include border-color($primary)
+
+.bdc--dark
+  @include border-color($primary)
 
 .bdw--1
   border-width: 0.1rem
@@ -201,96 +240,6 @@
 .bdw--30
   border-width: 4.1rem
 
-.bdc--primary
-  border-color: var(--primary)
-
-.bdc--secondary
-  border-color: var(--secondary)
-
-.bdc--muted
-  border-color: var(--muted)
-
-.bdc--accent
-  border-color: var(--accent)
-
-.bdc--error
-  border-color: var(--error)
-
-.bdc--warning
-  border-color: var(--warning)
-
-.bdc--info
-  border-color: var(--info)
-
-.bdc--success
-  border-color: var(--success)
-
-.bdc--light
-  border-color: var(--light)
-
-.bdc--dark
-  border-color: var(--dark)
-
-.bdc--primary--hvr:hover
-  border-color: var(--primary)
-
-.bdc--secondary--hvr:hover
-  border-color: var(--secondary)
-
-.bdc--muted--hvr:hover
-  border-color: var(--muted)
-
-.bdc--accent--hvr:hover
-  border-color: var(--accent)
-
-.bdc--error--hvr:hover
-  border-color: var(--error)
-
-.bdc--warning--hvr:hover
-  border-color: var(--warning)
-
-.bdc--info--hvr:hover
-  border-color: var(--info)
-
-.bdc--success--hvr:hover
-  border-color: var(--success)
-
-.bdc--dark--hvr:hover
-  border-color: var(--dark)
-
-.bdc--light--hvr:hover
-  border-color: var(--light)
-
-.bdc--primary--fcs:focus
-  border-color: var(--primary)
-
-.bdc--secondary--fcs:focus
-  border-color: var(--secondary)
-
-.bdc--muted--fcs:focus
-  border-color: var(--muted)
-
-.bdc--accent--fcs:focus
-  border-color: var(--accent)
-
-.bdc--error--fcs:focus
-  border-color: var(--error)
-
-.bdc--warning--fcs:focus
-  border-color: var(--warning)
-
-.bdc--info--fcs:focus
-  border-color: var(--info)
-
-.bdc--success--fcs:focus
-  border-color: var(--success)
-
-.bdc--light--fcs:focus
-  border-color: var(--light)
-
-.bdc--dark--fcs:focus
-  border-color: var(--dark)
-
 .bd__rds--0
   border-radius: 0
 
@@ -462,7 +411,7 @@
 .bd__rds--29
   border-radius: 5.6rem
 
-.bd__r--29\.5
+.bd__rds--29\.5
   border-radius: 5.7rem
 
 .bd__rds--30
