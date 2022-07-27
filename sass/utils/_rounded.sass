@@ -1,0 +1,24 @@
+@mixin rounded($value)
+  border-radius: $value
+
+  &--hvr:hover
+    border-radius: $value
+
+  &--fcs:focus
+    border-radius: $value
+
+.rounded--xxs, .rounded--xs
+  @include rounded(30%)
+
+.rounded--sm
+  @include rounded(40%)
+
+.rounded, .rounded--md
+  @include rounded(50%)
+
+.rounded--lg
+  @include rounded(55%)
+
+.rounded--xl, .rounded--xxl
+  @include rounded(70%)
+

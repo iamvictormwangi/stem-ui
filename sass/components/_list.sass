@@ -1,0 +1,69 @@
+@mixin list-items($clr)
+  background-color: $clr
+
+  &:hover
+    background-color: complement($clr)
+
+.list
+  &.list--primary
+    background-color: (var(--primary))
+
+  &.list--secondary
+    background-color: (var(--secondary))
+
+  &.list--muted
+    background-color: (var(--muted))
+
+  &.list--accent
+    background-color: (var(--accent))
+
+  &.list--error
+    background-color: (var(--error))
+
+  &.list--warning
+    background-color: (var(--warning))
+
+  &.list--info
+    background-color: (var(--info))
+
+  &.list--success
+    background-color: (var(--success))
+
+  &.list--dark
+    background-color: (var(--dark))
+
+  &.list--light
+    background-color: (var(--light))
+
+  & .list__item
+    padding: 0.35rem 1rem
+
+  & .list__item--primary
+    @include list-items($primary)
+
+  & .list__item--secondary
+    @include list-items($secondary)
+
+  & .list__item--muted
+    @include list-items($mted)
+
+  & .list__item--accent
+    @include list-items($accent)
+
+  & .list__item--error
+    @include list-items($error)
+
+  & .list__item--warning
+    @include list-items($warning)
+
+  & .list__item--success
+    @include list-items($success)
+
+  & .list__item--dark
+    @include list-items($dark)
+
+  & .list__item--light
+    @include list-items($light)
+
+
+

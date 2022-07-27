@@ -1,0 +1,93 @@
+@mixin skew($value, $y)
+
+  @if $y
+    transform: skewY($value)
+
+    &--hvr:hover
+      transform: skewY($value)
+
+    &--fcs:focus
+      transform: skewY($value)
+
+  @else
+    transform: skewX($value)
+
+    &--hvr:hover
+      transform: skewX($value)
+
+    &--fcs:focus
+      transform: skewX($value)
+
+.skewy--30deg
+  @include skew(30deg, $y: true)
+
+.skewy--60deg
+  @include skew(60deg, $y: true)
+
+.skewy--90deg
+  @include skew(90deg, $y: true)
+
+.skewy--120deg
+  @include skew(120deg, $y: true)
+
+.skewy--150deg
+  @include skew(150deg, $y: true)
+
+.skewy--180deg
+  @include skew(180deg, $y: true)
+
+.skewy--210deg
+  @include skew(210deg, $y: true)
+
+.skewy--240deg
+  @include skew(240deg, $y: true)
+
+.skewy--270deg
+  @include skew(270deg, $y: true)
+
+.skewy--300deg
+  @include skew(300deg, $y: true)
+
+.skewy--330deg
+  @include skew(330deg, $y: true)
+
+.skewy--360deg
+  @include skew(360deg, $y: true)
+
+.skewx--30deg
+  @include skew(30deg, $y: false)
+
+.skewx--60deg
+  @include skew(60deg, $y: false)
+
+.skewx--90deg
+  @include skew(90deg, $y: false)
+
+.skewx--120deg
+  @include skew(120deg, $y: false)
+
+.skewx--150deg
+  @include skew(150deg, $y: false)
+
+.skewx--180deg
+  @include skew(180deg, $y: false)
+
+.skewx--210deg
+  @include skew(210deg, $y: false)
+
+.skewx--240deg
+  @include skew(240deg, $y: false)
+
+.skewx--270deg
+  @include skew(270deg, $y: false)
+
+.skewx--300deg
+  @include skew(300deg, $y: false)
+
+.skewx--330deg
+  @include skew(330deg, $y: false)
+
+.skewx--360deg
+  @include skew(360deg, $y: false)
+
+

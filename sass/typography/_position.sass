@@ -1,0 +1,34 @@
+.pos--relative
+  position: relative !important
+
+.pos--absolute
+  position: absolute !important
+
+.pos--fixed
+  position: fixed !important
+
+.pos--sticky
+  position: sticky !important
+
+.pos--static
+  position: static !important
+
+:is(.sticky--top, .sticky--bottom)
+  position: sticky
+  z-index: 1000
+
+.sticky--top
+  top: 0
+
+.sticky--bottom
+  bottom: 0
+
+:is(.fixed--top, .fixed--bottom)
+  position: fixed
+  z-index: 1000
+
+.fixed--top
+  top: 0
+
+.fixed--bottom
+  bottom: 0

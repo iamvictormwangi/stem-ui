@@ -1,0 +1,63 @@
+.flt--right
+  float: right
+
+.flt--left
+  float: left
+
+.flt--none
+  float: none
+
+.clr--both
+  clear: both
+
+@media (min-width: var(--mobile-min-width)) and (max-width: var(--mobile-max-width))
+  .flt--right\@mobile
+    @include float(right)
+
+  .flt--left\@mobile
+    @include float(left)
+
+  .flt--none\@mobile
+    @include float(none)
+
+  .clr--both\@mobile
+    clear: both
+
+@media (min-width: var(--tablet-min-width)) and (max-width: var(--tablet-max-width))
+  .flt--right\@tablet
+    @include float(right)
+
+  .flt--left\@tablet
+    @include float(left)
+
+  .flt--none\@tablet
+    @include float(none)
+
+  .clr--both\@tablet
+    clear: both
+
+@media (min-width: var(--laptop-min-width)) and (max-width: var(--laptop-max-width))
+  .flt--right\@laptop
+    @include float(right)
+
+  .flt--left\@laptop
+    @include float(left)
+
+  .flt--none\@laptop
+    @include float(none)
+
+  .clr--both\@laptop
+    clear: both
+
+@media (min-width: var(--desktop-min-width))
+  .flt--right\@desktop
+    @include float(right)
+
+  .flt--left\@desktop
+    @include float(left)
+
+  .flt--none\@desktop
+    @include float(none)
+
+  .clr--both\@desktop
+    clear: both

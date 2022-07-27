@@ -1,0 +1,184 @@
+$title-size: 2.5rem
+
+$primary: #42a5f5
+$secondary: #ba68c8
+$muted: #535353
+
+$accent: #59B3A9
+$error: #ef5350
+$warning: #ff9800
+$info: #03a9f4
+$success: #4caf50
+
+$dark:#0c242b
+$light:	#F8F8FF
+
+$margin-bottom: 1rem
+
+$border-color: $dark
+
+$mobile-min-width: 16rem
+$mobile-max-width: 30rem
+
+$tablet-min-width: 30.0625rem
+$tablet-max-width: 48rem
+
+$laptop-min-width: 48.0625rem
+$laptop-max-width: 64rem
+
+$desktop-min-width: 64.0625rem
+
+@mixin btn-outline($clr)
+  border: $clr solid 0.1rem
+
+  &:hover
+    background-color: $clr
+    border: $border-color solid 0.1rem
+
+@mixin btn-color($clr)
+  background: $clr
+
+  &:hover
+    background-color: complement($clr)
+
+.btn
+  border: $dark solid 0.1rem
+  border-radius: 0.25rem
+  padding: 0.35rem 2.5rem
+  cursor: pointer
+  text-align: center
+
+  &.btn--xxs
+    font-size: 0.6rem
+
+  &.btn--xs
+    font-size: 0.8rem
+
+  &.btn--sm
+    font-size: 0.9rem
+
+  &.btn--md
+    font-size: 1rem
+
+  &.btn--lg
+    font-size: 1.1rem
+
+  &.btn--xl
+    font-size: 1.3rem
+
+  &.btn--xxl
+    font-size: 1.5rem
+
+  &.btn--primary
+    @include btn-color($primary)
+
+  &.btn--secondary
+    @include btn-color($secondary)
+
+  &.btn--muted
+    @include btn-color($muted)
+
+  &.btn--accent
+    @include btn-color($accent)
+
+  &.btn--error
+    @include btn-color($error)
+
+  &.btn--warning
+    @include btn-color($warning)
+
+  &.btn--info
+    @include btn-color($info)
+
+  &.btn--success
+    @include btn-color($success)
+
+  &.btn--dark
+    @include btn-color($dark)
+
+  &.btn--light
+    @include btn-color($light)
+
+  &.outline--primary
+    @include btn-outline($primary)
+
+  &.outline--secondary
+    @include btn-outline($secondary)
+
+  &.outline--muted
+    @include btn-outline($muted)
+
+  &.outline--accent
+    @include btn-outline($accent)
+
+  &.outline--error
+    @include btn-outline($error)
+
+  &.outline--warning
+    @include btn-outline($warning)
+
+  &.outline--info
+    @include btn-outline($info)
+
+  &.outline--success
+    @include btn-outline($success)
+
+  &.outline--dark
+    @include btn-outline($dark)
+
+  &.outline--light
+    @include btn-outline($light)
+
+.btn__floating
+  display: inline-block
+  position: relative
+  overflow: hidden
+  z-index: 1
+  width: 2.5rem
+  height: 2.5rem
+  line-height: 2.5rem
+  padding: 0
+  border-radius: 50%
+  cursor: pointer
+  vertical-align: middle
+
+.btn__floating:before
+  border-radius: 0
+
+.btn__floating i
+  display: inline-block
+  text-align: center
+  line-height: 2.5rem
+
+.btn__floating__square
+  display: inline-block
+  position: relative
+  overflow: hidden
+  z-index: 1
+  width: 2.5rem
+  height: 2.5rem
+  line-height: 2.5rem
+  padding: 0
+  border-radius: calc(5rem/16rem)
+  cursor: pointer
+  vertical-align: middle
+
+.btn__floating__square:before
+  border-radius: 0
+
+.btn__floating__square i
+  display: inline-block
+  text-align: center
+  line-height: 2.5rem
+
+.btn__pagination
+  padding: 0.5rem 0.9rem
+
+.btn__link:hover
+  text-decoration: underline
+  -webkit-transition: -webkit-text-decoration 0.5s ease
+  transition: -webkit-text-decoration 0.5s ease
+  transition: text-decoration 0.5s ease
+  transition: text-decoration 0.5s ease, -webkit-text-decoration 0.5s ease
+
+

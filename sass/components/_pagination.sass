@@ -1,0 +1,76 @@
+@mixin pagination-item-color($clr)
+  background-color: $clr
+
+  &:hover
+    background-color: complement($clr)
+
+.pagination
+  list-style: none
+  margin: 0
+  padding: 0
+  display: flex
+  flex-wrap: wrap
+
+  &.pagination--primary
+    background-color: (var(--primary))
+
+  &.pagination--secondary
+    background-color: (var(--secondary))
+
+  &.pagination--muted
+    background-color: (var(--muted))
+
+  &.pagination--accent
+    background-color: (var(--accent))
+
+  &.pagination--error
+    background-color: (var(--error))
+
+  &.pagination--warning
+    background-color: (var(--warning))
+
+  &.pagination--info
+    background-color: (var(--info))
+
+  &.pagination--success
+    background-color: (var(--success))
+
+  &.pagination--dark
+    background-color: (var(--dark))
+
+  &.pagination--light
+    background-color: (var(--light))
+
+  & .pagination__item
+    margin: 0 0.08rem
+
+  & .pagination__item--primary
+    @include pagination-item-color($primary)
+
+  & .pagination__item--secondary
+    @include pagination-item-color($primary)
+
+  & .pagination__item--muted
+    @include pagination-item-color($primary)
+
+  & .pagination__item--accent
+    @include pagination-item-color($primary)
+
+  & .pagination__item--error
+    @include pagination-item-color($primary)
+
+  & .pagination__item--warning
+    @include pagination-item-color($primary)
+
+  & .pagination__item--info
+    @include pagination-item-color($primary)
+
+  & .pagination__item--success
+    @include pagination-item-color($primary)
+
+  & .pagination__item--dark
+    @include pagination-item-color($primary)
+
+  & .pagination__item--light
+    @include pagination-item-color($primary)
+

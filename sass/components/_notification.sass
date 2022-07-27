@@ -1,0 +1,54 @@
+.notification
+  min-height: 3rem
+  width: 100%
+  z-index: 1000
+  min-height: 5rem
+
+  & .notification__wrapper
+    position: relative
+    padding: 1rem 0.8rem
+    border-bottom: 2px solid lightgrey
+
+    & .notification__title
+      font-weight: inherit
+      font-size: 1.3rem
+      margin-bottom: 0.5rem
+
+    & .notification__subtitle
+      font-weight: inherit
+      font-size: 1.2rem
+      margin-bottom: 0.5rem
+
+    & .notification__text
+      font-size: inherit
+      margin-bottom: 0.5rem
+
+  &.notification--primary
+    background-color: (var(--primary))
+
+  &.notification--secondary
+    background-color: (var(--secondary))
+
+  &.notification--muted
+    background-color: (var(--muted))
+
+  &.notification--accent
+    background-color: (var(--accent))
+
+  &.notification--error
+    background-color: (var(--error))
+
+  &.notification--warning
+    background-color: (var(--warning))
+
+  &.notification--info
+    background-color: (var(--info))
+
+  &.notification--success
+    background-color: (var(--success))
+
+  &.notification--dark
+    background-color: (var(--dark))
+
+  &.notification--light
+    background-color: (var(--light))

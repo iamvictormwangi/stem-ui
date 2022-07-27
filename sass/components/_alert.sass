@@ -1,0 +1,57 @@
+.alert
+  min-height: 3rem
+  width: 20rem
+  position: absolute
+  right: 0 !important
+  top: 0.5rem
+  z-index: 1500
+
+  & .alert__wrapper
+    padding: 1rem .8rem
+    padding-top: 1rem
+    border-bottom: 2px solid lightgrey
+
+    & .alert__title
+      font-weight: inherit
+      font-size: 1.3rem
+      margin-bottom: 0.5rem
+
+    & .alert__subtitle
+      font-weight: inherit
+      font-size: 1.2rem
+      margin-bottom: 0.4rem
+
+    & .alert__text
+      font-size: inherit
+      margin-bottom: 0.4rem
+
+  &.alert--primary
+    background-color: (var(--primary))
+
+  &.alert--secondary
+    background-color: (var(--secondary))
+
+  &.alert--muted
+    background-color: (var(--muted))
+
+  &.alert--accent
+    background-color: (var(--accent))
+
+  &.alert--error
+    background-color: (var(--error))
+
+  &.alert--warning
+    background-color: (var(--warning))
+
+  &.alert--info
+    background-color: (var(--info))
+
+  &.alert--success
+    background-color: (var(--success))
+
+  &.alert--dark
+    background-color: (var(--dark))
+
+  &.alert--light
+    background-color: (var(--light))
+

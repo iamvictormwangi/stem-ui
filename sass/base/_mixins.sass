@@ -1,0 +1,70 @@
+@mixin heading
+  font-weight: 250
+  font-family: var(--serif)
+
+@mixin reset
+  background-color: transparent
+  padding: 0
+  border: 0
+  border-radius: 0
+  color: inherit
+  line-height: inherit
+  appearance: none
+
+@mixin responsive
+  width: 100%
+  height: auto
+
+@mixin show
+  display: block !important
+  visibility: visible !important
+  opacity: 1 !important
+
+@mixin hide
+  display: none !important
+  visibility: hidden !important
+  opacity: 0 !important
+
+@mixin drop
+  background-color: inherit
+  color: inherit
+  min-width: 5rem
+  position: absolute
+  transition: all 0.5s ease
+  box-shadow: var(--shadow)
+  z-index: 1500
+  display: none
+  opacity: 0
+  visibility: hidden
+  margin-top: 0.5rem
+
+@mixin float($fl)
+  float: $fl
+
+@mixin btn-outline($clr)
+  border: $clr solid 0.1rem
+
+  &:hover
+    background-color: $clr
+    border: var(--border-color) solid 0.1rem
+
+@mixin btn
+  border: var(--dark) solid 0.1rem
+  border-radius: 0.25rem
+  padding: 0.35rem 2.5rem
+  cursor: pointer
+  text-align: center
+
+@mixin group
+  display: flex
+  flex-wrap: wrap
+  align-items: stretch
+  position: relative
+  overflow: hidden
+
+@mixin group-item
+  margin: 0
+
+@mixin sticky
+  position: sticky
+  z-index: 1000

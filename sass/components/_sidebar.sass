@@ -1,0 +1,44 @@
+.sidebar
+  position: absolute
+  max-width: 45%
+  min-width: 20%
+  min-height: 100vh
+  left: -90%
+  z-index: 1000
+  transition: left 0.7s ease-in
+
+  & .sidebar__wrapper
+    padding: 1rem 0.8rem
+    padding-top: 1rem
+    border-bottom: 2px solid lightgrey
+
+  &.sidebar--primary
+    background-color: (var(--primary))
+
+  &.sidebar--secondary
+    background-color: (var(--secondary))
+
+  &.sidebar--muted
+    background-color: (var(--muted))
+
+  &.sidebar--accent
+    background-color: (var(--accent))
+
+  &.sidebar--error
+    background-color: (var(--error))
+
+  &.sidebar--warning
+    background-color: (var(--warning))
+
+  &.sidebar--info
+    background-color: (var(--info))
+
+  &.sidebar--success
+    background-color: (var(--success))
+
+  &.sidebar--dark
+    background-color: (var(--dark))
+
+  &.sidebar--light
+    background-color: (var(--light))
+

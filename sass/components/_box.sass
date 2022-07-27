@@ -1,0 +1,87 @@
+.box
+  width: 100%
+  min-height: 3rem
+
+  & .wrapper__wrapper
+    padding: 1rem .8rem
+
+    & .box__title
+      font-size: 1.3rem
+      margin-bottom: 0.5rem
+
+    & .box__subtitle
+      font-size: 1.2rem
+      margin-bottom: 0.4rem
+
+    & .box__text
+      font-size: inherit
+      margin-bottom: 0.4rem
+
+    & :is(.box__img, .box__thumb, .box__video)
+      width: 100%
+      height: auto
+
+  &--primary
+    background-color: (var(--primary))
+
+  &--secondary
+    background-color: (var(--secondary))
+
+  &--muted
+    background-color: (var(--muted))
+
+  &--accent
+    background-color: (var(--accent))
+
+  &--error
+    background-color: (var(--error))
+
+  &--warning
+    background-color: (var(--warning))
+
+  &--info
+    background-color: (var(--info))
+
+  &--success
+    background-color: (var(--success))
+
+  &--dark
+    background-color: (var(--dark))
+
+  &--light
+    background-color: (var(--light))
+
+
+
+
+.box
+  width: 100%
+  min-height: 3rem
+
+  .box__wrapper
+    padding: 1rem .8rem
+
+    .box__title
+      font-weight: inherit
+      font-size: 1.3rem
+
+    .box__subtitle
+      font-weight: inherit
+      font-size: 1.2rem
+
+    .box__text
+      font-size: inherit
+
+    :is(.box__img, .box__thumb, .box__video)
+      width: 100%
+      height: auto
+
+.box__group
+  display: flex
+  flex-wrap: wrap
+  align-items: stretch
+  position: relative
+
+  & .box__group__item
+    margin: 0
+

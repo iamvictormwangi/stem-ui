@@ -1,0 +1,609 @@
+.c--primary {
+  color: #42a5f5;
+}
+
+.c--secondary {
+  color: #ba68c8;
+}
+
+.c--muted {
+  color: #535353;
+}
+
+.c--accent {
+  color: #59B3A9;
+}
+
+.c--error {
+  color: #ef5350;
+}
+
+.c--warning {
+  color: #ff9800;
+}
+
+.c--info {
+  color: #03a9f4;
+}
+
+.c--success {
+  color: #4caf50;
+}
+
+.c--dark {
+  color: #0c242b;
+}
+
+.c--light {
+  color: #F8F8FF;
+}
+
+.c--primary--hvr:hover {
+  color: #42a5f5;
+}
+
+.c--secondary--hvr:hover {
+  color: #ba68c8;
+}
+
+.c--muted--hvr:hover {
+  color: #535353;
+}
+
+.c--accent--hvr:hover {
+  color: #59B3A9;
+}
+
+.c--error--hvr:hover {
+  color: #ef5350;
+}
+
+.c--warning--hvr:hover {
+  color: #ff9800;
+}
+
+.c--info--hvr:hover {
+  color: #03a9f4;
+}
+
+.c--success--hvr:hover {
+  color: #4caf50;
+}
+
+.c--dark--hvr:hover {
+  color: #0c242b;
+}
+
+.c--light--hvr:hover {
+  color: #F8F8FF;
+}
+
+.c--primary--fcs:focus {
+  color: #42a5f5;
+}
+
+.c--secondary--fcs:focus {
+  color: #ba68c8;
+}
+
+.c--muted--fcs:focus {
+  color: #535353;
+}
+
+.c--accent--fcs:focus {
+  color: #59B3A9;
+}
+
+.c--error--fcs:focus {
+  color: #ef5350;
+}
+
+.c--warning--fcs:focus {
+  color: #ff9800;
+}
+
+.c--info--fcs:focus {
+  color: #03a9f4;
+}
+
+.c--success--fcs:focus {
+  color: #4caf50;
+}
+
+.c--dark--fcs:focus {
+  color: #0c242b;
+}
+
+.c--light--fcs:focus {
+  color: #F8F8FF;
+}
+
+.c--facebook {
+  color: #1877f2;
+}
+
+.c--facebookold {
+  color: #3b5998;
+}
+
+.c--twitter {
+  color: #1da1f2;
+}
+
+.c--youtube {
+  color: #ff0000;
+}
+
+.c--linkedin {
+  color: #0a66c2;
+}
+
+.c--instagram {
+  color: #c32aa3;
+}
+
+.c--google {
+  color: #4285f4;
+}
+
+.c--googleplus {
+  color: #db4437;
+}
+
+.c--pinterest {
+  color: #bd081c;
+}
+
+.c--vimeo {
+  color: #1ab7ea;
+}
+
+.c--tumblr {
+  color: #2c4762;
+}
+
+.c--snapchat {
+  color: #fffc00;
+}
+
+.c--whatsapp {
+  color: #25d366;
+}
+
+.c--tiktok {
+  color: #010101;
+}
+
+.c--apple {
+  color: #a6b1b7;
+}
+
+.c--amazon {
+  color: #ff9900;
+}
+
+.c--microsoft {
+  color: #f35022;
+}
+
+.c--medium {
+  color: #02b875;
+}
+
+.c--skype {
+  color: #00aff0;
+}
+
+.c--android {
+  color: #a4c639;
+}
+
+.c--yahoo {
+  color: #430297;
+}
+
+.c--twitch {
+  color: #9146ff;
+}
+
+.c--soundcloud {
+  color: #ff5500;
+}
+
+.c--spotify {
+  color: #1ed760;
+}
+
+.c--reddit {
+  color: #ff5700;
+}
+
+.c--quora {
+  color: #aa2200;
+}
+
+.c--vk {
+  color: #4a76a8;
+}
+
+.c--vine {
+  color: #00b489;
+}
+
+.c--steam {
+  color: #171a21;
+}
+
+.c--discord {
+  color: #5865f2;
+}
+
+.c--telegram {
+  color: #0088cc;
+}
+
+.c--facebook--hvr:hover {
+  color: #1877f2;
+}
+
+.c--facebookold--hvr:hover {
+  color: #3b5998;
+}
+
+.c--twitter--hvr:hover {
+  color: #1da1f2;
+}
+
+.c--youtube--hvr:hover {
+  color: #ff0000;
+}
+
+.c--linkedin--hvr:hover {
+  color: #0a66c2;
+}
+
+.c--instagram--hvr:hover {
+  color: #c32aa3;
+}
+
+.c--google--hvr:hover {
+  color: #4285f4;
+}
+
+.c--googleplus--hvr:hover {
+  color: #db4437;
+}
+
+.c--pinterest--hvr:hover {
+  color: #bd081c;
+}
+
+.c--vimeo--hvr:hover {
+  color: #1ab7ea;
+}
+
+.c--tumblr--hvr:hover {
+  color: #2c4762;
+}
+
+.c--snapchat--hvr:hover {
+  color: #fffc00;
+}
+
+.c--whatsapp--hvr:hover {
+  color: #25d366;
+}
+
+.c--tiktok--hvr:hover {
+  color: #010101;
+}
+
+.c--apple--hvr:hover {
+  color: #a6b1b7;
+}
+
+.c--amazon--hvr:hover {
+  color: #ff9900;
+}
+
+.c--microsoft--hvr:hover {
+  color: #f35022;
+}
+
+.c--medium--hvr:hover {
+  color: #02b875;
+}
+
+.c--skype--hvr:hover {
+  color: #00aff0;
+}
+
+.c--android--hvr:hover {
+  color: #a4c639;
+}
+
+.c--yahoo--hvr:hover {
+  color: #430297;
+}
+
+.c--twitch--hvr:hover {
+  color: #9146ff;
+}
+
+.c--soundcloud--hvr:hover {
+  color: #ff5500;
+}
+
+.c--spotify--hvr:hover {
+  color: #1ed760;
+}
+
+.c--reddit--hvr:hover {
+  color: #ff5700;
+}
+
+.c--quora--hvr:hover {
+  color: #aa2200;
+}
+
+.c--vk--hvr:hover {
+  color: #4a76a8;
+}
+
+.c--vine--hvr:hover {
+  color: #00b489;
+}
+
+.c--steam--hvr:hover {
+  color: #171a21;
+}
+
+.c--discord--hvr:hover {
+  color: #5865f2;
+}
+
+.c--telegram--hvr:hover {
+  color: #0088cc;
+}
+
+.c--facebook--fcs:focus {
+  color: #1877f2;
+}
+
+.c--facebookold--fcs:focus {
+  color: #3b5998;
+}
+
+.c--twitter--fcs:focus {
+  color: #1da1f2;
+}
+
+.c--youtube--fcs:focus {
+  color: #ff0000;
+}
+
+.c--linkedin--fcs:focus {
+  color: #0a66c2;
+}
+
+.c--instagram--fcs:focus {
+  color: #c32aa3;
+}
+
+.c--google--fcs:focus {
+  color: #4285f4;
+}
+
+.c--googleplus--fcs:focus {
+  color: #db4437;
+}
+
+.c--pinterest--fcs:focus {
+  color: #bd081c;
+}
+
+.c--vimeo--fcs:focus {
+  color: #1ab7ea;
+}
+
+.c--tumblr--fcs:focus {
+  color: #2c4762;
+}
+
+.c--snapchat--fcs:focus {
+  color: #fffc00;
+}
+
+.c--whatsapp--fcs:focus {
+  color: #25d366;
+}
+
+.c--tiktok--fcs:focus {
+  color: #010101;
+}
+
+.c--mastodon--fcs:focus {
+  color: #2b90d9;
+}
+
+.c--apple--fcs:focus {
+  color: #a6b1b7;
+}
+
+.c--amazon--fcs:focus {
+  color: #ff9900;
+}
+
+.c--microsoft--fcs:focus {
+  color: #f35022;
+}
+
+.c--medium--fcs:focus {
+  color: #02b875;
+}
+
+.c--skype--fcs:focus {
+  color: #00aff0;
+}
+
+.c--android--fcs:focus {
+  color: #a4c639;
+}
+
+.c--yahoo--fcs:focus {
+  color: #430297;
+}
+
+.c--twitch--fcs:focus {
+  color: #9146ff;
+}
+
+.c--soundcloud--fcs:focus {
+  color: #ff5500;
+}
+
+.c--spotify--fcs:focus {
+  color: #1ed760;
+}
+
+.c--reddit--fcs:focus {
+  color: #ff5700;
+}
+
+.c--quora--fcs:focus {
+  color: #aa2200;
+}
+
+.c--vk--fcs:focus {
+  color: #4a76a8;
+}
+
+.c--vine--fcs:focus {
+  color: #00b489;
+}
+
+.c--steam--fcs:focus {
+  color: #171a21;
+}
+
+.c--discord--fcs:focus {
+  color: #5865f2;
+}
+
+.c--telegram--fcs:focus {
+  color: #0088cc;
+}
+
+.c--red {
+  color: #ff0000;
+}
+
+.c--cyan {
+  color: #00ffff;
+}
+
+.c--blue {
+  color: #0000ff;
+}
+
+.c--darkblue {
+  color: #0000a0;
+}
+
+.c--lightblue {
+  color: #add8e6;
+}
+
+.c--purple {
+  color: #800080;
+}
+
+.c--yellow {
+  color: #ffff00;
+}
+
+.c--lime {
+  color: #00ff00;
+}
+
+.c--silver {
+  color: #c0c0c0;
+}
+
+.c--grey {
+  color: #808080;
+}
+
+.c--black {
+  color: #000000;
+}
+
+.c--white {
+  color: #ffffff;
+}
+
+.c--orange {
+  color: #ffa500;
+}
+
+.c--brown {
+  color: #a52a2a;
+}
+
+.c--maroon {
+  color: #800000;
+}
+
+.c--green {
+  color: #008000;
+}
+
+.c--olive {
+  color: #808000;
+}
+
+.c--teal {
+  color: teal;
+}
+
+.c--red.lt--10\% {
+  color: #ff3333;
+}
+
+.c--red.lt--15\% {
+  color: #ff4d4d;
+}
+
+.c--red.lt--20\% {
+  color: #ff6666;
+}
+
+.c--red.lt--25\% {
+  color: #ff8080;
+}
+
+.c--red.lt--30\% {
+  color: #ff9999;
+}
+
+.c--red.dk--10\% {
+  color: #cc0000;
+}
+
+.c--red.dk--15\% {
+  color: #b30000;
+}
+
+.c--red.dk--20\% {
+  color: #990000;
+}
+
+.c--red.dk--25\% {
+  color: maroon;
+}
+
+.c--red.dk--30\% {
+  color: #660000;
+}
+
+/*# sourceMappingURL=color.css.map */

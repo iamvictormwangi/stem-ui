@@ -1,0 +1,58 @@
+.modal
+  position: absolute
+  top: 2rem
+  left: 30%
+  width: 20rem
+  z-index: 1500
+  min-height: 6rem
+  transition: display 0.5s ease-in
+
+  & .modal__wrapper
+    padding: 1rem 0.8rem
+    padding-top: 1rem
+    border-bottom: 2px solid lightgrey
+
+    & .modal__title
+      font-weight: inherit
+      font-size: 1.3rem
+      margin-bottom: 0.5rem
+
+    & .modal__subtitle
+      font-weight: inherit
+      font-size: 1.2rem
+      margin-bottom: 0.5rem
+
+    & .modal__text
+      font-size: inherit
+      margin-bottom: 0.5rem
+
+  &.modal--primary
+    background-color: (var(--primary))
+
+  &.modal--secondary
+    background-color: (var(--secondary))
+
+  &.modal--muted
+    background-color: (var(--muted))
+
+  &.modal--accent
+    background-color: (var(--accent))
+
+  &.modal--error
+    background-color: (var(--error))
+
+  &.modal--warning
+    background-color: (var(--warning))
+
+  &.modal--info
+    background-color: (var(--info))
+
+  &.modal--success
+    background-color: (var(--success))
+
+  &.modal--dark
+    background-color: (var(--dark))
+
+  &.modal--light
+    background-color: (var(--light))
+
