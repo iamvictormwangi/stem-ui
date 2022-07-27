@@ -1,3 +1,4 @@
+@use "sass:math"
 @mixin rotation($value)
   -webkit-transform: rotate($value)
   -ms-transform: rotate($value)
@@ -16,38 +17,7 @@
     -o-transform: rotate($value)
     transform: rotate($value)
 
-.rot--30deg
-  @include rotation(30deg)
+@for $i from 1 to 13
+  .rotate--#{$i * 30}
+    @include rotation($i * 30)
 
-.rot--60deg
-  @include rotation(60deg)
-
-.rot--90deg
-  @include rotation(90deg)
-
-.rot--120deg
-  @include rotation(120deg)
-
-.rot--150deg
-  @include rotation(150deg)
-
-.rot--180deg
-  @include rotation(180deg)
-
-.rot--210deg
-  @include rotation(210deg)
-
-.rot--240deg
-  @include rotation(240deg)
-
-.rot--270deg
-  @include rotation(270deg)
-
-.rot--300deg
-  @include rotation(300deg)
-
-.rot--330deg
-  @include rotation(330deg)
-
-.rot--360deg
-  @include rotation(360deg)

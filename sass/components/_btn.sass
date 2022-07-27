@@ -1,3 +1,5 @@
+@use "./../abstracts/" as *
+
 @mixin btn-outline($clr)
   border: $clr solid 0.1rem
 
@@ -39,65 +41,13 @@
   &.btn--xxl
     font-size: 1.5rem
 
-  &.btn--primary
-    @include btn-color($primary)
+  @each $color-item, $color-value in $color-list
+    &.box--#{$color-item}
+      @include btn-color($color-value)
 
-  &.btn--secondary
-    @include btn-color($secondary)
-
-  &.btn--muted
-    @include btn-color($muted)
-
-  &.btn--accent
-    @include btn-color($accent)
-
-  &.btn--error
-    @include btn-color($error)
-
-  &.btn--warning
-    @include btn-color($warning)
-
-  &.btn--info
-    @include btn-color($info)
-
-  &.btn--success
-    @include btn-color($success)
-
-  &.btn--dark
-    @include btn-color($dark)
-
-  &.btn--light
-    @include btn-color($light)
-
-  &.outline--primary
-    @include btn-outline($primary)
-
-  &.outline--secondary
-    @include btn-outline($secondary)
-
-  &.outline--muted
-    @include btn-outline($muted)
-
-  &.outline--accent
-    @include btn-outline($accent)
-
-  &.outline--error
-    @include btn-outline($error)
-
-  &.outline--warning
-    @include btn-outline($warning)
-
-  &.outline--info
-    @include btn-outline($info)
-
-  &.outline--success
-    @include btn-outline($success)
-
-  &.outline--dark
-    @include btn-outline($dark)
-
-  &.outline--light
-    @include btn-outline($light)
+  @each $color-item, $color-value in $color-list
+    &.outline--#{$color-item}
+      @include btn-outline($color-value)
 
 .btn__floating
   display: inline-block

@@ -1,3 +1,5 @@
+@use "./../abstracts/" as *
+
 .notification
   min-height: 3rem
   width: 100%
@@ -23,32 +25,7 @@
       font-size: inherit
       margin-bottom: 0.5rem
 
-  &.notification--primary
-    background-color: ($primary)
+  @each $color-item, $color-value in $color-list
+    &.notification--#{$color-item}
+      background-color: ($color-value)
 
-  &.notification--secondary
-    background-color: ($secondary)
-
-  &.notification--muted
-    background-color: ($muted)
-
-  &.notification--accent
-    background-color: ($accent)
-
-  &.notification--error
-    background-color: ($error)
-
-  &.notification--warning
-    background-color: ($warning)
-
-  &.notification--info
-    background-color: ($info)
-
-  &.notification--success
-    background-color: ($success)
-
-  &.notification--dark
-    background-color: ($dark)
-
-  &.notification--light
-    background-color: ($light)

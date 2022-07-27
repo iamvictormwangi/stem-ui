@@ -1,3 +1,5 @@
+@use "./../abstracts/" as *
+
 @mixin color($clr)
   color: $clr
 
@@ -7,33 +9,7 @@
   &--fsc:focus
     color: $clr
 
-.c--primary
-  @include color($primary)
-
-.c--secondary
-  @include color($primary)
-
-.c--muted
-  @include color($primary)
-
-.c--accent
-  @include color($primary)
-
-.c--error
-  @include color($primary)
-
-.c--warning
-  @include color($primary)
-
-.c--info
-  @include color($primary)
-
-.c--success
-  @include color($primary)
-
-.c--dark
-  @include color($primary)
-
-.c--light
-  @include color($primary)
+@each $color, $color-value in $color-list
+  .bgc--#{$color}
+    @include color($color-value)
 

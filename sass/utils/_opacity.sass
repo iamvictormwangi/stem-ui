@@ -1,3 +1,5 @@
+@use "sass:math"
+
 @mixin opacity($value)
   opacity: $value
 
@@ -7,33 +9,8 @@
   &--fcs:focus
     opacity: $value
 
-.op--0\.1
-  @include opacity(0.1)
 
-.op--0\.2
-  @include opacity(0.2)
-
-.op--0\.3
-  @include opacity(0.3)
-
-.op--0\.4
-  @include opacity(0.4)
-
-.op--0\.5
-  @include opacity(0.5)
-
-.op--0\.6
-  @include opacity(0.6)
-
-.op--0\.7
-  @include opacity(0.7)
-
-.op--0\.8
-  @include opacity(0.8)
-
-.op--0\.9
-  @include opacity(0.9)
-
-.op--1
-  @include opacity(1)
+@for $i from 1 to 10
+  .op--#{$i}
+    opacity: math.div($i,10)
 

@@ -1,71 +1,21 @@
+@use "./../abstracts/" as *
+
 .progress
   background-color: rgb(219, 213, 213)
   width: 15rem
   height: 2rem
   border: 1px solid lighten(black, 10%)
 
-  &.progress--primary
-    background-color: ($primary)
-
-  &.progress--secondary
-    background-color: ($secondary)
-
-  &.progress--muted
-    background-color: ($muted)
-
-  &.progress--accent
-    background-color: ($accent)
-
-  &.progress--error
-    background-color: ($error)
-
-  &.progress--warning
-    background-color: ($warning)
-
-  &.progress--info
-    background-color: ($info)
-
-  &.progress--success
-    background-color: ($success)
-
-  &.progress--dark
-    background-color: ($dark)
-
-  &.progress--light
-    background-color: ($light)
+  @each $color-item, $color-value in $color-list
+    &.progress--#{$color-item}
+      background-color: $color-value
 
   & .progress__meter
     width: 15%
     height: 100%
-    background-color: lighten(black, 10%)
+    background-color: $dark
 
-  & .progress__meter--primary
-    background-color: ($primary)
-
-  & .progress__meter--secondary
-    background-color: ($secondary)
-
-  & .progress__meter--muted
-    background-color: ($muted)
-
-  & .progress__meter--accent
-    background-color: ($accent)
-
-  & .progress__meter--error
-    background-color: ($error)
-
-  & .progress__meter--warning
-    background-color: ($warning)
-
-  & .progress__meter--info
-    background-color: ($info)
-
-  & .progress__meter--success
-    background-color: ($success)
-
-  & .progress__meter--dark
-    background-color: ($dark)
-
-  & .progress__meter--light
-    background-color: ($light)
+  @each $color-item, $color-value in $color-list
+    & .progress__meter--#{$color-item}
+      background-color: $color-value
 

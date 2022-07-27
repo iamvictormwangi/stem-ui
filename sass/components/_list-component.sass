@@ -1,0 +1,20 @@
+@use "./../abstracts/" as *
+
+@mixin list-items($clr)
+  background-color: $clr
+
+  &:hover
+    background-color: complement($clr)
+
+.list
+  @each $color-item, $color-value in $color-list
+    &.list--#{$color-item}
+      background-color: $color-value
+
+  & .list__item
+    padding: 0.35rem 1rem
+
+  @each $color-item, $color-value in $color-list
+    & .list__item--#{$color-item}
+      @include list-items($color-value)
+

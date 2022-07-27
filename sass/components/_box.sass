@@ -1,3 +1,5 @@
+@use "./../abstracts/" as *
+
 .box
   width: 100%
   min-height: 3rem
@@ -21,60 +23,9 @@
       width: 100%
       height: auto
 
-  &--primary
-    background-color: ($primary)
-
-  &--secondary
-    background-color: ($secondary)
-
-  &--muted
-    background-color: ($muted)
-
-  &--accent
-    background-color: ($accent)
-
-  &--error
-    background-color: ($error)
-
-  &--warning
-    background-color: ($warning)
-
-  &--info
-    background-color: ($info)
-
-  &--success
-    background-color: ($success)
-
-  &--dark
-    background-color: ($dark)
-
-  &--light
-    background-color: ($light)
-
-
-
-
-.box
-  width: 100%
-  min-height: 3rem
-
-  .box__wrapper
-    padding: 1rem .8rem
-
-    .box__title
-      font-weight: inherit
-      font-size: 1.3rem
-
-    .box__subtitle
-      font-weight: inherit
-      font-size: 1.2rem
-
-    .box__text
-      font-size: inherit
-
-    :is(.box__img, .box__thumb, .box__video)
-      width: 100%
-      height: auto
+  @each $color-item, $color-value in $color-list
+    &.box--#{$color-item}
+      background-color: $color-value
 
 .box__group
   display: flex

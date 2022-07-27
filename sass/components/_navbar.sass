@@ -1,3 +1,5 @@
+@use "./../abstracts/" as *
+
 .navbar *
   margin-bottom: 0 !important
 
@@ -12,33 +14,7 @@
       font-weight: 500
       cursor: pointer
 
-  &.navbar--primary
-    background-color: ($primary)
-
-  &.navbar--secondary
-    background-color: ($secondary)
-
-  &.navbar--muted
-    background-color: ($muted)
-
-  &.navbar--accent
-    background-color: ($accent)
-
-  &.navbar--error
-    background-color: ($error)
-
-  &.navbar--warning
-    background-color: ($warning)
-
-  &.navbar--info
-    background-color: ($info)
-
-  &.navbar--success
-    background-color: ($success)
-
-  &.navbar--dark
-    background-color: ($dark)
-
-  &.navbar--light
-    background-color: ($light)
+  @each $color-item, $color-value in $color-list
+    &.navbar--#{$color-item}
+      background-color: $color-value
 

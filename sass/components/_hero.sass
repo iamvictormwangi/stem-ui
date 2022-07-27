@@ -1,3 +1,5 @@
+@use "./../abstracts/" as *
+
 .hero
   align-items: stretch
   display: flex
@@ -6,33 +8,7 @@
   min-height: 20rem
   width: 100%
 
-  &.hero--primary
-    background-color: ($primary)
-
-  &.hero--secondary
-    background-color: ($secondary)
-
-  &.hero--muted
-    background-color: ($muted)
-
-  &.hero--accent
-    background-color: ($accent)
-
-  &.hero--error
-    background-color: ($error)
-
-  &.hero--warning
-    background-color: ($warning)
-
-  &.hero--info
-    background-color: ($info)
-
-  &.hero--success
-    background-color: ($success)
-
-  &.hero--dark
-    background-color: ($dark)
-
-  &.hero--light
-    background-color: ($light)
+  @each $color-item, $color-value in $color-list
+    &.hero--#{$color-item}
+      background-color: ($color-value)
 

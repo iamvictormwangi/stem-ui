@@ -1,3 +1,5 @@
+@use "./../abstracts/" as *
+
 .msg
   background-color: whitesmoke
   border-radius: 4px
@@ -22,32 +24,7 @@
       font-size: inherit
       margin-bottom: 0.4rem
 
-  &.msg--primary
-    border-color: ($primary)
+  @each $color-item, $color-value in $color-list
+    &.msg--#{$color-item}
+      border-color: $color-value
 
-  &.msg--secondary
-    border-color: ($secondary)
-
-  &.msg--muted
-    border-color: ($muted)
-
-  &.msg--accent
-    border-color: ($accent)
-
-  &.msg--error
-    border-color: ($danger)
-
-  &.msg--warning
-    border-color: ($warning)
-
-  &.msg--info
-    border-color: ($info)
-
-  &.msg--succes
-    border-color: ($success)
-
-  &.msg--dark
-    border-color: ($dark)
-
-  &.msg--light
-    border-color: ($light)

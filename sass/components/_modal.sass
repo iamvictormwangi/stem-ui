@@ -1,3 +1,5 @@
+@use "./../abstracts/" as *
+
 .modal
   position: absolute
   top: 2rem
@@ -26,33 +28,7 @@
       font-size: inherit
       margin-bottom: 0.5rem
 
-  &.modal--primary
-    background-color: ($primary)
-
-  &.modal--secondary
-    background-color: ($secondary)
-
-  &.modal--muted
-    background-color: ($muted)
-
-  &.modal--accent
-    background-color: ($accent)
-
-  &.modal--error
-    background-color: ($error)
-
-  &.modal--warning
-    background-color: ($warning)
-
-  &.modal--info
-    background-color: ($info)
-
-  &.modal--success
-    background-color: ($success)
-
-  &.modal--dark
-    background-color: ($dark)
-
-  &.modal--light
-    background-color: ($light)
+  @each $color-item, $color-value in $color-list
+    &.modal--#{$color-item}
+      background-color: $color-value
 

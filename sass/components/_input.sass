@@ -1,3 +1,5 @@
+@use "./../abstracts/" as *
+
 .label
   font-size: 100%
   margin-bottom: 1rem
@@ -8,33 +10,7 @@
   padding: 8px
   transition: border-color 0.5s ease-in
 
-  &.input--primary
-    border-color: ($primary)
-
-  &.input--secondary
-    border-color: ($secondary)
-
-  &.input--muted
-    border-color: ($muted)
-
-  &.input--accent
-    border-color: ($accent)
-
-  &.input--error
-    border-color: ($danger)
-
-  &.input--warning
-    border-color: ($warning)
-
-  &.input--info
-    border-color: ($info)
-
-  &.input--succes
-    border-color: ($success)
-
-  &.input--dark
-    border-color: ($dark)
-
-  &.input--light
-    border-color: ($light)
+  @each $color-item, $color-value in $color-list
+    &.input--#{$color-item}
+      border-color: ($color-value)
 

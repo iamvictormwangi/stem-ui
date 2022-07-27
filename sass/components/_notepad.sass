@@ -1,3 +1,5 @@
+@use "./../abstracts/" as *
+
 .notepad
   border-left: 0.6rem solid lighten(black, 10%)
   border-top-left-radius: 0.7rem
@@ -8,33 +10,7 @@
   & .notepad__text
     font-weight: inherit
 
-  &.notepad--primary
-    border-color: ($primary)
-
-  &.notepad--secondary
-    border-color: ($secondary)
-
-  &.notepad--muted
-    border-color: ($muted)
-
-  &.notepad--accent
-    border-color: ($accent)
-
-  &.notepad--error
-    border-color: ($error)
-
-  &.notepad--warning
-    border-color: ($warning)
-
-  &.notepad--info
-    border-color: ($info)
-
-  &.notepad--success
-    border-color: ($success)
-
-  &.notepad--dark
-    border-color: ($dark)
-
-  &.notepad--light
-    border-color: ($light)
+  @each $color-item, $color-value in $color-list
+    &.notepad--#{$color-item}
+      border-color: $color-value
 

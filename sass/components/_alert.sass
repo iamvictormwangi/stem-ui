@@ -1,3 +1,5 @@
+@use "./../abstracts/" as *
+
 .alert
   min-height: 3rem
   width: 20rem
@@ -25,33 +27,6 @@
       font-size: inherit
       margin-bottom: 0.4rem
 
-  &.alert--primary
-    background-color: ($primary)
-
-  &.alert--secondary
-    background-color: ($secondary)
-
-  &.alert--muted
-    background-color: ($muted)
-
-  &.alert--accent
-    background-color: ($accent)
-
-  &.alert--error
-    background-color: ($error)
-
-  &.alert--warning
-    background-color: ($warning)
-
-  &.alert--info
-    background-color: ($info)
-
-  &.alert--success
-    background-color: ($success)
-
-  &.alert--dark
-    background-color: ($dark)
-
-  &.alert--light
-    background-color: ($light)
-
+  @each $color-item, $color-value in $color-list
+    &.alert--#{$color-item}
+      background-color: $color-value

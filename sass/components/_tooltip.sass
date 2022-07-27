@@ -1,3 +1,5 @@
+@use "./../abstracts/" as *
+
 @mixin tooltip-color($clr)
   background-color: $clr
 
@@ -14,35 +16,9 @@
   font-size: 0.8rem
   color: white
 
-  &.tooltip--primary
-    @include tooltip-color($primary)
-
-  &.tooltip--secondary
-    @include tooltip-color($secondary)
-
-  &.tooltip--muted
-    @include tooltip-color($muted)
-
-  &.tooltip--accent
-    @include tooltip-color($accent)
-
-  &.tooltip--error
-    @include tooltip-color($error)
-
-  &.tooltip--warning
-    @include tooltip-color($warning)
-
-  &.tooltip--info
-    @include tooltip-color($infi)
-
-  &.tooltip--success
-    @include tooltip-color($success)
-
-  &.tooltip--dark
-    @include tooltip-color($dark)
-
-  &.tooltip--light
-    @include tooltip-color($light)
+  @each $color-item, $color-value in $color-list
+    &.tooltip--#{$color-item}
+      @include tooltip-color($color-value)
 
 .tooltip:after
   position: absolute
