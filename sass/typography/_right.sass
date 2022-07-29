@@ -7,8 +7,12 @@
     right: $value
 
 @for $i from 1 through 200
-  .r--#{math.div($i, 2) * 2}\%
-    right: string.unquote(math.div($i, 2) + '%')
+  @if ($i % 2) == 0
+    .r--#{math.div($i, 2)}\%
+      right: string.unquote(math.div($i, 2) + '%')
+  @else
+    .r--#{math.div($i, 2) - 0.5}\.5\%
+      right: string.unquote(math.div($i, 2) + '%')
 
 .r--auto
   right: auto

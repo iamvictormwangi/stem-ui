@@ -7,8 +7,12 @@
     width: $value
 
 @for $i from 1 through 200
-  .w--#{math.div($i, 2) * 2}\%
-    width: string.unquote(math.div($i, 2) + '%')
+  @if ($i % 2) == 0
+    .w--#{math.div($i, 2)}\%
+      width: string.unquote(math.div($i, 2) + '%')
+  @else
+    .w--#{math.div($i, 2) - 0.5}\.5\%
+      width: string.unquote(math.div($i, 2) + '%')
 
 .w--auto
   width: auto

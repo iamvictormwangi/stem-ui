@@ -50,6 +50,60 @@
     margin-right: string.unquote(math.div($i, 2) + '%')
     margin-left: string.unquote(math.div($i, 2) + '%')
 
+@for $i from 1 through 200
+  @if ($i % 2) == 0
+    .m--#{math.div($i, 2)}\%
+      margin: string.unquote(math.div($i, 2) + '%')
+  @else
+    .m--#{math.div($i, 2) - 0.5}\.5\%
+      margin: string.unquote(math.div($i, 2) + '%')
+
+  @if ($i % 2) == 0
+    .mt--#{math.div($i, 2)}\%
+      margin-top: string.unquote(math.div($i, 2) + '%')
+  @else
+    .mt--#{math.div($i, 2) - 0.5}\.5\%
+      margin-top: string.unquote(math.div($i, 2) + '%')
+
+  @if ($i % 2) == 0
+    .mr--#{math.div($i, 2)}\%
+      margin-right: string.unquote(math.div($i, 2) + '%')
+  @else
+    .mr--#{math.div($i, 2) - 0.5}\.5\%
+      margin-right: string.unquote(math.div($i, 2) + '%')
+
+  @if ($i % 2) == 0
+    .mb--#{math.div($i, 2)}\%
+      margin-bottom: string.unquote(math.div($i, 2) + '%')
+  @else
+    .mb--#{math.div($i, 2) - 0.5}\.5\%
+      margin-bottom: string.unquote(math.div($i, 2) + '%')
+
+  @if ($i % 2) == 0
+    .ml--#{math.div($i, 2)}\%
+      margin-left: string.unquote(math.div($i, 2) + '%')
+  @else
+    .ml--#{math.div($i, 2) - 0.5}\.5\%
+      margin-left: string.unquote(math.div($i, 2) + '%')
+
+  @if ($i % 2) == 0
+    .my--#{math.div($i, 2)}\%
+      margin-top: string.unquote(math.div($i, 2) + '%')
+      margin-bottom: string.unquote(math.div($i, 2) + '%')
+  @else
+    .my--#{math.div($i, 2) - 0.5}\.5\%
+      margin-top: string.unquote(math.div($i, 2) + '%')
+      margin-bottom: string.unquote(math.div($i, 2) + '%')
+
+  @if ($i % 2) == 0
+    .mx--#{math.div($i, 2)}\%
+      margin-right: string.unquote(math.div($i, 2) + '%')
+      margin-left: string.unquote(math.div($i, 2) + '%')
+  @else
+    .mx--#{math.div($i, 2) - 0.5}\.5\%
+      margin-right: string.unquote(math.div($i, 2) + '%')
+      margin-left: string.unquote(math.div($i, 2) + '%')
+
 .m--auto
   margin: auto
 

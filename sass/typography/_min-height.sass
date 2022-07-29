@@ -7,8 +7,12 @@
     min-height: $value
 
 @for $i from 1 through 200
-  .mih--#{math.div($i, 2) * 2}\%
-    min-height: string.unquote(math.div($i, 2) + '%')
+  @if ($i % 2) == 0
+    .mih--#{math.div($i, 2)}\%
+      min-height: string.unquote(math.div($i, 2) + '%')
+  @else
+    .mih--#{math.div($i, 2) - 0.5}\.5\%
+      min-height: string.unquote(math.div($i, 2) + '%')
 
 .mih--auto
   min-height: auto

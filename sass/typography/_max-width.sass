@@ -7,8 +7,12 @@
     max-width: $value
 
 @for $i from 1 through 200
-  .maw--#{math.div($i, 2) * 2}\%
-    max-width: string.unquote(math.div($i, 2) + '%')
+  @if ($i % 2) == 0
+    .maw--#{math.div($i, 2)}\%
+      max-width: string.unquote(math.div($i, 2) + '%')
+  @else
+    .maw--#{math.div($i, 2) - 0.5}\.5\%
+      max-width: string.unquote(math.div($i, 2) + '%')
 
 .maw--auto
   max-width: auto

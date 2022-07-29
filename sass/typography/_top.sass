@@ -7,8 +7,12 @@
     top: $value
 
 @for $i from 1 through 200
-  .t--#{math.div($i, 2) * 2}\%
-    top: string.unquote(math.div($i, 2) + '%')
+  @if ($i % 2) == 0
+    .t--#{math.div($i, 2)}\%
+      top: string.unquote(math.div($i, 2) + '%')
+  @else
+    .t--#{math.div($i, 2) - 0.5}\.5\%
+      top: string.unquote(math.div($i, 2) + '%')
 
 .t--auto
   top: auto

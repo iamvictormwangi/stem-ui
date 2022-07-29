@@ -7,8 +7,12 @@
     min-width: $value
 
 @for $i from 1 through 200
-  .miw--#{math.div($i, 2) * 2}\%
-    min-width: string.unquote(math.div($i, 2) + '%')
+  @if ($i % 2) == 0
+    .miw--#{math.div($i, 2)}\%
+      min-width: string.unquote(math.div($i, 2) + '%')
+  @else
+    .miw--#{math.div($i, 2) - 0.5}\.5\%
+      min-width: string.unquote(math.div($i, 2) + '%')
 
 .miw--auto
   min-width: auto

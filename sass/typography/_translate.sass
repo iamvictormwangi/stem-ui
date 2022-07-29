@@ -10,9 +10,19 @@
     transform: translateX($key)
 
 @for $i from 1 through 200
-  .y--#{math.div($i, 2) * 2}\%
-    transform: translateY(string.unquote(math.div($i, 2) + '%'))
+  @if ($i % 2) == 0
+    .y--#{math.div($i, 2)}\%
+      transform: translateY(string.unquote(math.div($i, 2) + '%'))
 
-  .x--#{math.div($i, 2) * 2}\%
-    transform: translateX(string.unquote(math.div($i, 2) + '%'))
+    .x--#{math.div($i, 2)}\%
+      transform: translateX(string.unquote(math.div($i, 2) + '%'))
+
+  @else
+    .y--#{math.div($i, 2) - 0.5}\.5\%
+      transform: translateY(string.unquote(math.div($i, 2) + '%'))
+
+    .x--#{math.div($i, 2) - 0.5}\.5\%
+      transform: translateX(string.unquote(math.div($i, 2) + '%'))
+
+
 

@@ -7,8 +7,12 @@
     max-height: $value
 
 @for $i from 1 through 200
-  .mah--#{math.div($i, 2) * 2}\%
-    max-height: string.unquote(math.div($i, 2) + '%')
+  @if ($i % 2) == 0
+    .mah--#{math.div($i, 2)}\%
+      max-height: string.unquote(math.div($i, 2) + '%')
+  @else
+    .mah--#{math.div($i, 2) - 0.5}\.5\%
+      max-height: string.unquote(math.div($i, 2) + '%')
 
 .mah--auto
   max-height: auto

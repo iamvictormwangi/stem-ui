@@ -1,6 +1,6 @@
 @use "sass:math"
 
-@mixin opacity($value)
+@mixin opacify($value)
   opacity: $value
 
   &--hvr:hover
@@ -11,6 +11,10 @@
 
 
 @for $i from 1 to 10
-  .op--#{$i}
-    opacity: math.div($i,10)
+  @if $i < 10
+    .op--0\.#{$i}
+      @include opacify(math.div($i,10))
+
+.op--1
+  @include opacify(1)
 

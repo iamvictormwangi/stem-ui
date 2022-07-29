@@ -7,8 +7,12 @@
     height: $value
 
 @for $i from 1 through 200
-  .h--#{math.div($i, 2) * 2}\%
-    height: string.unquote(math.div($i, 2) + '%')
+  @if ($i % 2) == 0
+    .h--#{math.div($i, 2)}\%
+      height: string.unquote(math.div($i, 2) + '%')
+  @else
+    .h--#{math.div($i, 2) - 0.5}\.5\%
+      height: string.unquote(math.div($i, 2) + '%')
 
 .h--auto
   height: auto
