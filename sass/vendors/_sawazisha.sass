@@ -14,7 +14,7 @@
   padding: 0
   margin: 0
 
-:is(html, body)
+html, body
   font-size: 100%
   line-height: 1.15
   font-family: sans-serif
@@ -25,10 +25,10 @@
 body
   min-height: 100vh
 
-:is(main, header, footer, article, aside, section, details)
+main, header, footer, article, aside, section, details
   display: block
 
-:is(h1, h2, h3, h4, h5, h6)
+h1, h2, h3, h4, h5, h6
   font-size: inherit
   color: inherit
   line-height: inherit
@@ -67,17 +67,17 @@ abbr[title]
   text-decoration: underline
   text-decoration: underline dotted
 
-:is(b, strong)
+b, strong
   font-weight: bolder
 
-:is(pre, code, samp, kbd)
+pre, code, samp, kbd
   font-family: monospace
   font-size: 90%
 
-:is(small, sub, sup)
+small, sub, sup
   font-size: 80%
 
-:is(sub, sup)
+sub, sup
   line-height: 0
 
 sup
@@ -97,13 +97,13 @@ u
 s
   text-decoration: line-through
 
-:is(canvas, iframe, svg, img, video, audio)
+canvas, iframe, svg, img, video, audio
   display: inline-block
   vertical-align: middle
   border-style: none
   height: auto
 
-:is(button, input, select, textarea)
+button, input, select, textarea
   font-family: inherit
   font-size: inherit
   line-height: inherit
@@ -116,7 +116,7 @@ textarea
   overflow: auto
   resize: vertical
 
-:is(button, [type="button"], [type="reset"], [type="submit"])
+button, [type="button"], [type="reset"], [type="submit"]
   -webkit-appearance: button
   appearance: button
 
@@ -131,7 +131,7 @@ textarea
 select
   text-transform: none
 
-:is(button[disabled], [type="button"][disabled], [type="reset"][disabled], [type="submit"][disabled])
+button[disabled], [type="button"][disabled], [type="reset"][disabled], [type="submit"][disabled]
   cursor: not-allowed
 
 fieldset
@@ -157,14 +157,14 @@ progress
 summary
   display: list-item
 
-:is(noscript, [hidden])
+noscript, [hidden]
   display: none
 
-:is(input[readonly], select[readonly], textarea[readonly])
+input[readonly], select[readonly], textarea[readonly]
   border-color: rgba(0, 0, 0, 0.12)
   color: rgba(0, 0, 0, 0.54)
 
-:is(input:disabled, input[readonly], textarea:disabled, textarea[readonly])
+input:disabled, input[readonly], textarea:disabled, textarea[readonly]
   background-color: lightgrey
   cursor: not-allowed
 

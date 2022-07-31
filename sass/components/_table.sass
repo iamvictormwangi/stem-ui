@@ -1,6 +1,6 @@
 @use "./../abstracts/" as *
 
-:is(table, .table)
+table, .table
   border-top: 1px solid rgba(0, 0, 0, 0.5)
 
   caption
@@ -33,7 +33,7 @@
     color: rgba(0, 0, 0, 0.6)
     padding: 1rem 4px
 
-:is(table:last-child, .table:last-child)
+table:last-child, .table:last-child
   border-bottom: 0
 
 table tr:hover

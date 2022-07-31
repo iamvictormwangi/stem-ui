@@ -1,18 +1,11 @@
 @use "./../abstracts/" as *
+@use "sass:math"
 
-.col__wrapper
-  overflow: hidden
-  margin: 0 auto
+.row
   display: flex
+  flex-wrap: wrap
 
-  @each $column-item, $column-value in $column-list
-    & .col--#{$column-item}
-      width: $column-value
-
-.col__wrapper:after
-  content: ""
-  display: table
-  clear: both
-
-
+@for $i from 1 through 12
+  .col--#{$i}
+    width: calc(100% * math.div($i, 12))
 
