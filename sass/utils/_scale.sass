@@ -2,25 +2,15 @@
 @use "sass:string"
 @use "sass:math"
 
-@each $key, $value in $value-props
-  .scale--#{$key}
-    transform: scale($value)
-
-  .scaley--#{$key}
-    transform: scaleY($value)
-
-  .scalex--#{$key}
-    transform: scaleX($value)
-
 @for $i from 1 through 200
   @if ($i % 2) == 0
-    .scale--#{$i}\%
+    .scale--#{math.div($i, 2)}\%
       transform: scale(string.unquote(math.div($i, 2) + '%'))
 
-    .scaley--#{math.div($i, 2) * 2}\%
+    .scaley--#{math.div($i, 2)}\%
       transform: scaleY(string.unquote(math.div($i, 2) + '%'))
 
-    .scalex--#{math.div($i, 2) * 2}\%
+    .scalex--#{math.div($i, 2)}\%
       transform: scaleX(string.unquote(math.div($i, 2) + '%'))
 
   @else

@@ -1,14 +1,5 @@
+@use "./../abstracts/" as *
 @use "sass:math"
-
-@mixin opacify($value)
-  opacity: $value
-
-  &--hvr:hover
-    opacity: $value
-
-  &--fcs:focus
-    opacity: $value
-
 
 @for $i from 1 to 10
   @if $i < 10

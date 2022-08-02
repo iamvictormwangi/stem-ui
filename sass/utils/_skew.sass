@@ -1,22 +1,4 @@
-@mixin skew($value, $y)
-
-  @if $y
-    transform: skewY($value)
-
-    &--hvr:hover
-      transform: skewY($value)
-
-    &--fcs:focus
-      transform: skewY($value)
-
-  @else
-    transform: skewX($value)
-
-    &--hvr:hover
-      transform: skewX($value)
-
-    &--fcs:focus
-      transform: skewX($value)
+@use "./../abstracts/" as *
 
 .skewy--30deg
   @include skew(30deg, $y: true)

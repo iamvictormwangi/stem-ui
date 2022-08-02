@@ -1,21 +1,5 @@
+@use "./../abstracts/" as *
 @use "sass:math"
-@mixin rotation($value)
-  -webkit-transform: rotate($value)
-  -ms-transform: rotate($value)
-  -o-transform: rotate($value)
-  transform: rotate($value)
-
-  &--hvr:hover
-    -webkit-transform: rotate($value)
-    -ms-transform: rotate($value)
-    -o-transform: rotate($value)
-    transform: rotate($value)
-
-  &--fcs:focus
-    -webkit-transform: rotate($value)
-    -ms-transform: rotate($value)
-    -o-transform: rotate($value)
-    transform: rotate($value)
 
 @for $i from 1 to 13
   .rotate--#{$i * 30}

@@ -32,19 +32,9 @@
 .bd--outset
   border-style: outset
 
-@mixin border-color($clr)
-  border-color: $clr
-
-  &--hvr:hover
-    border-color: $clr
-
-  &--fcs:focus
-    border-color: $clr
-
 @each $color, $color-value in $color-list
   .bdc--#{$color}
     @include border-color($color-value)
-
 
 @each $i, $value in $border-list
   .bd--#{$i}

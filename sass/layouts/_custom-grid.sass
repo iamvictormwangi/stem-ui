@@ -2,8 +2,8 @@
 @use "sass:math"
 
 .row
-  display: flex
-  flex-wrap: wrap
+  @include flex
+  @include flex-wrap
 
 @for $i from 1 through 12
   .col--#{$i}

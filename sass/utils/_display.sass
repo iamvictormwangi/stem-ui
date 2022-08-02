@@ -1,11 +1,4 @@
-@mixin display($value)
-  display: $value !important
-
-  &--hvr:hover
-    display: $value !important
-
-  &--fsc:focus
-    display: $value !important
+@use "./../abstracts/" as *
 
 .d--block
   @include display(block)
@@ -29,24 +22,13 @@
   @include display(table)
 
 .d--flex
-  -webkit-display: flex
-  -moz-display: flex
-  -ms-display: flex
-  -o-display: flex
-  display: flex
+  @include flex
 
 .d--flex--hvr:hover
-  -webkit-display: flex
-  -moz-display: flex
-  -ms-display: flex
-  -o-display: flex
-  display: flex
+  @include flex
 
 .d--flex--fcs:focus
-  -webkit-display: flex
-  -moz-display: flex
-  -ms-display: flex
-  -o-display: flex
-  display: flex
+  @include flex
+
 
 

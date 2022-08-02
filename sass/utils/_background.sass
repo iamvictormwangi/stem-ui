@@ -1,14 +1,5 @@
 @use "./../abstracts/" as *
 
-@mixin background($clr)
-  background-color: $clr
-
-  &--hvr:hover
-    background-color: $clr
-
-  &--fsc:focus
-    background-color: $clr
-
 @each $color, $color-value in $color-list
   .bgc--#{$color}
     @include background($color-value)

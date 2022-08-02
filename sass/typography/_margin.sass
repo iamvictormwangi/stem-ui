@@ -27,30 +27,6 @@
     margin-left: $value
 
 @for $i from 1 through 200
-  .m--#{math.div($i, 2) * 2}\%
-    margin: string.unquote(math.div($i, 2) + '%')
-
-  .mt--#{math.div($i, 2) * 2}\%
-    margin-top: string.unquote(math.div($i, 2) + '%')
-
-  .mr--#{math.div($i, 2) * 2}\%
-    margin-right: string.unquote(math.div($i, 2) + '%')
-
-  .mb--#{math.div($i, 2) * 2}\%
-    margin-bottom: string.unquote(math.div($i, 2) + '%')
-
-  .ml--#{math.div($i, 2) * 2}\%
-    margin-left: string.unquote(math.div($i, 2) + '%')
-
-  .my--#{math.div($i, 2) * 2}\%
-    margin-top: string.unquote(math.div($i, 2) + '%')
-    margin-bottom: string.unquote(math.div($i, 2) + '%')
-
-  .mx--#{math.div($i, 2) * 2}\%
-    margin-right: string.unquote(math.div($i, 2) + '%')
-    margin-left: string.unquote(math.div($i, 2) + '%')
-
-@for $i from 1 through 200
   @if ($i % 2) == 0
     .m--#{math.div($i, 2)}\%
       margin: string.unquote(math.div($i, 2) + '%')

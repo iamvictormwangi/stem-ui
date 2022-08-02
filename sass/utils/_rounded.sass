@@ -1,11 +1,4 @@
-@mixin rounded($value)
-  border-radius: $value
-
-  &--hvr:hover
-    border-radius: $value
-
-  &--fcs:focus
-    border-radius: $value
+@use "./../abstracts/" as *
 
 .rounded--xxs, .rounded--xs
   @include rounded(30%)

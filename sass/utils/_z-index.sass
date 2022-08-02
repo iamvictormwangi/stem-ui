@@ -1,11 +1,4 @@
-@mixin z-index($value)
-  z-index: $value
-
-  &--hvr:hover
-    z-index: $value
-
-  &--fcs:focus
-    z-index: $value
+@use "./../abstracts/" as *
 
 .zi--100
   @include z-index(100)

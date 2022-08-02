@@ -1,14 +1,5 @@
 @use "./../abstracts/" as *
 
-@mixin color($clr)
-  color: $clr
-
-  &--hvr:hover
-    color: $clr
-
-  &--fsc:focus
-    color: $clr
-
 @each $color, $color-value in $color-list
   .c--#{$color}
     @include color($color-value)

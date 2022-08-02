@@ -1,0 +1,112 @@
+@mixin display($value)
+  display: $value !important
+
+  &--hvr:hover
+    display: $value !important
+
+  &--fsc:focus
+    display: $value !important
+
+@mixin background($clr)
+  background-color: $clr
+
+  &--hvr:hover
+    background-color: $clr
+
+  &--fsc:focus
+    background-color: $clr
+
+@mixin border-color($clr)
+  border-color: $clr
+
+  &--hvr:hover
+    border-color: $clr
+
+  &--fcs:focus
+    border-color: $clr
+
+@mixin color($clr)
+  color: $clr
+
+  &--hvr:hover
+    color: $clr
+
+  &--fsc:focus
+    color: $clr
+
+@mixin opacify($value)
+  opacity: $value
+
+  &--hvr:hover
+    opacity: $value
+
+  &--fcs:focus
+    opacity: $value
+
+@mixin rotation($value)
+  -webkit-transform: rotate($value)
+  -ms-transform: rotate($value)
+  -o-transform: rotate($value)
+  transform: rotate($value)
+
+  &--hvr:hover
+    -webkit-transform: rotate($value)
+    -ms-transform: rotate($value)
+    -o-transform: rotate($value)
+    transform: rotate($value)
+
+  &--fcs:focus
+    -webkit-transform: rotate($value)
+    -ms-transform: rotate($value)
+    -o-transform: rotate($value)
+    transform: rotate($value)
+
+@mixin rounded($value)
+  border-radius: $value
+
+  &--hvr:hover
+    border-radius: $value
+
+  &--fcs:focus
+    border-radius: $value
+
+@each $key, $value in $value-props
+  .scale--#{$key}
+    transform: scale($value)
+
+  .scaley--#{$key}
+    transform: scaleY($value)
+
+  .scalex--#{$key}
+    transform: scaleX($value)
+
+@mixin skew($value, $y)
+
+  @if $y
+    transform: skewY($value)
+
+    &--hvr:hover
+      transform: skewY($value)
+
+    &--fcs:focus
+      transform: skewY($value)
+
+  @else
+    transform: skewX($value)
+
+    &--hvr:hover
+      transform: skewX($value)
+
+    &--fcs:focus
+      transform: skewX($value)
+
+@mixin z-index($value)
+  z-index: $value
+
+  &--hvr:hover
+    z-index: $value
+
+  &--fcs:focus
+    z-index: $value
+
+
