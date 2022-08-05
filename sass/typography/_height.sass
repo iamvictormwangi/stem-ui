@@ -14,45 +14,11 @@
     .h--#{math.div($i, 2) - 0.5}\.5\%
       height: string.unquote(math.div($i, 2) + '%')
 
+@for $i from 1 to 26
+  .h--#{$i * 5}vh
+    height: #{$i * 5}vh
+
 .h--auto
   height: auto
 
-.h--25vh
-  height: 25vh
-
-.h--50vh
-  height: 50vh
-
-.h--75vh
-  height: 75vh
-
-.h--100vh
-  height: 100vh
-
-.h--125vh
-  height: 125vh
-
-.h--150vh
-  height: 150vh
-
-.h--200vh
-  height: 200vh
-
-.h--250vh
-  height: 250vh
-
-.h--300vh
-  height: 300vh
-
-.h--350vh
-  height: 350vh
-
-.h--400vh
-  height: 400vh
-
-.h--450vh
-  height: 450vh
-
-.h--500vh
-  height: 500vh
 

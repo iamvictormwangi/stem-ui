@@ -34,7 +34,13 @@
 
 @each $color, $color-value in $color-list
   .bdc--#{$color}
-    @include border-color($color-value)
+    border-color: $color-value
+
+  .bdc--#{$color}\:hvr:hover
+    border-color: $color-value
+
+  .bdc--#{$color}\:fcs:focus
+    border-color: $color-value
 
 @each $i, $value in $border-list
   .bd--#{$i}

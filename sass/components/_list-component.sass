@@ -11,10 +11,10 @@
     &.list--#{$color-item}
       background-color: $color-value
 
-  & .list__item
+  & .list--item
     padding: 0.35rem 1rem
 
   @each $color-item, $color-value in $color-list
-    & .list__item--#{$color-item}
+    & .list--item--#{$color-item}
       @include list-items($color-value)
 

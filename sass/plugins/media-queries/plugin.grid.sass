@@ -1,0 +1,2688 @@
+@use "./../../abstracts/" as *
+@use "sass:math"
+@use "sass:string"
+
+@media screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width)
+  .\@mobile--row
+    @include flex
+    @include flex-wrap
+
+  @for $i from 1 through 12
+    .\@mobile--col--#{$i}
+      width: calc(100% * math.div($i, 12))
+
+  @each $key, $value in $value-props
+    .\@mobile--b--#{$key}
+      bottom: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@mobile--b--#{math.div($i, 2)}\%
+        bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--b--#{math.div($i, 2) - 0.5}\.5\%
+        bottom: string.unquote(math.div($i, 2) + '%')
+
+  .\@mobile--b--auto
+    bottom: auto
+
+  @for $i from 1 to 13
+    .\@mobile--gtc--#{$i}
+      grid-template-columns: repeat(#{$i}, 1fr)
+
+  @each $key, $value in $value-props
+    .\@mobile--gg--#{$key}
+      grid-gap: $value
+
+    .\@mobile--gcg--#{$key}
+      grid-column-gap: $value
+
+    .\@mobile--grg--#{$key}
+      grid-row-gap: $value
+
+  @each $key, $value in $value-props
+    .\@mobile--h--#{$key}
+      height: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@mobile--h--#{math.div($i, 2)}\%
+        height: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--h--#{math.div($i, 2) - 0.5}\.5\%
+        height: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@mobile--h--#{$i * 5}vh
+      height: #{$i * 5}vh
+
+  .\@mobile--h--auto
+    height: auto
+
+  @each $key, $value in $value-props
+    .\@mobile--l--#{$key}
+      left: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@mobile--l--#{math.div($i, 2)}\%
+        left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--l--#{math.div($i, 2) - 0.5}\.5\%
+        left: string.unquote(math.div($i, 2) + '%')
+
+  .\@mobile--l--auto
+    left: auto
+
+  @each $key, $value in $value-props
+    .\@mobile--m--#{$key}
+      margin: $value
+
+    .\@mobile--mt--#{$key}
+      margin-top: $value
+
+    .\@mobile--mr--#{$key}
+      margin-right: $value
+
+    .\@mobile--mb--#{$key}
+      margin-bottom: $value
+
+    .\@mobile--ml--#{$key}
+      margin-left: $value
+
+    .\@mobile--my--#{$key}
+      margin-top: $value
+      margin-bottom: $value
+
+    .\@mobile--mx--#{$key}
+      margin-right: $value
+      margin-left: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@mobile--m--#{math.div($i, 2)}\%
+        margin: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--m--#{math.div($i, 2) - 0.5}\.5\%
+        margin: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@mobile--mt--#{math.div($i, 2)}\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--mt--#{math.div($i, 2) - 0.5}\.5\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@mobile--mr--#{math.div($i, 2)}\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--mr--#{math.div($i, 2) - 0.5}\.5\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@mobile--mb--#{math.div($i, 2)}\%
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--mb--#{math.div($i, 2) - 0.5}\.5\%
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@mobile--ml--#{math.div($i, 2)}\%
+        margin-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--ml--#{math.div($i, 2) - 0.5}\.5\%
+        margin-left: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@mobile--my--#{math.div($i, 2)}\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--my--#{math.div($i, 2) - 0.5}\.5\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@mobile--mx--#{math.div($i, 2)}\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+        margin-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--mx--#{math.div($i, 2) - 0.5}\.5\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+        margin-left: string.unquote(math.div($i, 2) + '%')
+
+  .\@mobile--m--auto
+    margin: auto
+
+  .\@mobile--mt--auto
+    margin-top: auto
+
+  .\@mobile--mr--auto
+    margin-right: auto
+
+  .\@mobile--mb--auto
+    margin-bottom: auto
+
+  .\@mobile--ml--auto
+    margin-left: auto
+
+  .\@mobile--my--auto
+    margin-top: auto
+    margin-bottom: auto
+
+  .\@mobile--mx--auto
+    margin-right: auto
+    margin-left: auto
+
+  @each $key, $value in $value-props
+    .\@mobile--mah--#{$key}
+      max-height: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@mobile--mah--#{math.div($i, 2)}\%
+        max-height: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--mah--#{math.div($i, 2) - 0.5}\.5\%
+        max-height: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@mobile--mah--#{$i * 5}vh
+      max-height: #{$i * 5}vh
+
+  .\@mobile--mah--auto
+    max-height: auto
+
+  @each $key, $value in $value-props
+    .\@mobile--maw--#{$key}
+      max-width: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@mobile--maw--#{math.div($i, 2)}\%
+        max-width: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--maw--#{math.div($i, 2) - 0.5}\.5\%
+        max-width: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@mobile--maw--#{$i * 5}vw
+      max-width: #{$i * 5}vw
+
+  .\@mobile--maw--auto
+    max-width: auto
+
+  @each $key, $value in $value-props
+    .\@mobile--mih--#{$key}
+      min-height: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@mobile--mih--#{math.div($i, 2)}\%
+        min-height: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--mih--#{math.div($i, 2) - 0.5}\.5\%
+        min-height: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@mobile--mih--#{$i * 5}vh
+      min-height: #{$i * 5}vh
+
+  .\@mobile--mih--auto
+    min-height: auto
+
+  @each $key, $value in $value-props
+    .\@mobile--miw--#{$key}
+      min-width: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@mobile--miw--#{math.div($i, 2)}\%
+        min-width: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--miw--#{math.div($i, 2) - 0.5}\.5\%
+        min-width: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@mobile--miw--#{$i * 5}vw
+      min-width: #{$i * 5}vw
+
+  .\@mobile--miw--auto
+    min-width: auto
+
+  @each $key, $value in $value-props
+    .\@mobile--p--#{$key}
+      padding: $value
+
+    .\@mobile--pt--#{$key}
+      padding-top: $value
+
+    .\@mobile--pr--#{$key}
+      padding-right: $value
+
+    .\@mobile--pb--#{$key}
+      padding-bottom: $value
+
+    .\@mobile--pl--#{$key}
+      padding-left: $value
+
+    .\@mobile--py--#{$key}
+      padding-top: $value
+      padding-bottom: $value
+
+    .\@mobile--px--#{$key}
+      padding-right: $value
+      padding-left: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@mobile--p--#{math.div($i, 2)}\%
+        padding: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--p--#{math.div($i, 2) - 0.5}\.5\%
+        padding: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@mobile--pt--#{math.div($i, 2)}\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--pt--#{math.div($i, 2) - 0.5}\.5\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@mobile--pr--#{math.div($i, 2)}\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--pr--#{math.div($i, 2) - 0.5}\.5\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@mobile--pb--#{math.div($i, 2)}\%
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--pb--#{math.div($i, 2) - 0.5}\.5\%
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@mobile--pl--#{math.div($i, 2)}\%
+        padding-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--pl--#{math.div($i, 2) - 0.5}\.5\%
+        padding-left: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@mobile--py--#{math.div($i, 2)}\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--py--#{math.div($i, 2) - 0.5}\.5\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@mobile--px--#{math.div($i, 2)}\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+        padding-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--px--#{math.div($i, 2) - 0.5}\.5\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+        padding-left: string.unquote(math.div($i, 2) + '%')
+
+  .\@mobile--p--auto
+    padding: auto
+
+  .\@mobile--pt--auto
+    padding-top: auto
+
+  .\@mobile--pr--auto
+    padding-right: auto
+
+  .\@mobile--pb--auto
+    padding-bottom: auto
+
+  .\@mobile--pl--auto
+    padding-left: auto
+
+  .\@mobile--py--auto
+    padding-top: auto
+    padding-bottom: auto
+
+  .\@mobile--px--auto
+    padding-right: auto
+    padding-left: auto
+
+  .\@mobile--pos--relative
+    position: relative !important
+
+  .\@mobile--pos--absolute
+    position: absolute !important
+
+  .\@mobile--pos--fixed
+    position: fixed !important
+
+  .\@mobile--pos--sticky
+    position: sticky !important
+
+  .\@mobile--pos--static
+    position: static !important
+
+  .\@mobile--sticky--top, .\@mobile--sticky--bottom
+    position: sticky
+    z-index: 1000
+
+  .\@mobile--sticky--top
+    top: 0
+
+  .\@mobile--sticky--bottom
+    bottom: 0
+
+  .\@mobile--fixed--top, .\@mobile--fixed--bottom
+    position: fixed
+    z-index: 1000
+
+  .\@mobile--fixed--top
+    top: 0
+
+  .\@mobile--fixed--bottom
+    bottom: 0
+
+  @each $key, $value in $value-props
+    .\@mobile--r--#{$key}
+      right: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@mobile--r--#{math.div($i, 2)}\%
+        right: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--r--#{math.div($i, 2) - 0.5}\.5\%
+        right: string.unquote(math.div($i, 2) + '%')
+
+  .\@mobile--r--auto
+    right: auto
+
+  @each $key, $value in $value-props
+    .\@mobile--t--#{$key}
+      top: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@mobile--t--#{math.div($i, 2)}\%
+        top: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--t--#{math.div($i, 2) - 0.5}\.5\%
+        top: string.unquote(math.div($i, 2) + '%')
+
+  .\@mobile--t--auto
+    top: auto
+
+  @each $key, $value in $value-props
+    .\@mobile--y--#{$key}
+      transform: translateY($key)
+
+    .\@mobile--x--#{$key}
+      transform: translateX($key)
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@mobile--y--#{math.div($i, 2)}\%
+        transform: translateY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@mobile--x--#{math.div($i, 2)}\%
+        transform: translateX(string.unquote(math.div($i, 2) + '%'))
+
+    @else
+      .\@mobile--y--#{math.div($i, 2) - 0.5}\.5\%
+        transform: translateY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@mobile--x--#{math.div($i, 2) - 0.5}\.5\%
+        transform: translateX(string.unquote(math.div($i, 2) + '%'))
+
+  @each $key, $value in $value-props
+    .\@mobile--w--#{$key}
+      width: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@mobile--w--#{math.div($i, 2)}\%
+        width: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@mobile--w--#{math.div($i, 2) - 0.5}\.5\%
+        width: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@mobile--w--#{$i * 5}vw
+      width: #{$i * 5}vw
+
+  .\@mobile--w--auto
+    width: auto
+
+  .\@mobile--d--block
+    display: block
+
+  .\@mobile--d--none
+    display: none
+
+  .\@mobile--d--grid
+    display: grid
+
+  .\@mobile--d--inline
+    display: inline
+
+  .\@mobile--d--inline--block
+    display: inline-block
+
+  .\@mobile--d--inline--flex
+    display: inline-flex
+
+  .\@mobile--d--table
+    display: table
+
+  .\@mobile--d--flex
+    @include flex
+
+  .\@mobile--fx, .\@mobile--d--flex
+    @include flex
+
+  .\@mobile--fx--wrap
+    @include flex-wrap
+
+  .\@mobile--fx--wrap--reverse
+    flex-wrap: wrap-reverse
+
+  .\@mobile--fx--row
+    flex-direction: row
+
+  .\@mobile--fx--col
+    flex-direction: column
+
+  .\@mobile--fx--row--reverse
+    @include flex-direction-row-reverse
+
+  .\@mobile--fx--col--reverse
+    flex-direction: column-reverse
+
+  .\@mobile--jc--flex--start
+    justify-content: flex-start
+
+  .\@mobile--jc--center
+    justify-content: center
+
+  .\@mobile--jc--flex--end
+    justify-content: flex-end
+
+  .\@mobile--jc--space--between
+    justify-content: space-between
+
+  .\@mobile--jc--space--around
+    justify-content: space-around
+
+  .\@mobile--jc--space--evenly
+    justify-content: space-evenly
+
+  .\@mobile--js--auto
+    justify-self: auto
+
+  .\@mobile--js--start
+    justify-self: start
+
+  .\@mobile--js--center
+    justify-self: center
+
+  .\@mobile--js--end
+    justify-self: end
+
+  .\@mobile--js--stretch
+    justify-self: stretch
+
+  .\@mobile--ai--start
+    align-items: start
+
+  .\@mobile--ai--center
+    align-items: center
+
+  .\@mobile--ai--end
+    align-items: end
+
+  .\@mobile--ai--flex--start
+    align-items: flex-start
+
+  .\@mobile--ai--flex--end
+    align-items: flex-end
+
+  .\@mobile--as--start
+    align-self: start
+
+  .\@mobile--as--center
+    align-self: center
+
+  .\@mobile--as--end
+    align-self: end
+
+  .\@mobile--as--flex--start
+    align-self: flex-start
+
+  .\@mobile--as--flex--end
+    align-self: flex-end
+
+  @for $i from 1 to 13
+    .\@mobile--order--#{$i}
+      order: #{$i}
+
+  @for $i from 1 to 10
+    @if $i < 10
+      .\@mobile--op--0\.#{$i}
+        @include opacify(math.div($i,10))
+
+  .\@mobile--op--1
+    @include opacify(1)
+
+  .\@mobile--ov--auto
+    overflow: auto
+
+  .\@mobile--ov--scroll
+    overflow: scroll
+
+  .\@mobile--ov--hidden
+    overflow: hidden
+
+  .\@mobile--ov--visible
+    overflow: visible
+
+  .\@mobile--ovy--auto
+    overflow-y: auto
+
+  .\@mobile--ovy--scroll
+    overflow-y: scroll
+
+  .\@mobile--ovy--hidden
+    overflow-y: hidden
+
+  .\@mobile--ovy--visible
+    overflow-y: visible
+
+  .\@mobile--ovx--auto
+    overflow-x: auto
+
+  .\@mobile--ovx--scroll
+    overflow-x: scroll
+
+  .\@mobile--ovx--hidden
+    overflow-x: hidden
+
+  .\@mobile--ovx--visible
+    overflow-x: visible
+
+  .\@mobile--parallax
+    background-attachment: fixed
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+  @for $i from 1 to 13
+    .\@mobile--rotate--#{$i * 30}
+      @include rotation($i * 30)
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@mobile--scale--#{math.div($i, 2)}\%
+        transform: scale(string.unquote(math.div($i, 2) + '%'))
+
+      .\@mobile--scaley--#{math.div($i, 2)}\%
+        transform: scaleY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@mobile--scalex--#{math.div($i, 2)}\%
+        transform: scaleX(string.unquote(math.div($i, 2) + '%'))
+
+    @else
+      .\@mobile--scalex--#{math.div($i, 2) - 0.5}\.5\%
+        transform: scale(string.unquote(math.div($i, 2) + '%'))
+
+      .\@mobile--scalex--#{math.div($i, 2) - 0.5}\.5\%
+        transform: scaleY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@mobile--scalex--#{math.div($i, 2) - 0.5}\.5\%
+        transform: scaleX(string.unquote(math.div($i, 2) + '%'))
+
+  .\@mobile--hide
+    display: none !important
+    visibility: hidden !important
+    opacity: 0 !important
+
+  .\@mobile--show
+    display: block !important
+    visibility: visible !important
+    opacity: 1 !important
+
+  .\@mobile--scroll--auto
+    scroll-behavior: auto
+
+  .\@mobile--scroll--smooth
+    scroll-behavior: smooth
+
+  .\@mobile--flt--right
+    float: right
+
+  .\@mobile--flt--left
+    float: left
+
+  .\@mobile--flt--none
+    float: none
+
+  .\@mobile--clr--both
+    clear: both
+
+@media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width)
+  .\@tablet--row
+    @include flex
+    @include flex-wrap
+
+  @for $i from 1 through 12
+    .\@tablet--col--#{$i}
+      width: calc(100% * math.div($i, 12))
+
+  @each $key, $value in $value-props
+    .\@tablet--b--#{$key}
+      bottom: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@tablet--b--#{math.div($i, 2)}\%
+        bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--b--#{math.div($i, 2) - 0.5}\.5\%
+        bottom: string.unquote(math.div($i, 2) + '%')
+
+  .\@tablet--b--auto
+    bottom: auto
+
+  @for $i from 1 to 13
+    .\@tablet--gtc--#{$i}
+      grid-template-columns: repeat(#{$i}, 1fr)
+
+  @each $key, $value in $value-props
+    .\@tablet--gg--#{$key}
+      grid-gap: $value
+
+    .\@tablet--gcg--#{$key}
+      grid-column-gap: $value
+
+    .\@tablet--grg--#{$key}
+      grid-row-gap: $value
+
+  @each $key, $value in $value-props
+    .\@tablet--h--#{$key}
+      height: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@tablet--h--#{math.div($i, 2)}\%
+        height: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--h--#{math.div($i, 2) - 0.5}\.5\%
+        height: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@tablet--h--#{$i * 5}vh
+      height: #{$i * 5}vh
+
+  .\@tablet--h--auto
+    height: auto
+
+  @each $key, $value in $value-props
+    .\@tablet--l--#{$key}
+      left: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@tablet--l--#{math.div($i, 2)}\%
+        left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--l--#{math.div($i, 2) - 0.5}\.5\%
+        left: string.unquote(math.div($i, 2) + '%')
+
+  .\@tablet--l--auto
+    left: auto
+
+  @each $key, $value in $value-props
+    .\@tablet--m--#{$key}
+      margin: $value
+
+    .\@tablet--mt--#{$key}
+      margin-top: $value
+
+    .\@tablet--mr--#{$key}
+      margin-right: $value
+
+    .\@tablet--mb--#{$key}
+      margin-bottom: $value
+
+    .\@tablet--ml--#{$key}
+      margin-left: $value
+
+    .\@tablet--my--#{$key}
+      margin-top: $value
+      margin-bottom: $value
+
+    .\@tablet--mx--#{$key}
+      margin-right: $value
+      margin-left: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@tablet--m--#{math.div($i, 2)}\%
+        margin: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--m--#{math.div($i, 2) - 0.5}\.5\%
+        margin: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@tablet--mt--#{math.div($i, 2)}\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--mt--#{math.div($i, 2) - 0.5}\.5\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@tablet--mr--#{math.div($i, 2)}\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--mr--#{math.div($i, 2) - 0.5}\.5\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@tablet--mb--#{math.div($i, 2)}\%
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--mb--#{math.div($i, 2) - 0.5}\.5\%
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@tablet--ml--#{math.div($i, 2)}\%
+        margin-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--ml--#{math.div($i, 2) - 0.5}\.5\%
+        margin-left: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@tablet--my--#{math.div($i, 2)}\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--my--#{math.div($i, 2) - 0.5}\.5\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@tablet--mx--#{math.div($i, 2)}\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+        margin-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--mx--#{math.div($i, 2) - 0.5}\.5\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+        margin-left: string.unquote(math.div($i, 2) + '%')
+
+  .\@tablet--m--auto
+    margin: auto
+
+  .\@tablet--mt--auto
+    margin-top: auto
+
+  .\@tablet--mr--auto
+    margin-right: auto
+
+  .\@tablet--mb--auto
+    margin-bottom: auto
+
+  .\@tablet--ml--auto
+    margin-left: auto
+
+  .\@tablet--my--auto
+    margin-top: auto
+    margin-bottom: auto
+
+  .\@tablet--mx--auto
+    margin-right: auto
+    margin-left: auto
+
+  @each $key, $value in $value-props
+    .\@tablet--mah--#{$key}
+      max-height: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@tablet--mah--#{math.div($i, 2)}\%
+        max-height: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--mah--#{math.div($i, 2) - 0.5}\.5\%
+        max-height: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@tablet--mah--#{$i * 5}vh
+      max-height: #{$i * 5}vh
+
+  .\@tablet--mah--auto
+    max-height: auto
+
+  @each $key, $value in $value-props
+    .\@tablet--maw--#{$key}
+      max-width: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@tablet--maw--#{math.div($i, 2)}\%
+        max-width: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--maw--#{math.div($i, 2) - 0.5}\.5\%
+        max-width: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@tablet--maw--#{$i * 5}vw
+      max-width: #{$i * 5}vw
+
+  .\@tablet--maw--auto
+    max-width: auto
+
+  @each $key, $value in $value-props
+    .\@tablet--mih--#{$key}
+      min-height: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@tablet--mih--#{math.div($i, 2)}\%
+        min-height: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--mih--#{math.div($i, 2) - 0.5}\.5\%
+        min-height: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@tablet--mih--#{$i * 5}vh
+      min-height: #{$i * 5}vh
+
+  .\@tablet--mih--auto
+    min-height: auto
+
+  @each $key, $value in $value-props
+    .\@tablet--miw--#{$key}
+      min-width: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@tablet--miw--#{math.div($i, 2)}\%
+        min-width: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--miw--#{math.div($i, 2) - 0.5}\.5\%
+        min-width: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@tablet--miw--#{$i * 5}vw
+      min-width: #{$i * 5}vw
+
+  .\@tablet--miw--auto
+    min-width: auto
+
+  @each $key, $value in $value-props
+    .\@tablet--p--#{$key}
+      padding: $value
+
+    .\@tablet--pt--#{$key}
+      padding-top: $value
+
+    .\@tablet--pr--#{$key}
+      padding-right: $value
+
+    .\@tablet--pb--#{$key}
+      padding-bottom: $value
+
+    .\@tablet--pl--#{$key}
+      padding-left: $value
+
+    .\@tablet--py--#{$key}
+      padding-top: $value
+      padding-bottom: $value
+
+    .\@tablet--px--#{$key}
+      padding-right: $value
+      padding-left: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@tablet--p--#{math.div($i, 2)}\%
+        padding: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--p--#{math.div($i, 2) - 0.5}\.5\%
+        padding: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@tablet--pt--#{math.div($i, 2)}\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--pt--#{math.div($i, 2) - 0.5}\.5\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@tablet--pr--#{math.div($i, 2)}\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--pr--#{math.div($i, 2) - 0.5}\.5\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@tablet--pb--#{math.div($i, 2)}\%
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--pb--#{math.div($i, 2) - 0.5}\.5\%
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@tablet--pl--#{math.div($i, 2)}\%
+        padding-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--pl--#{math.div($i, 2) - 0.5}\.5\%
+        padding-left: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@tablet--py--#{math.div($i, 2)}\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--py--#{math.div($i, 2) - 0.5}\.5\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@tablet--px--#{math.div($i, 2)}\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+        padding-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--px--#{math.div($i, 2) - 0.5}\.5\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+        padding-left: string.unquote(math.div($i, 2) + '%')
+
+  .\@tablet--p--auto
+    padding: auto
+
+  .\@tablet--pt--auto
+    padding-top: auto
+
+  .\@tablet--pr--auto
+    padding-right: auto
+
+  .\@tablet--pb--auto
+    padding-bottom: auto
+
+  .\@tablet--pl--auto
+    padding-left: auto
+
+  .\@tablet--py--auto
+    padding-top: auto
+    padding-bottom: auto
+
+  .\@tablet--px--auto
+    padding-right: auto
+    padding-left: auto
+
+  .\@tablet--pos--relative
+    position: relative !important
+
+  .\@tablet--pos--absolute
+    position: absolute !important
+
+  .\@tablet--pos--fixed
+    position: fixed !important
+
+  .\@tablet--pos--sticky
+    position: sticky !important
+
+  .\@tablet--pos--static
+    position: static !important
+
+  .\@tablet--sticky--top, .\@tablet--sticky--bottom
+    position: sticky
+    z-index: 1000
+
+  .\@tablet--sticky--top
+    top: 0
+
+  .\@tablet--sticky--bottom
+    bottom: 0
+
+  .\@tablet--fixed--top, .\@tablet--fixed--bottom
+    position: fixed
+    z-index: 1000
+
+  .\@tablet--fixed--top
+    top: 0
+
+  .\@tablet--fixed--bottom
+    bottom: 0
+
+  @each $key, $value in $value-props
+    .\@tablet--r--#{$key}
+      right: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@tablet--r--#{math.div($i, 2)}\%
+        right: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--r--#{math.div($i, 2) - 0.5}\.5\%
+        right: string.unquote(math.div($i, 2) + '%')
+
+  .\@tablet--r--auto
+    right: auto
+
+  @each $key, $value in $value-props
+    .\@tablet--t--#{$key}
+      top: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@tablet--t--#{math.div($i, 2)}\%
+        top: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--t--#{math.div($i, 2) - 0.5}\.5\%
+        top: string.unquote(math.div($i, 2) + '%')
+
+  .\@tablet--t--auto
+    top: auto
+
+  @each $key, $value in $value-props
+    .\@tablet--y--#{$key}
+      transform: translateY($key)
+
+    .\@tablet--x--#{$key}
+      transform: translateX($key)
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@tablet--y--#{math.div($i, 2)}\%
+        transform: translateY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@tablet--x--#{math.div($i, 2)}\%
+        transform: translateX(string.unquote(math.div($i, 2) + '%'))
+
+    @else
+      .\@tablet--y--#{math.div($i, 2) - 0.5}\.5\%
+        transform: translateY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@tablet--x--#{math.div($i, 2) - 0.5}\.5\%
+        transform: translateX(string.unquote(math.div($i, 2) + '%'))
+
+  @each $key, $value in $value-props
+    .\@tablet--w--#{$key}
+      width: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@tablet--w--#{math.div($i, 2)}\%
+        width: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@tablet--w--#{math.div($i, 2) - 0.5}\.5\%
+        width: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@tablet--w--#{$i * 5}vw
+      width: #{$i * 5}vw
+
+  .\@tablet--w--auto
+    width: auto
+
+  .\@tablet--d--block
+    display: block
+
+  .\@tablet--d--none
+    display: none
+
+  .\@tablet--d--grid
+    display: grid
+
+  .\@tablet--d--inline
+    display: inline
+
+  .\@tablet--d--inline--block
+    display: inline-block
+
+  .\@tablet--d--inline--flex
+    display: inline-flex
+
+  .\@tablet--d--table
+    display: table
+
+  .\@tablet--d--flex
+    @include flex
+
+  .\@tablet--fx, .\@tablet--d--flex
+    @include flex
+
+  .\@tablet--fx--wrap
+    @include flex-wrap
+
+  .\@tablet--fx--wrap--reverse
+    flex-wrap: wrap-reverse
+
+  .\@tablet--fx--row
+    flex-direction: row
+
+  .\@tablet--fx--col
+    flex-direction: column
+
+  .\@tablet--fx--row--reverse
+    @include flex-direction-row-reverse
+
+  .\@tablet--fx--col--reverse
+    flex-direction: column-reverse
+
+  .\@tablet--jc--flex--start
+    justify-content: flex-start
+
+  .\@tablet--jc--center
+    justify-content: center
+
+  .\@tablet--jc--flex--end
+    justify-content: flex-end
+
+  .\@tablet--jc--space--between
+    justify-content: space-between
+
+  .\@tablet--jc--space--around
+    justify-content: space-around
+
+  .\@tablet--jc--space--evenly
+    justify-content: space-evenly
+
+  .\@tablet--js--auto
+    justify-self: auto
+
+  .\@tablet--js--start
+    justify-self: start
+
+  .\@tablet--js--center
+    justify-self: center
+
+  .\@tablet--js--end
+    justify-self: end
+
+  .\@tablet--js--stretch
+    justify-self: stretch
+
+  .\@tablet--ai--start
+    align-items: start
+
+  .\@tablet--ai--center
+    align-items: center
+
+  .\@tablet--ai--end
+    align-items: end
+
+  .\@tablet--ai--flex--start
+    align-items: flex-start
+
+  .\@tablet--ai--flex--end
+    align-items: flex-end
+
+  .\@tablet--as--start
+    align-self: start
+
+  .\@tablet--as--center
+    align-self: center
+
+  .\@tablet--as--end
+    align-self: end
+
+  .\@tablet--as--flex--start
+    align-self: flex-start
+
+  .\@tablet--as--flex--end
+    align-self: flex-end
+
+  @for $i from 1 to 13
+    .\@tablet--order--#{$i}
+      order: #{$i}
+
+  @for $i from 1 to 10
+    @if $i < 10
+      .\@tablet--op--0\.#{$i}
+        @include opacify(math.div($i,10))
+
+  .\@tablet--op--1
+    @include opacify(1)
+
+  .\@tablet--ov--auto
+    overflow: auto
+
+  .\@tablet--ov--scroll
+    overflow: scroll
+
+  .\@tablet--ov--hidden
+    overflow: hidden
+
+  .\@tablet--ov--visible
+    overflow: visible
+
+  .\@tablet--ovy--auto
+    overflow-y: auto
+
+  .\@tablet--ovy--scroll
+    overflow-y: scroll
+
+  .\@tablet--ovy--hidden
+    overflow-y: hidden
+
+  .\@tablet--ovy--visible
+    overflow-y: visible
+
+  .\@tablet--ovx--auto
+    overflow-x: auto
+
+  .\@tablet--ovx--scroll
+    overflow-x: scroll
+
+  .\@tablet--ovx--hidden
+    overflow-x: hidden
+
+  .\@tablet--ovx--visible
+    overflow-x: visible
+
+  .\@tablet--parallax
+    background-attachment: fixed
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+  @for $i from 1 to 13
+    .\@tablet--rotate--#{$i * 30}
+      @include rotation($i * 30)
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@tablet--scale--#{math.div($i, 2)}\%
+        transform: scale(string.unquote(math.div($i, 2) + '%'))
+
+      .\@tablet--scaley--#{math.div($i, 2)}\%
+        transform: scaleY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@tablet--scalex--#{math.div($i, 2)}\%
+        transform: scaleX(string.unquote(math.div($i, 2) + '%'))
+
+    @else
+      .\@tablet--scalex--#{math.div($i, 2) - 0.5}\.5\%
+        transform: scale(string.unquote(math.div($i, 2) + '%'))
+
+      .\@tablet--scalex--#{math.div($i, 2) - 0.5}\.5\%
+        transform: scaleY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@tablet--scalex--#{math.div($i, 2) - 0.5}\.5\%
+        transform: scaleX(string.unquote(math.div($i, 2) + '%'))
+
+  .\@tablet--hide
+    display: none !important
+    visibility: hidden !important
+    opacity: 0 !important
+
+  .\@tablet--show
+    display: block !important
+    visibility: visible !important
+    opacity: 1 !important
+
+  .\@tablet--scroll--auto
+    scroll-behavior: auto
+
+  .\@tablet--scroll--smooth
+    scroll-behavior: smooth
+
+  .\@tablet--flt--right
+    float: right
+
+  .\@tablet--flt--left
+    float: left
+
+  .\@tablet--flt--none
+    float: none
+
+  .\@tablet--clr--both
+    clear: both
+
+@media screen and (min-width: $laptop-min-width) and (max-width: $laptop-max-width)
+  .\@laptop--row
+    @include flex
+    @include flex-wrap
+
+  @for $i from 1 through 12
+    .\@laptop--col--#{$i}
+      width: calc(100% * math.div($i, 12))
+
+  @each $key, $value in $value-props
+    .\@laptop--b--#{$key}
+      bottom: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@laptop--b--#{math.div($i, 2)}\%
+        bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--b--#{math.div($i, 2) - 0.5}\.5\%
+        bottom: string.unquote(math.div($i, 2) + '%')
+
+  .\@laptop--b--auto
+    bottom: auto
+
+  @for $i from 1 to 13
+    .\@laptop--gtc--#{$i}
+      grid-template-columns: repeat(#{$i}, 1fr)
+
+  @each $key, $value in $value-props
+    .\@laptop--gg--#{$key}
+      grid-gap: $value
+
+    .\@laptop--gcg--#{$key}
+      grid-column-gap: $value
+
+    .\@laptop--grg--#{$key}
+      grid-row-gap: $value
+
+  @each $key, $value in $value-props
+    .\@laptop--h--#{$key}
+      height: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@laptop--h--#{math.div($i, 2)}\%
+        height: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--h--#{math.div($i, 2) - 0.5}\.5\%
+        height: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@laptop--h--#{$i * 5}vh
+      height: #{$i * 5}vh
+
+  .\@laptop--h--auto
+    height: auto
+
+  @each $key, $value in $value-props
+    .\@laptop--l--#{$key}
+      left: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@laptop--l--#{math.div($i, 2)}\%
+        left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--l--#{math.div($i, 2) - 0.5}\.5\%
+        left: string.unquote(math.div($i, 2) + '%')
+
+  .\@laptop--l--auto
+    left: auto
+
+  @each $key, $value in $value-props
+    .\@laptop--m--#{$key}
+      margin: $value
+
+    .\@laptop--mt--#{$key}
+      margin-top: $value
+
+    .\@laptop--mr--#{$key}
+      margin-right: $value
+
+    .\@laptop--mb--#{$key}
+      margin-bottom: $value
+
+    .\@laptop--ml--#{$key}
+      margin-left: $value
+
+    .\@laptop--my--#{$key}
+      margin-top: $value
+      margin-bottom: $value
+
+    .\@laptop--mx--#{$key}
+      margin-right: $value
+      margin-left: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@laptop--m--#{math.div($i, 2)}\%
+        margin: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--m--#{math.div($i, 2) - 0.5}\.5\%
+        margin: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@laptop--mt--#{math.div($i, 2)}\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--mt--#{math.div($i, 2) - 0.5}\.5\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@laptop--mr--#{math.div($i, 2)}\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--mr--#{math.div($i, 2) - 0.5}\.5\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@laptop--mb--#{math.div($i, 2)}\%
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--mb--#{math.div($i, 2) - 0.5}\.5\%
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@laptop--ml--#{math.div($i, 2)}\%
+        margin-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--ml--#{math.div($i, 2) - 0.5}\.5\%
+        margin-left: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@laptop--my--#{math.div($i, 2)}\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--my--#{math.div($i, 2) - 0.5}\.5\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@laptop--mx--#{math.div($i, 2)}\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+        margin-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--mx--#{math.div($i, 2) - 0.5}\.5\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+        margin-left: string.unquote(math.div($i, 2) + '%')
+
+  .\@laptop--m--auto
+    margin: auto
+
+  .\@laptop--mt--auto
+    margin-top: auto
+
+  .\@laptop--mr--auto
+    margin-right: auto
+
+  .\@laptop--mb--auto
+    margin-bottom: auto
+
+  .\@laptop--ml--auto
+    margin-left: auto
+
+  .\@laptop--my--auto
+    margin-top: auto
+    margin-bottom: auto
+
+  .\@laptop--mx--auto
+    margin-right: auto
+    margin-left: auto
+
+  @each $key, $value in $value-props
+    .\@laptop--mah--#{$key}
+      max-height: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@laptop--mah--#{math.div($i, 2)}\%
+        max-height: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--mah--#{math.div($i, 2) - 0.5}\.5\%
+        max-height: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@laptop--mah--#{$i * 5}vh
+      max-height: #{$i * 5}vh
+
+  .\@laptop--mah--auto
+    max-height: auto
+
+  @each $key, $value in $value-props
+    .\@laptop--maw--#{$key}
+      max-width: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@laptop--maw--#{math.div($i, 2)}\%
+        max-width: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--maw--#{math.div($i, 2) - 0.5}\.5\%
+        max-width: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@laptop--maw--#{$i * 5}vw
+      max-width: #{$i * 5}vw
+
+  .\@laptop--maw--auto
+    max-width: auto
+
+  @each $key, $value in $value-props
+    .\@laptop--mih--#{$key}
+      min-height: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@laptop--mih--#{math.div($i, 2)}\%
+        min-height: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--mih--#{math.div($i, 2) - 0.5}\.5\%
+        min-height: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@laptop--mih--#{$i * 5}vh
+      min-height: #{$i * 5}vh
+
+  .\@laptop--mih--auto
+    min-height: auto
+
+  @each $key, $value in $value-props
+    .\@laptop--miw--#{$key}
+      min-width: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@laptop--miw--#{math.div($i, 2)}\%
+        min-width: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--miw--#{math.div($i, 2) - 0.5}\.5\%
+        min-width: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@laptop--miw--#{$i * 5}vw
+      min-width: #{$i * 5}vw
+
+  .\@laptop--miw--auto
+    min-width: auto
+
+  @each $key, $value in $value-props
+    .\@laptop--p--#{$key}
+      padding: $value
+
+    .\@laptop--pt--#{$key}
+      padding-top: $value
+
+    .\@laptop--pr--#{$key}
+      padding-right: $value
+
+    .\@laptop--pb--#{$key}
+      padding-bottom: $value
+
+    .\@laptop--pl--#{$key}
+      padding-left: $value
+
+    .\@laptop--py--#{$key}
+      padding-top: $value
+      padding-bottom: $value
+
+    .\@laptop--px--#{$key}
+      padding-right: $value
+      padding-left: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@laptop--p--#{math.div($i, 2)}\%
+        padding: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--p--#{math.div($i, 2) - 0.5}\.5\%
+        padding: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@laptop--pt--#{math.div($i, 2)}\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--pt--#{math.div($i, 2) - 0.5}\.5\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@laptop--pr--#{math.div($i, 2)}\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--pr--#{math.div($i, 2) - 0.5}\.5\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@laptop--pb--#{math.div($i, 2)}\%
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--pb--#{math.div($i, 2) - 0.5}\.5\%
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@laptop--pl--#{math.div($i, 2)}\%
+        padding-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--pl--#{math.div($i, 2) - 0.5}\.5\%
+        padding-left: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@laptop--py--#{math.div($i, 2)}\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--py--#{math.div($i, 2) - 0.5}\.5\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@laptop--px--#{math.div($i, 2)}\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+        padding-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--px--#{math.div($i, 2) - 0.5}\.5\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+        padding-left: string.unquote(math.div($i, 2) + '%')
+
+  .\@laptop--p--auto
+    padding: auto
+
+  .\@laptop--pt--auto
+    padding-top: auto
+
+  .\@laptop--pr--auto
+    padding-right: auto
+
+  .\@laptop--pb--auto
+    padding-bottom: auto
+
+  .\@laptop--pl--auto
+    padding-left: auto
+
+  .\@laptop--py--auto
+    padding-top: auto
+    padding-bottom: auto
+
+  .\@laptop--px--auto
+    padding-right: auto
+    padding-left: auto
+
+  .\@laptop--pos--relative
+    position: relative !important
+
+  .\@laptop--pos--absolute
+    position: absolute !important
+
+  .\@laptop--pos--fixed
+    position: fixed !important
+
+  .\@laptop--pos--sticky
+    position: sticky !important
+
+  .\@laptop--pos--static
+    position: static !important
+
+  .\@laptop--sticky--top, .\@laptop--sticky--bottom
+    position: sticky
+    z-index: 1000
+
+  .\@laptop--sticky--top
+    top: 0
+
+  .\@laptop--sticky--bottom
+    bottom: 0
+
+  .\@laptop--fixed--top, .\@laptop--fixed--bottom
+    position: fixed
+    z-index: 1000
+
+  .\@laptop--fixed--top
+    top: 0
+
+  .\@laptop--fixed--bottom
+    bottom: 0
+
+  @each $key, $value in $value-props
+    .\@laptop--r--#{$key}
+      right: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@laptop--r--#{math.div($i, 2)}\%
+        right: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--r--#{math.div($i, 2) - 0.5}\.5\%
+        right: string.unquote(math.div($i, 2) + '%')
+
+  .\@laptop--r--auto
+    right: auto
+
+  @each $key, $value in $value-props
+    .\@laptop--t--#{$key}
+      top: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@laptop--t--#{math.div($i, 2)}\%
+        top: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--t--#{math.div($i, 2) - 0.5}\.5\%
+        top: string.unquote(math.div($i, 2) + '%')
+
+  .\@laptop--t--auto
+    top: auto
+
+  @each $key, $value in $value-props
+    .\@laptop--y--#{$key}
+      transform: translateY($key)
+
+    .\@laptop--x--#{$key}
+      transform: translateX($key)
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@laptop--y--#{math.div($i, 2)}\%
+        transform: translateY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@laptop--x--#{math.div($i, 2)}\%
+        transform: translateX(string.unquote(math.div($i, 2) + '%'))
+
+    @else
+      .\@laptop--y--#{math.div($i, 2) - 0.5}\.5\%
+        transform: translateY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@laptop--x--#{math.div($i, 2) - 0.5}\.5\%
+        transform: translateX(string.unquote(math.div($i, 2) + '%'))
+
+  @each $key, $value in $value-props
+    .\@laptop--w--#{$key}
+      width: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@laptop--w--#{math.div($i, 2)}\%
+        width: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@laptop--w--#{math.div($i, 2) - 0.5}\.5\%
+        width: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@laptop--w--#{$i * 5}vw
+      width: #{$i * 5}vw
+
+  .\@laptop--w--auto
+    width: auto
+
+  .\@laptop--d--block
+    display: block
+
+  .\@laptop--d--none
+    display: none
+
+  .\@laptop--d--grid
+    display: grid
+
+  .\@laptop--d--inline
+    display: inline
+
+  .\@laptop--d--inline--block
+    display: inline-block
+
+  .\@laptop--d--inline--flex
+    display: inline-flex
+
+  .\@laptop--d--table
+    display: table
+
+  .\@laptop--d--flex
+    @include flex
+
+  .\@laptop--fx, .\@laptop--d--flex
+    @include flex
+
+  .\@laptop--fx--wrap
+    @include flex-wrap
+
+  .\@laptop--fx--wrap--reverse
+    flex-wrap: wrap-reverse
+
+  .\@laptop--fx--row
+    flex-direction: row
+
+  .\@laptop--fx--col
+    flex-direction: column
+
+  .\@laptop--fx--row--reverse
+    @include flex-direction-row-reverse
+
+  .\@laptop--fx--col--reverse
+    flex-direction: column-reverse
+
+  .\@laptop--jc--flex--start
+    justify-content: flex-start
+
+  .\@laptop--jc--center
+    justify-content: center
+
+  .\@laptop--jc--flex--end
+    justify-content: flex-end
+
+  .\@laptop--jc--space--between
+    justify-content: space-between
+
+  .\@laptop--jc--space--around
+    justify-content: space-around
+
+  .\@laptop--jc--space--evenly
+    justify-content: space-evenly
+
+  .\@laptop--js--auto
+    justify-self: auto
+
+  .\@laptop--js--start
+    justify-self: start
+
+  .\@laptop--js--center
+    justify-self: center
+
+  .\@laptop--js--end
+    justify-self: end
+
+  .\@laptop--js--stretch
+    justify-self: stretch
+
+  .\@laptop--ai--start
+    align-items: start
+
+  .\@laptop--ai--center
+    align-items: center
+
+  .\@laptop--ai--end
+    align-items: end
+
+  .\@laptop--ai--flex--start
+    align-items: flex-start
+
+  .\@laptop--ai--flex--end
+    align-items: flex-end
+
+  .\@laptop--as--start
+    align-self: start
+
+  .\@laptop--as--center
+    align-self: center
+
+  .\@laptop--as--end
+    align-self: end
+
+  .\@laptop--as--flex--start
+    align-self: flex-start
+
+  .\@laptop--as--flex--end
+    align-self: flex-end
+
+  @for $i from 1 to 13
+    .\@laptop--order--#{$i}
+      order: #{$i}
+
+  @for $i from 1 to 10
+    @if $i < 10
+      .\@laptop--op--0\.#{$i}
+        @include opacify(math.div($i,10))
+
+  .\@laptop--op--1
+    @include opacify(1)
+
+  .\@laptop--ov--auto
+    overflow: auto
+
+  .\@laptop--ov--scroll
+    overflow: scroll
+
+  .\@laptop--ov--hidden
+    overflow: hidden
+
+  .\@laptop--ov--visible
+    overflow: visible
+
+  .\@laptop--ovy--auto
+    overflow-y: auto
+
+  .\@laptop--ovy--scroll
+    overflow-y: scroll
+
+  .\@laptop--ovy--hidden
+    overflow-y: hidden
+
+  .\@laptop--ovy--visible
+    overflow-y: visible
+
+  .\@laptop--ovx--auto
+    overflow-x: auto
+
+  .\@laptop--ovx--scroll
+    overflow-x: scroll
+
+  .\@laptop--ovx--hidden
+    overflow-x: hidden
+
+  .\@laptop--ovx--visible
+    overflow-x: visible
+
+  .\@laptop--parallax
+    background-attachment: fixed
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+  @for $i from 1 to 13
+    .\@laptop--rotate--#{$i * 30}
+      @include rotation($i * 30)
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@laptop--scale--#{math.div($i, 2)}\%
+        transform: scale(string.unquote(math.div($i, 2) + '%'))
+
+      .\@laptop--scaley--#{math.div($i, 2)}\%
+        transform: scaleY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@laptop--scalex--#{math.div($i, 2)}\%
+        transform: scaleX(string.unquote(math.div($i, 2) + '%'))
+
+    @else
+      .\@laptop--scalex--#{math.div($i, 2) - 0.5}\.5\%
+        transform: scale(string.unquote(math.div($i, 2) + '%'))
+
+      .\@laptop--scalex--#{math.div($i, 2) - 0.5}\.5\%
+        transform: scaleY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@laptop--scalex--#{math.div($i, 2) - 0.5}\.5\%
+        transform: scaleX(string.unquote(math.div($i, 2) + '%'))
+
+  .\@laptop--hide
+    display: none !important
+    visibility: hidden !important
+    opacity: 0 !important
+
+  .\@laptop--show
+    display: block !important
+    visibility: visible !important
+    opacity: 1 !important
+
+  .\@laptop--scroll--auto
+    scroll-behavior: auto
+
+  .\@laptop--scroll--smooth
+    scroll-behavior: smooth
+
+  .\@laptop--flt--right
+    float: right
+
+  .\@laptop--flt--left
+    float: left
+
+  .\@laptop--flt--none
+    float: none
+
+  .\@laptop--clr--both
+    clear: both
+
+@media screen and (min-width: $desktop-min-width)
+  .\@desktop--row
+    @include flex
+    @include flex-wrap
+
+  @for $i from 1 through 12
+    .\@desktop--col--#{$i}
+      width: calc(100% * math.div($i, 12))
+
+  @each $key, $value in $value-props
+    .\@desktop--b--#{$key}
+      bottom: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@desktop--b--#{math.div($i, 2)}\%
+        bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--b--#{math.div($i, 2) - 0.5}\.5\%
+        bottom: string.unquote(math.div($i, 2) + '%')
+
+  .\@desktop--b--auto
+    bottom: auto
+
+  @for $i from 1 to 13
+    .\@desktop--gtc--#{$i}
+      grid-template-columns: repeat(#{$i}, 1fr)
+
+  @each $key, $value in $value-props
+    .\@desktop--gg--#{$key}
+      grid-gap: $value
+
+    .\@desktop--gcg--#{$key}
+      grid-column-gap: $value
+
+    .\@desktop--grg--#{$key}
+      grid-row-gap: $value
+
+  @each $key, $value in $value-props
+    .\@desktop--h--#{$key}
+      height: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@desktop--h--#{math.div($i, 2)}\%
+        height: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--h--#{math.div($i, 2) - 0.5}\.5\%
+        height: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@desktop--h--#{$i * 5}vh
+      height: #{$i * 5}vh
+
+  .\@desktop--h--auto
+    height: auto
+
+  @each $key, $value in $value-props
+    .\@desktop--l--#{$key}
+      left: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@desktop--l--#{math.div($i, 2)}\%
+        left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--l--#{math.div($i, 2) - 0.5}\.5\%
+        left: string.unquote(math.div($i, 2) + '%')
+
+  .\@desktop--l--auto
+    left: auto
+
+  @each $key, $value in $value-props
+    .\@desktop--m--#{$key}
+      margin: $value
+
+    .\@desktop--mt--#{$key}
+      margin-top: $value
+
+    .\@desktop--mr--#{$key}
+      margin-right: $value
+
+    .\@desktop--mb--#{$key}
+      margin-bottom: $value
+
+    .\@desktop--ml--#{$key}
+      margin-left: $value
+
+    .\@desktop--my--#{$key}
+      margin-top: $value
+      margin-bottom: $value
+
+    .\@desktop--mx--#{$key}
+      margin-right: $value
+      margin-left: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@desktop--m--#{math.div($i, 2)}\%
+        margin: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--m--#{math.div($i, 2) - 0.5}\.5\%
+        margin: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@desktop--mt--#{math.div($i, 2)}\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--mt--#{math.div($i, 2) - 0.5}\.5\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@desktop--mr--#{math.div($i, 2)}\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--mr--#{math.div($i, 2) - 0.5}\.5\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@desktop--mb--#{math.div($i, 2)}\%
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--mb--#{math.div($i, 2) - 0.5}\.5\%
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@desktop--ml--#{math.div($i, 2)}\%
+        margin-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--ml--#{math.div($i, 2) - 0.5}\.5\%
+        margin-left: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@desktop--my--#{math.div($i, 2)}\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--my--#{math.div($i, 2) - 0.5}\.5\%
+        margin-top: string.unquote(math.div($i, 2) + '%')
+        margin-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@desktop--mx--#{math.div($i, 2)}\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+        margin-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--mx--#{math.div($i, 2) - 0.5}\.5\%
+        margin-right: string.unquote(math.div($i, 2) + '%')
+        margin-left: string.unquote(math.div($i, 2) + '%')
+
+  .\@desktop--m--auto
+    margin: auto
+
+  .\@desktop--mt--auto
+    margin-top: auto
+
+  .\@desktop--mr--auto
+    margin-right: auto
+
+  .\@desktop--mb--auto
+    margin-bottom: auto
+
+  .\@desktop--ml--auto
+    margin-left: auto
+
+  .\@desktop--my--auto
+    margin-top: auto
+    margin-bottom: auto
+
+  .\@desktop--mx--auto
+    margin-right: auto
+    margin-left: auto
+
+  @each $key, $value in $value-props
+    .\@desktop--mah--#{$key}
+      max-height: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@desktop--mah--#{math.div($i, 2)}\%
+        max-height: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--mah--#{math.div($i, 2) - 0.5}\.5\%
+        max-height: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@desktop--mah--#{$i * 5}vh
+      max-height: #{$i * 5}vh
+
+  .\@desktop--mah--auto
+    max-height: auto
+
+  @each $key, $value in $value-props
+    .\@desktop--maw--#{$key}
+      max-width: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@desktop--maw--#{math.div($i, 2)}\%
+        max-width: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--maw--#{math.div($i, 2) - 0.5}\.5\%
+        max-width: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@desktop--maw--#{$i * 5}vw
+      max-width: #{$i * 5}vw
+
+  .\@desktop--maw--auto
+    max-width: auto
+
+  @each $key, $value in $value-props
+    .\@desktop--mih--#{$key}
+      min-height: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@desktop--mih--#{math.div($i, 2)}\%
+        min-height: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--mih--#{math.div($i, 2) - 0.5}\.5\%
+        min-height: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@desktop--mih--#{$i * 5}vh
+      min-height: #{$i * 5}vh
+
+  .\@desktop--mih--auto
+    min-height: auto
+
+  @each $key, $value in $value-props
+    .\@desktop--miw--#{$key}
+      min-width: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@desktop--miw--#{math.div($i, 2)}\%
+        min-width: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--miw--#{math.div($i, 2) - 0.5}\.5\%
+        min-width: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@desktop--miw--#{$i * 5}vw
+      min-width: #{$i * 5}vw
+
+  .\@desktop--miw--auto
+    min-width: auto
+
+  @each $key, $value in $value-props
+    .\@desktop--p--#{$key}
+      padding: $value
+
+    .\@desktop--pt--#{$key}
+      padding-top: $value
+
+    .\@desktop--pr--#{$key}
+      padding-right: $value
+
+    .\@desktop--pb--#{$key}
+      padding-bottom: $value
+
+    .\@desktop--pl--#{$key}
+      padding-left: $value
+
+    .\@desktop--py--#{$key}
+      padding-top: $value
+      padding-bottom: $value
+
+    .\@desktop--px--#{$key}
+      padding-right: $value
+      padding-left: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@desktop--p--#{math.div($i, 2)}\%
+        padding: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--p--#{math.div($i, 2) - 0.5}\.5\%
+        padding: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@desktop--pt--#{math.div($i, 2)}\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--pt--#{math.div($i, 2) - 0.5}\.5\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@desktop--pr--#{math.div($i, 2)}\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--pr--#{math.div($i, 2) - 0.5}\.5\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@desktop--pb--#{math.div($i, 2)}\%
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--pb--#{math.div($i, 2) - 0.5}\.5\%
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@desktop--pl--#{math.div($i, 2)}\%
+        padding-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--pl--#{math.div($i, 2) - 0.5}\.5\%
+        padding-left: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@desktop--py--#{math.div($i, 2)}\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--py--#{math.div($i, 2) - 0.5}\.5\%
+        padding-top: string.unquote(math.div($i, 2) + '%')
+        padding-bottom: string.unquote(math.div($i, 2) + '%')
+
+    @if ($i % 2) == 0
+      .\@desktop--px--#{math.div($i, 2)}\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+        padding-left: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--px--#{math.div($i, 2) - 0.5}\.5\%
+        padding-right: string.unquote(math.div($i, 2) + '%')
+        padding-left: string.unquote(math.div($i, 2) + '%')
+
+  .\@desktop--p--auto
+    padding: auto
+
+  .\@desktop--pt--auto
+    padding-top: auto
+
+  .\@desktop--pr--auto
+    padding-right: auto
+
+  .\@desktop--pb--auto
+    padding-bottom: auto
+
+  .\@desktop--pl--auto
+    padding-left: auto
+
+  .\@desktop--py--auto
+    padding-top: auto
+    padding-bottom: auto
+
+  .\@desktop--px--auto
+    padding-right: auto
+    padding-left: auto
+
+  .\@desktop--pos--relative
+    position: relative !important
+
+  .\@desktop--pos--absolute
+    position: absolute !important
+
+  .\@desktop--pos--fixed
+    position: fixed !important
+
+  .\@desktop--pos--sticky
+    position: sticky !important
+
+  .\@desktop--pos--static
+    position: static !important
+
+  .\@desktop--sticky--top, .\@desktop--sticky--bottom
+    position: sticky
+    z-index: 1000
+
+  .\@desktop--sticky--top
+    top: 0
+
+  .\@desktop--sticky--bottom
+    bottom: 0
+
+  .\@desktop--fixed--top, .\@desktop--fixed--bottom
+    position: fixed
+    z-index: 1000
+
+  .\@desktop--fixed--top
+    top: 0
+
+  .\@desktop--fixed--bottom
+    bottom: 0
+
+  @each $key, $value in $value-props
+    .\@desktop--r--#{$key}
+      right: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@desktop--r--#{math.div($i, 2)}\%
+        right: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--r--#{math.div($i, 2) - 0.5}\.5\%
+        right: string.unquote(math.div($i, 2) + '%')
+
+  .\@desktop--r--auto
+    right: auto
+
+  @each $key, $value in $value-props
+    .\@desktop--t--#{$key}
+      top: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@desktop--t--#{math.div($i, 2)}\%
+        top: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--t--#{math.div($i, 2) - 0.5}\.5\%
+        top: string.unquote(math.div($i, 2) + '%')
+
+  .\@desktop--t--auto
+    top: auto
+
+  @each $key, $value in $value-props
+    .\@desktop--y--#{$key}
+      transform: translateY($key)
+
+    .\@desktop--x--#{$key}
+      transform: translateX($key)
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@desktop--y--#{math.div($i, 2)}\%
+        transform: translateY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@desktop--x--#{math.div($i, 2)}\%
+        transform: translateX(string.unquote(math.div($i, 2) + '%'))
+
+    @else
+      .\@desktop--y--#{math.div($i, 2) - 0.5}\.5\%
+        transform: translateY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@desktop--x--#{math.div($i, 2) - 0.5}\.5\%
+        transform: translateX(string.unquote(math.div($i, 2) + '%'))
+
+  @each $key, $value in $value-props
+    .\@desktop--w--#{$key}
+      width: $value
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@desktop--w--#{math.div($i, 2)}\%
+        width: string.unquote(math.div($i, 2) + '%')
+    @else
+      .\@desktop--w--#{math.div($i, 2) - 0.5}\.5\%
+        width: string.unquote(math.div($i, 2) + '%')
+
+  @for $i from 1 to 26
+    .\@desktop--w--#{$i * 5}vw
+      width: #{$i * 5}vw
+
+  .\@desktop--w--auto
+    width: auto
+
+  .\@desktop--d--block
+    display: block
+
+  .\@desktop--d--none
+    display: none
+
+  .\@desktop--d--grid
+    display: grid
+
+  .\@desktop--d--inline
+    display: inline
+
+  .\@desktop--d--inline--block
+    display: inline-block
+
+  .\@desktop--d--inline--flex
+    display: inline-flex
+
+  .\@desktop--d--table
+    display: table
+
+  .\@desktop--d--flex
+    @include flex
+
+  .\@desktop--fx, .\@desktop--d--flex
+    @include flex
+
+  .\@desktop--fx--wrap
+    @include flex-wrap
+
+  .\@desktop--fx--wrap--reverse
+    flex-wrap: wrap-reverse
+
+  .\@desktop--fx--row
+    flex-direction: row
+
+  .\@desktop--fx--col
+    flex-direction: column
+
+  .\@desktop--fx--row--reverse
+    @include flex-direction-row-reverse
+
+  .\@desktop--fx--col--reverse
+    flex-direction: column-reverse
+
+  .\@desktop--jc--flex--start
+    justify-content: flex-start
+
+  .\@desktop--jc--center
+    justify-content: center
+
+  .\@desktop--jc--flex--end
+    justify-content: flex-end
+
+  .\@desktop--jc--space--between
+    justify-content: space-between
+
+  .\@desktop--jc--space--around
+    justify-content: space-around
+
+  .\@desktop--jc--space--evenly
+    justify-content: space-evenly
+
+  .\@desktop--js--auto
+    justify-self: auto
+
+  .\@desktop--js--start
+    justify-self: start
+
+  .\@desktop--js--center
+    justify-self: center
+
+  .\@desktop--js--end
+    justify-self: end
+
+  .\@desktop--js--stretch
+    justify-self: stretch
+
+  .\@desktop--ai--start
+    align-items: start
+
+  .\@desktop--ai--center
+    align-items: center
+
+  .\@desktop--ai--end
+    align-items: end
+
+  .\@desktop--ai--flex--start
+    align-items: flex-start
+
+  .\@desktop--ai--flex--end
+    align-items: flex-end
+
+  .\@desktop--as--start
+    align-self: start
+
+  .\@desktop--as--center
+    align-self: center
+
+  .\@desktop--as--end
+    align-self: end
+
+  .\@desktop--as--flex--start
+    align-self: flex-start
+
+  .\@desktop--as--flex--end
+    align-self: flex-end
+
+  @for $i from 1 to 13
+    .\@desktop--order--#{$i}
+      order: #{$i}
+
+  @for $i from 1 to 10
+    @if $i < 10
+      .\@desktop--op--0\.#{$i}
+        @include opacify(math.div($i,10))
+
+  .\@desktop--op--1
+    @include opacify(1)
+
+  .\@desktop--ov--auto
+    overflow: auto
+
+  .\@desktop--ov--scroll
+    overflow: scroll
+
+  .\@desktop--ov--hidden
+    overflow: hidden
+
+  .\@desktop--ov--visible
+    overflow: visible
+
+  .\@desktop--ovy--auto
+    overflow-y: auto
+
+  .\@desktop--ovy--scroll
+    overflow-y: scroll
+
+  .\@desktop--ovy--hidden
+    overflow-y: hidden
+
+  .\@desktop--ovy--visible
+    overflow-y: visible
+
+  .\@desktop--ovx--auto
+    overflow-x: auto
+
+  .\@desktop--ovx--scroll
+    overflow-x: scroll
+
+  .\@desktop--ovx--hidden
+    overflow-x: hidden
+
+  .\@desktop--ovx--visible
+    overflow-x: visible
+
+  .\@desktop--parallax
+    background-attachment: fixed
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+  @for $i from 1 to 13
+    .\@desktop--rotate--#{$i * 30}
+      @include rotation($i * 30)
+
+  @for $i from 1 through 200
+    @if ($i % 2) == 0
+      .\@desktop--scale--#{math.div($i, 2)}\%
+        transform: scale(string.unquote(math.div($i, 2) + '%'))
+
+      .\@desktop--scaley--#{math.div($i, 2)}\%
+        transform: scaleY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@desktop--scalex--#{math.div($i, 2)}\%
+        transform: scaleX(string.unquote(math.div($i, 2) + '%'))
+
+    @else
+      .\@desktop--scalex--#{math.div($i, 2) - 0.5}\.5\%
+        transform: scale(string.unquote(math.div($i, 2) + '%'))
+
+      .\@desktop--scalex--#{math.div($i, 2) - 0.5}\.5\%
+        transform: scaleY(string.unquote(math.div($i, 2) + '%'))
+
+      .\@desktop--scalex--#{math.div($i, 2) - 0.5}\.5\%
+        transform: scaleX(string.unquote(math.div($i, 2) + '%'))
+
+  .\@desktop--hide
+    display: none !important
+    visibility: hidden !important
+    opacity: 0 !important
+
+  .\@desktop--show
+    display: block !important
+    visibility: visible !important
+    opacity: 1 !important
+
+  .\@desktop--scroll--auto
+    scroll-behavior: auto
+
+  .\@desktop--scroll--smooth
+    scroll-behavior: smooth
+
+  .\@desktop--flt--right
+    float: right
+
+  .\@desktop--flt--left
+    float: left
+
+  .\@desktop--flt--none
+    float: none
+
+  .\@desktop--clr--both
+    clear: both
+

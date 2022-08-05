@@ -2,5 +2,11 @@
 
 @each $color, $color-value in $color-list
   .c--#{$color}
-    @include color($color-value)
+    color: $color-value
+
+  .c--#{$color}\:hvr:hover
+    color: $color-value
+
+  .c--#{$color}\:fcs:focus
+    color: $color-value
 

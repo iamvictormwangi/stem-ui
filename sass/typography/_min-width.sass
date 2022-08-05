@@ -14,45 +14,10 @@
     .miw--#{math.div($i, 2) - 0.5}\.5\%
       min-width: string.unquote(math.div($i, 2) + '%')
 
+@for $i from 1 to 26
+  .miw--#{$i * 5}vw
+    min-width: #{$i * 5}vw
+
 .miw--auto
   min-width: auto
-
-.miw--25vw
-  min-width: 25vw
-
-.miw--50vw
-  min-width: 50vw
-
-.miw--75vw
-  min-width: 75vw
-
-.miw--100vw
-  min-width: 100vw
-
-.miw--125vw
-  min-width: 125vw
-
-.miw--150vw
-  min-width: 150vw
-
-.miw--200vw
-  min-width: 200vw
-
-.miw--250vw
-  min-width: 250vw
-
-.miw--300vw
-  min-width: 300vw
-
-.miw--350vw
-  min-width: 350vw
-
-.miw--400vw
-  min-width: 400vw
-
-.miw--450vw
-  min-width: 450vw
-
-.miw--500vw
-  min-width: 500vw
 

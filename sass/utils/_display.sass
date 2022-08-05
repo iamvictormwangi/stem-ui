@@ -1,34 +1,26 @@
 @use "./../abstracts/" as *
 
 .d--block
-  @include display(block)
+  display: block
 
 .d--none
-  @include display(none)
+  display: none
 
 .d--grid
-  @include display(grid)
+  display: grid
 
 .d--inline
-  @include display(inline)
+  display: inline
 
 .d--inline--block
-  @include display(inline-block)
+  display: inline-block
 
 .d--inline--flex
-  @include display(inline-flex)
+  display: inline-flex
 
 .d--table
-  @include display(table)
+  display: table
 
 .d--flex
   @include flex
-
-.d--flex--hvr:hover
-  @include flex
-
-.d--flex--fcs:focus
-  @include flex
-
-
 

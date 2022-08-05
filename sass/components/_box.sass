@@ -4,22 +4,22 @@
   width: 100%
   min-height: 3rem
 
-  & .wrapper__wrapper
+  & .box--wrapper
     padding: 1rem .8rem
 
-    & .box__title
+    & .box--title
       font-size: 1.3rem
       margin-bottom: 0.5rem
 
-    & .box__subtitle
+    & .box--subtitle
       font-size: 1.2rem
       margin-bottom: 0.4rem
 
-    & .box__text
+    & .box--text
       font-size: inherit
       margin-bottom: 0.4rem
 
-    & .box__img, .box__thumb, .box__video
+    & .box--img, .box--thumb, .box--video
       width: 100%
       height: auto
 
@@ -27,12 +27,12 @@
     &.box--#{$color-item}
       background-color: $color-value
 
-.box__group
+.box--group
   @include flex
   @include flex-wrap
   align-items: stretch
   position: relative
 
-  & .box__group__item
+  & .box--group--item
     margin: 0
 

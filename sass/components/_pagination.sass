@@ -17,10 +17,10 @@
     &.pagination--#{$color-item}
       background-color: $color-value
 
-  & .pagination__item
+  & .pagination--item
     margin: 0 0.08rem
 
   @each $color-item, $color-value in $color-list
-    & .pagination__item--#{$color-item}
+    & .pagination--item--#{$color-item}
       @include pagination-item-color($color-value)
 

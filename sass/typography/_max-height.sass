@@ -14,45 +14,10 @@
     .mah--#{math.div($i, 2) - 0.5}\.5\%
       max-height: string.unquote(math.div($i, 2) + '%')
 
+@for $i from 1 to 26
+  .mah--#{$i * 5}vh
+    max-height: #{$i * 5}vh
+
 .mah--auto
   max-height: auto
-
-.mah--25vh
-  max-height: 25vh
-
-.mah--50vh
-  max-height: 50vh
-
-.mah--75vh
-  max-height: 75vh
-
-.mah--100vh
-  max-height: 100vh
-
-.mah--125vh
-  max-height: 125vh
-
-.mah--150vh
-  max-height: 150vh
-
-.mah--200vh
-  max-height: 200vh
-
-.mah--250vh
-  max-height: 250vh
-
-.mah--300vh
-  max-height: 300vh
-
-.mah--350vh
-  max-height: 350vh
-
-.mah--400vh
-  max-height: 400vh
-
-.mah--450vh
-  max-height: 450vh
-
-.mah--500vh
-  max-height: 500vh
 

@@ -2,5 +2,11 @@
 
 @each $color, $color-value in $color-list
   .bgc--#{$color}
-    @include background($color-value)
+    background-color: $color-value
+
+  .bgc--#{$color}\:hvr:hover
+    background-color: $color-value
+
+  .bgc--#{$color}\:fcs:focus
+    background-color: $color-value
 

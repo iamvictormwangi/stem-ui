@@ -14,45 +14,9 @@
     .w--#{math.div($i, 2) - 0.5}\.5\%
       width: string.unquote(math.div($i, 2) + '%')
 
+@for $i from 1 to 26
+  .w--#{$i * 5}vw
+    width: #{$i * 5}vw
+
 .w--auto
   width: auto
-
-.w--25vw
-  width: 25vw
-
-.w--50vw
-  width: 50vw
-
-.w--75vw
-  width: 75vw
-
-.w--100vw
-  width: 100vw
-
-.w--125vw
-  width: 125vw
-
-.w--150vw
-  width: 150vw
-
-.w--200vw
-  width: 200vw
-
-.w--250vw
-  width: 250vw
-
-.w--300vw
-  width: 300vw
-
-.w--350vw
-  width: 350vw
-
-.w--400vw
-  width: 400vw
-
-.w--450vw
-  width: 450vw
-
-.w--500vw
-  width: 500vw
-

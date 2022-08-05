@@ -14,45 +14,10 @@
     .maw--#{math.div($i, 2) - 0.5}\.5\%
       max-width: string.unquote(math.div($i, 2) + '%')
 
+@for $i from 1 to 26
+  .maw--#{$i * 5}vw
+    max-width: #{$i * 5}vw
+
 .maw--auto
   max-width: auto
-
-.maw--25vw
-  max-width: 25vw
-
-.maw--50vw
-  max-width: 50vw
-
-.maw--75vw
-  max-width: 75vw
-
-.maw--100vw
-  max-width: 100vw
-
-.maw--125vw
-  max-width: 125vw
-
-.maw--150vw
-  max-width: 150vw
-
-.maw--200vw
-  max-width: 200vw
-
-.maw--250vw
-  max-width: 250vw
-
-.maw--300vw
-  max-width: 300vw
-
-.maw--350vw
-  max-width: 350vw
-
-.maw--400vw
-  max-width: 400vw
-
-.maw--450vw
-  max-width: 450vw
-
-.maw--500vw
-  max-width: 500vw
 

@@ -14,45 +14,10 @@
     .mih--#{math.div($i, 2) - 0.5}\.5\%
       min-height: string.unquote(math.div($i, 2) + '%')
 
+@for $i from 1 to 26
+  .mih--#{$i * 5}vh
+    min-height: #{$i * 5}vh
+
 .mih--auto
   min-height: auto
-
-.mih--25vh
-  min-height: 25vh
-
-.mih--50vh
-  min-height: 50vh
-
-.mih--75vh
-  min-height: 75vh
-
-.mih--100vh
-  min-height: 100vh
-
-.mih--125vh
-  min-height: 125vh
-
-.mih--150vh
-  min-height: 150vh
-
-.mih--200vh
-  min-height: 200vh
-
-.mih--250vh
-  min-height: 250vh
-
-.mih--300vh
-  min-height: 300vh
-
-.mih--350vh
-  min-height: 350vh
-
-.mih--400vh
-  min-height: 400vh
-
-.mih--450vh
-  min-height: 450vh
-
-.mih--500vh
-  min-height: 500vh
 
