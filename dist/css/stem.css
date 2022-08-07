@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Poppins&family=Raleway&display=swap");
 :root {
-  --primary: primary;
-  --secondary: secondary;
-  --muted: muted;
-  --accent: accent;
-  --error: error;
-  --warning: warning;
-  --info: info;
-  --success: success;
-  --dark: dark;
-  --light:	light;
+  --primary: #42a5f5;
+  --secondary: #ba68c8;
+  --muted: #535353;
+  --accent: #59B3A9;
+  --error: #ef5350;
+  --warning: #ff9800;
+  --info: #03a9f4;
+  --success: #4caf50;
+  --dark: #0c242b;
+  --light:	#F8F8FF;
 }
 
 /***************************************************************************
@@ -38747,9 +38747,23 @@ table tr.highlight {
 }
 
 .bd {
-  border-color: #0c242b;
-  border-style: solid;
-  border-width: 0.1rem;
+  border-top: 1px solid #0c242b;
+}
+
+.bd--top {
+  border-top: 1px solid #0c242b;
+}
+
+.bd--right {
+  border-right: 1px solid #0c242b;
+}
+
+.bd--bottom {
+  border-bottom: 1px solid #0c242b;
+}
+
+.bd--left {
+  border-left: 1px solid #0c242b;
 }
 
 .bd--none {

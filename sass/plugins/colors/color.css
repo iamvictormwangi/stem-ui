@@ -2,11 +2,431 @@
   color: #42a5f5;
 }
 
+.c--primary\:hvr:hover {
+  color: #42a5f5;
+}
+
+.c--primary\:fcs:focus {
+  color: #42a5f5;
+}
+
+.c--primary--lt--1 {
+  color: #5ab1f6;
+}
+
+.c--primary--lt--2 {
+  color: #72bcf8;
+}
+
+.c--primary--lt--3 {
+  color: #8bc8f9;
+}
+
+.c--primary--lt--4 {
+  color: #a3d3fa;
+}
+
+.c--primary--lt--5 {
+  color: #bbdffb;
+}
+
+.c--primary--lt--1\:hvr:hover {
+  color: #5ab1f6;
+}
+
+.c--primary--lt--2\:hvr:hover {
+  color: #72bcf8;
+}
+
+.c--primary--lt--3\:hvr:hover {
+  color: #8bc8f9;
+}
+
+.c--primary--lt--4\:hvr:hover {
+  color: #a3d3fa;
+}
+
+.c--primary--lt--5\:hvr:hover {
+  color: #bbdffb;
+}
+
+.c--primary--lt--1\:fcs:focus {
+  color: #5ab1f6;
+}
+
+.c--primary--lt--2\:fcs:focus {
+  color: #72bcf8;
+}
+
+.c--primary--lt--3\:fcs:focus {
+  color: #8bc8f9;
+}
+
+.c--primary--lt--4\:fcs:focus {
+  color: #a3d3fa;
+}
+
+.c--primary--lt--5\:fcs:focus {
+  color: #bbdffb;
+}
+
+.c--primary--dk--1 {
+  color: #2a99f4;
+}
+
+.c--primary--dk--2 {
+  color: #128ef2;
+}
+
+.c--primary--dk--3 {
+  color: #0c80df;
+}
+
+.c--primary--dk--4 {
+  color: #0b72c6;
+}
+
+.c--primary--dk--5 {
+  color: #0965ae;
+}
+
+.c--primary--dk--1\:hvr:hover {
+  color: #2a99f4;
+}
+
+.c--primary--dk--2\:hvr:hover {
+  color: #128ef2;
+}
+
+.c--primary--dk--3\:hvr:hover {
+  color: #0c80df;
+}
+
+.c--primary--dk--4\:hvr:hover {
+  color: #0b72c6;
+}
+
+.c--primary--dk--5\:hvr:hover {
+  color: #0965ae;
+}
+
+.c--primary--dk--1\:fcs:focus {
+  color: #2a99f4;
+}
+
+.c--primary--dk--2\:fcs:focus {
+  color: #128ef2;
+}
+
+.c--primary--dk--3\:fcs:focus {
+  color: #0c80df;
+}
+
+.c--primary--dk--4\:fcs:focus {
+  color: #0b72c6;
+}
+
+.c--primary--dk--5\:fcs:focus {
+  color: #0965ae;
+}
+
+.c--primary--compl {
+  color: #f59242;
+}
+
+.c--primary--compl\:hvr:hover {
+  color: #f59242;
+}
+
+.c--primary--compl\:fcs:focus {
+  color: #f59242;
+}
+
 .c--secondary {
   color: #ba68c8;
 }
 
+.c--secondary\:hvr:hover {
+  color: #ba68c8;
+}
+
+.c--secondary\:fcs:focus {
+  color: #ba68c8;
+}
+
+.c--secondary--lt--1 {
+  color: #c37bcf;
+}
+
+.c--secondary--lt--2 {
+  color: #cb8dd6;
+}
+
+.c--secondary--lt--3 {
+  color: #d4a0dc;
+}
+
+.c--secondary--lt--4 {
+  color: #dcb3e3;
+}
+
+.c--secondary--lt--5 {
+  color: #e5c5ea;
+}
+
+.c--secondary--lt--1\:hvr:hover {
+  color: #c37bcf;
+}
+
+.c--secondary--lt--2\:hvr:hover {
+  color: #cb8dd6;
+}
+
+.c--secondary--lt--3\:hvr:hover {
+  color: #d4a0dc;
+}
+
+.c--secondary--lt--4\:hvr:hover {
+  color: #dcb3e3;
+}
+
+.c--secondary--lt--5\:hvr:hover {
+  color: #e5c5ea;
+}
+
+.c--secondary--lt--1\:fcs:focus {
+  color: #c37bcf;
+}
+
+.c--secondary--lt--2\:fcs:focus {
+  color: #cb8dd6;
+}
+
+.c--secondary--lt--3\:fcs:focus {
+  color: #d4a0dc;
+}
+
+.c--secondary--lt--4\:fcs:focus {
+  color: #dcb3e3;
+}
+
+.c--secondary--lt--5\:fcs:focus {
+  color: #e5c5ea;
+}
+
+.c--secondary--dk--1 {
+  color: #b155c1;
+}
+
+.c--secondary--dk--2 {
+  color: #a844b9;
+}
+
+.c--secondary--dk--3 {
+  color: #973da7;
+}
+
+.c--secondary--dk--4 {
+  color: #863694;
+}
+
+.c--secondary--dk--5 {
+  color: #752f81;
+}
+
+.c--secondary--dk--1\:hvr:hover {
+  color: #b155c1;
+}
+
+.c--secondary--dk--2\:hvr:hover {
+  color: #a844b9;
+}
+
+.c--secondary--dk--3\:hvr:hover {
+  color: #973da7;
+}
+
+.c--secondary--dk--4\:hvr:hover {
+  color: #863694;
+}
+
+.c--secondary--dk--5\:hvr:hover {
+  color: #752f81;
+}
+
+.c--secondary--dk--1\:fcs:focus {
+  color: #b155c1;
+}
+
+.c--secondary--dk--2\:fcs:focus {
+  color: #a844b9;
+}
+
+.c--secondary--dk--3\:fcs:focus {
+  color: #973da7;
+}
+
+.c--secondary--dk--4\:fcs:focus {
+  color: #863694;
+}
+
+.c--secondary--dk--5\:fcs:focus {
+  color: #752f81;
+}
+
+.c--secondary--compl {
+  color: #76c868;
+}
+
+.c--secondary--compl\:hvr:hover {
+  color: #76c868;
+}
+
+.c--secondary--compl\:fcs:focus {
+  color: #76c868;
+}
+
 .c--muted {
+  color: #535353;
+}
+
+.c--muted\:hvr:hover {
+  color: #535353;
+}
+
+.c--muted\:fcs:focus {
+  color: #535353;
+}
+
+.c--muted--lt--1 {
+  color: #606060;
+}
+
+.c--muted--lt--2 {
+  color: #6d6d6d;
+}
+
+.c--muted--lt--3 {
+  color: #797979;
+}
+
+.c--muted--lt--4 {
+  color: #868686;
+}
+
+.c--muted--lt--5 {
+  color: #939393;
+}
+
+.c--muted--lt--1\:hvr:hover {
+  color: #606060;
+}
+
+.c--muted--lt--2\:hvr:hover {
+  color: #6d6d6d;
+}
+
+.c--muted--lt--3\:hvr:hover {
+  color: #797979;
+}
+
+.c--muted--lt--4\:hvr:hover {
+  color: #868686;
+}
+
+.c--muted--lt--5\:hvr:hover {
+  color: #939393;
+}
+
+.c--muted--lt--1\:fcs:focus {
+  color: #606060;
+}
+
+.c--muted--lt--2\:fcs:focus {
+  color: #6d6d6d;
+}
+
+.c--muted--lt--3\:fcs:focus {
+  color: #797979;
+}
+
+.c--muted--lt--4\:fcs:focus {
+  color: #868686;
+}
+
+.c--muted--lt--5\:fcs:focus {
+  color: #939393;
+}
+
+.c--muted--dk--1 {
+  color: #464646;
+}
+
+.c--muted--dk--2 {
+  color: #3a3a3a;
+}
+
+.c--muted--dk--3 {
+  color: #2d2d2d;
+}
+
+.c--muted--dk--4 {
+  color: #202020;
+}
+
+.c--muted--dk--5 {
+  color: #131313;
+}
+
+.c--muted--dk--1\:hvr:hover {
+  color: #464646;
+}
+
+.c--muted--dk--2\:hvr:hover {
+  color: #3a3a3a;
+}
+
+.c--muted--dk--3\:hvr:hover {
+  color: #2d2d2d;
+}
+
+.c--muted--dk--4\:hvr:hover {
+  color: #202020;
+}
+
+.c--muted--dk--5\:hvr:hover {
+  color: #131313;
+}
+
+.c--muted--dk--1\:fcs:focus {
+  color: #464646;
+}
+
+.c--muted--dk--2\:fcs:focus {
+  color: #3a3a3a;
+}
+
+.c--muted--dk--3\:fcs:focus {
+  color: #2d2d2d;
+}
+
+.c--muted--dk--4\:fcs:focus {
+  color: #202020;
+}
+
+.c--muted--dk--5\:fcs:focus {
+  color: #131313;
+}
+
+.c--muted--compl {
+  color: #535353;
+}
+
+.c--muted--compl\:hvr:hover {
+  color: #535353;
+}
+
+.c--muted--compl\:fcs:focus {
   color: #535353;
 }
 
@@ -14,596 +434,8064 @@
   color: #59B3A9;
 }
 
+.c--accent\:hvr:hover {
+  color: #59B3A9;
+}
+
+.c--accent\:fcs:focus {
+  color: #59B3A9;
+}
+
+.c--accent--lt--1 {
+  color: #6abbb2;
+}
+
+.c--accent--lt--2 {
+  color: #7cc3bb;
+}
+
+.c--accent--lt--3 {
+  color: #8dcbc4;
+}
+
+.c--accent--lt--4 {
+  color: #9fd3cd;
+}
+
+.c--accent--lt--5 {
+  color: #b0dbd6;
+}
+
+.c--accent--lt--1\:hvr:hover {
+  color: #6abbb2;
+}
+
+.c--accent--lt--2\:hvr:hover {
+  color: #7cc3bb;
+}
+
+.c--accent--lt--3\:hvr:hover {
+  color: #8dcbc4;
+}
+
+.c--accent--lt--4\:hvr:hover {
+  color: #9fd3cd;
+}
+
+.c--accent--lt--5\:hvr:hover {
+  color: #b0dbd6;
+}
+
+.c--accent--lt--1\:fcs:focus {
+  color: #6abbb2;
+}
+
+.c--accent--lt--2\:fcs:focus {
+  color: #7cc3bb;
+}
+
+.c--accent--lt--3\:fcs:focus {
+  color: #8dcbc4;
+}
+
+.c--accent--lt--4\:fcs:focus {
+  color: #9fd3cd;
+}
+
+.c--accent--lt--5\:fcs:focus {
+  color: #b0dbd6;
+}
+
+.c--accent--dk--1 {
+  color: #4ca69c;
+}
+
+.c--accent--dk--2 {
+  color: #44958c;
+}
+
+.c--accent--dk--3 {
+  color: #3c837b;
+}
+
+.c--accent--dk--4 {
+  color: #34726b;
+}
+
+.c--accent--dk--5 {
+  color: #2c605b;
+}
+
+.c--accent--dk--1\:hvr:hover {
+  color: #4ca69c;
+}
+
+.c--accent--dk--2\:hvr:hover {
+  color: #44958c;
+}
+
+.c--accent--dk--3\:hvr:hover {
+  color: #3c837b;
+}
+
+.c--accent--dk--4\:hvr:hover {
+  color: #34726b;
+}
+
+.c--accent--dk--5\:hvr:hover {
+  color: #2c605b;
+}
+
+.c--accent--dk--1\:fcs:focus {
+  color: #4ca69c;
+}
+
+.c--accent--dk--2\:fcs:focus {
+  color: #44958c;
+}
+
+.c--accent--dk--3\:fcs:focus {
+  color: #3c837b;
+}
+
+.c--accent--dk--4\:fcs:focus {
+  color: #34726b;
+}
+
+.c--accent--dk--5\:fcs:focus {
+  color: #2c605b;
+}
+
+.c--accent--compl {
+  color: #b35963;
+}
+
+.c--accent--compl\:hvr:hover {
+  color: #b35963;
+}
+
+.c--accent--compl\:fcs:focus {
+  color: #b35963;
+}
+
 .c--error {
   color: #ef5350;
+}
+
+.c--error\:hvr:hover {
+  color: #ef5350;
+}
+
+.c--error\:fcs:focus {
+  color: #ef5350;
+}
+
+.c--error--lt--1 {
+  color: #f16a67;
+}
+
+.c--error--lt--2 {
+  color: #f3817f;
+}
+
+.c--error--lt--3 {
+  color: #f59896;
+}
+
+.c--error--lt--4 {
+  color: #f8afad;
+}
+
+.c--error--lt--5 {
+  color: #fac6c5;
+}
+
+.c--error--lt--1\:hvr:hover {
+  color: #f16a67;
+}
+
+.c--error--lt--2\:hvr:hover {
+  color: #f3817f;
+}
+
+.c--error--lt--3\:hvr:hover {
+  color: #f59896;
+}
+
+.c--error--lt--4\:hvr:hover {
+  color: #f8afad;
+}
+
+.c--error--lt--5\:hvr:hover {
+  color: #fac6c5;
+}
+
+.c--error--lt--1\:fcs:focus {
+  color: #f16a67;
+}
+
+.c--error--lt--2\:fcs:focus {
+  color: #f3817f;
+}
+
+.c--error--lt--3\:fcs:focus {
+  color: #f59896;
+}
+
+.c--error--lt--4\:fcs:focus {
+  color: #f8afad;
+}
+
+.c--error--lt--5\:fcs:focus {
+  color: #fac6c5;
+}
+
+.c--error--dk--1 {
+  color: #ed3c39;
+}
+
+.c--error--dk--2 {
+  color: #eb2521;
+}
+
+.c--error--dk--3 {
+  color: #de1814;
+}
+
+.c--error--dk--4 {
+  color: #c71612;
+}
+
+.c--error--dk--5 {
+  color: #af1310;
+}
+
+.c--error--dk--1\:hvr:hover {
+  color: #ed3c39;
+}
+
+.c--error--dk--2\:hvr:hover {
+  color: #eb2521;
+}
+
+.c--error--dk--3\:hvr:hover {
+  color: #de1814;
+}
+
+.c--error--dk--4\:hvr:hover {
+  color: #c71612;
+}
+
+.c--error--dk--5\:hvr:hover {
+  color: #af1310;
+}
+
+.c--error--dk--1\:fcs:focus {
+  color: #ed3c39;
+}
+
+.c--error--dk--2\:fcs:focus {
+  color: #eb2521;
+}
+
+.c--error--dk--3\:fcs:focus {
+  color: #de1814;
+}
+
+.c--error--dk--4\:fcs:focus {
+  color: #c71612;
+}
+
+.c--error--dk--5\:fcs:focus {
+  color: #af1310;
+}
+
+.c--error--compl {
+  color: #50ecef;
+}
+
+.c--error--compl\:hvr:hover {
+  color: #50ecef;
+}
+
+.c--error--compl\:fcs:focus {
+  color: #50ecef;
 }
 
 .c--warning {
   color: #ff9800;
 }
 
+.c--warning\:hvr:hover {
+  color: #ff9800;
+}
+
+.c--warning\:fcs:focus {
+  color: #ff9800;
+}
+
+.c--warning--lt--1 {
+  color: #ffa21a;
+}
+
+.c--warning--lt--2 {
+  color: #ffad33;
+}
+
+.c--warning--lt--3 {
+  color: #ffb74d;
+}
+
+.c--warning--lt--4 {
+  color: #ffc166;
+}
+
+.c--warning--lt--5 {
+  color: #ffcc80;
+}
+
+.c--warning--lt--1\:hvr:hover {
+  color: #ffa21a;
+}
+
+.c--warning--lt--2\:hvr:hover {
+  color: #ffad33;
+}
+
+.c--warning--lt--3\:hvr:hover {
+  color: #ffb74d;
+}
+
+.c--warning--lt--4\:hvr:hover {
+  color: #ffc166;
+}
+
+.c--warning--lt--5\:hvr:hover {
+  color: #ffcc80;
+}
+
+.c--warning--lt--1\:fcs:focus {
+  color: #ffa21a;
+}
+
+.c--warning--lt--2\:fcs:focus {
+  color: #ffad33;
+}
+
+.c--warning--lt--3\:fcs:focus {
+  color: #ffb74d;
+}
+
+.c--warning--lt--4\:fcs:focus {
+  color: #ffc166;
+}
+
+.c--warning--lt--5\:fcs:focus {
+  color: #ffcc80;
+}
+
+.c--warning--dk--1 {
+  color: #e68900;
+}
+
+.c--warning--dk--2 {
+  color: #cc7a00;
+}
+
+.c--warning--dk--3 {
+  color: #b36a00;
+}
+
+.c--warning--dk--4 {
+  color: #995b00;
+}
+
+.c--warning--dk--5 {
+  color: #804c00;
+}
+
+.c--warning--dk--1\:hvr:hover {
+  color: #e68900;
+}
+
+.c--warning--dk--2\:hvr:hover {
+  color: #cc7a00;
+}
+
+.c--warning--dk--3\:hvr:hover {
+  color: #b36a00;
+}
+
+.c--warning--dk--4\:hvr:hover {
+  color: #995b00;
+}
+
+.c--warning--dk--5\:hvr:hover {
+  color: #804c00;
+}
+
+.c--warning--dk--1\:fcs:focus {
+  color: #e68900;
+}
+
+.c--warning--dk--2\:fcs:focus {
+  color: #cc7a00;
+}
+
+.c--warning--dk--3\:fcs:focus {
+  color: #b36a00;
+}
+
+.c--warning--dk--4\:fcs:focus {
+  color: #995b00;
+}
+
+.c--warning--dk--5\:fcs:focus {
+  color: #804c00;
+}
+
+.c--warning--compl {
+  color: #0067ff;
+}
+
+.c--warning--compl\:hvr:hover {
+  color: #0067ff;
+}
+
+.c--warning--compl\:fcs:focus {
+  color: #0067ff;
+}
+
 .c--info {
   color: #03a9f4;
+}
+
+.c--info\:hvr:hover {
+  color: #03a9f4;
+}
+
+.c--info\:fcs:focus {
+  color: #03a9f4;
+}
+
+.c--info--lt--1 {
+  color: #14b4fc;
+}
+
+.c--info--lt--2 {
+  color: #2ebcfc;
+}
+
+.c--info--lt--3 {
+  color: #47c4fd;
+}
+
+.c--info--lt--4 {
+  color: #60ccfd;
+}
+
+.c--info--lt--5 {
+  color: #79d4fd;
+}
+
+.c--info--lt--1\:hvr:hover {
+  color: #14b4fc;
+}
+
+.c--info--lt--2\:hvr:hover {
+  color: #2ebcfc;
+}
+
+.c--info--lt--3\:hvr:hover {
+  color: #47c4fd;
+}
+
+.c--info--lt--4\:hvr:hover {
+  color: #60ccfd;
+}
+
+.c--info--lt--5\:hvr:hover {
+  color: #79d4fd;
+}
+
+.c--info--lt--1\:fcs:focus {
+  color: #14b4fc;
+}
+
+.c--info--lt--2\:fcs:focus {
+  color: #2ebcfc;
+}
+
+.c--info--lt--3\:fcs:focus {
+  color: #47c4fd;
+}
+
+.c--info--lt--4\:fcs:focus {
+  color: #60ccfd;
+}
+
+.c--info--lt--5\:fcs:focus {
+  color: #79d4fd;
+}
+
+.c--info--dk--1 {
+  color: #0398db;
+}
+
+.c--info--dk--2 {
+  color: #0286c2;
+}
+
+.c--info--dk--3 {
+  color: #0275a8;
+}
+
+.c--info--dk--4 {
+  color: #02638f;
+}
+
+.c--info--dk--5 {
+  color: #015276;
+}
+
+.c--info--dk--1\:hvr:hover {
+  color: #0398db;
+}
+
+.c--info--dk--2\:hvr:hover {
+  color: #0286c2;
+}
+
+.c--info--dk--3\:hvr:hover {
+  color: #0275a8;
+}
+
+.c--info--dk--4\:hvr:hover {
+  color: #02638f;
+}
+
+.c--info--dk--5\:hvr:hover {
+  color: #015276;
+}
+
+.c--info--dk--1\:fcs:focus {
+  color: #0398db;
+}
+
+.c--info--dk--2\:fcs:focus {
+  color: #0286c2;
+}
+
+.c--info--dk--3\:fcs:focus {
+  color: #0275a8;
+}
+
+.c--info--dk--4\:fcs:focus {
+  color: #02638f;
+}
+
+.c--info--dk--5\:fcs:focus {
+  color: #015276;
+}
+
+.c--info--compl {
+  color: #f44e03;
+}
+
+.c--info--compl\:hvr:hover {
+  color: #f44e03;
+}
+
+.c--info--compl\:fcs:focus {
+  color: #f44e03;
 }
 
 .c--success {
   color: #4caf50;
 }
 
+.c--success\:hvr:hover {
+  color: #4caf50;
+}
+
+.c--success\:fcs:focus {
+  color: #4caf50;
+}
+
+.c--success--lt--1 {
+  color: #5cb860;
+}
+
+.c--success--lt--2 {
+  color: #6ec071;
+}
+
+.c--success--lt--3 {
+  color: #80c883;
+}
+
+.c--success--lt--4 {
+  color: #92cf94;
+}
+
+.c--success--lt--5 {
+  color: #a3d7a5;
+}
+
+.c--success--lt--1\:hvr:hover {
+  color: #5cb860;
+}
+
+.c--success--lt--2\:hvr:hover {
+  color: #6ec071;
+}
+
+.c--success--lt--3\:hvr:hover {
+  color: #80c883;
+}
+
+.c--success--lt--4\:hvr:hover {
+  color: #92cf94;
+}
+
+.c--success--lt--5\:hvr:hover {
+  color: #a3d7a5;
+}
+
+.c--success--lt--1\:fcs:focus {
+  color: #5cb860;
+}
+
+.c--success--lt--2\:fcs:focus {
+  color: #6ec071;
+}
+
+.c--success--lt--3\:fcs:focus {
+  color: #80c883;
+}
+
+.c--success--lt--4\:fcs:focus {
+  color: #92cf94;
+}
+
+.c--success--lt--5\:fcs:focus {
+  color: #a3d7a5;
+}
+
+.c--success--dk--1 {
+  color: #449d48;
+}
+
+.c--success--dk--2 {
+  color: #3d8b40;
+}
+
+.c--success--dk--3 {
+  color: #357a38;
+}
+
+.c--success--dk--4 {
+  color: #2d682f;
+}
+
+.c--success--dk--5 {
+  color: #255627;
+}
+
+.c--success--dk--1\:hvr:hover {
+  color: #449d48;
+}
+
+.c--success--dk--2\:hvr:hover {
+  color: #3d8b40;
+}
+
+.c--success--dk--3\:hvr:hover {
+  color: #357a38;
+}
+
+.c--success--dk--4\:hvr:hover {
+  color: #2d682f;
+}
+
+.c--success--dk--5\:hvr:hover {
+  color: #255627;
+}
+
+.c--success--dk--1\:fcs:focus {
+  color: #449d48;
+}
+
+.c--success--dk--2\:fcs:focus {
+  color: #3d8b40;
+}
+
+.c--success--dk--3\:fcs:focus {
+  color: #357a38;
+}
+
+.c--success--dk--4\:fcs:focus {
+  color: #2d682f;
+}
+
+.c--success--dk--5\:fcs:focus {
+  color: #255627;
+}
+
+.c--success--compl {
+  color: #af4cab;
+}
+
+.c--success--compl\:hvr:hover {
+  color: #af4cab;
+}
+
+.c--success--compl\:fcs:focus {
+  color: #af4cab;
+}
+
 .c--dark {
   color: #0c242b;
+}
+
+.c--dark\:hvr:hover {
+  color: #0c242b;
+}
+
+.c--dark\:fcs:focus {
+  color: #0c242b;
+}
+
+.c--dark--lt--1 {
+  color: #12353f;
+}
+
+.c--dark--lt--2 {
+  color: #174553;
+}
+
+.c--dark--lt--3 {
+  color: #1d5667;
+}
+
+.c--dark--lt--4 {
+  color: #22677b;
+}
+
+.c--dark--lt--5 {
+  color: #28778f;
+}
+
+.c--dark--lt--1\:hvr:hover {
+  color: #12353f;
+}
+
+.c--dark--lt--2\:hvr:hover {
+  color: #174553;
+}
+
+.c--dark--lt--3\:hvr:hover {
+  color: #1d5667;
+}
+
+.c--dark--lt--4\:hvr:hover {
+  color: #22677b;
+}
+
+.c--dark--lt--5\:hvr:hover {
+  color: #28778f;
+}
+
+.c--dark--lt--1\:fcs:focus {
+  color: #12353f;
+}
+
+.c--dark--lt--2\:fcs:focus {
+  color: #174553;
+}
+
+.c--dark--lt--3\:fcs:focus {
+  color: #1d5667;
+}
+
+.c--dark--lt--4\:fcs:focus {
+  color: #22677b;
+}
+
+.c--dark--lt--5\:fcs:focus {
+  color: #28778f;
+}
+
+.c--dark--dk--1 {
+  color: #061317;
+}
+
+.c--dark--dk--2 {
+  color: #010303;
+}
+
+.c--dark--dk--3 {
+  color: black;
+}
+
+.c--dark--dk--4 {
+  color: black;
+}
+
+.c--dark--dk--5 {
+  color: black;
+}
+
+.c--dark--dk--1\:hvr:hover {
+  color: #061317;
+}
+
+.c--dark--dk--2\:hvr:hover {
+  color: #010303;
+}
+
+.c--dark--dk--3\:hvr:hover {
+  color: black;
+}
+
+.c--dark--dk--4\:hvr:hover {
+  color: black;
+}
+
+.c--dark--dk--5\:hvr:hover {
+  color: black;
+}
+
+.c--dark--dk--1\:fcs:focus {
+  color: #061317;
+}
+
+.c--dark--dk--2\:fcs:focus {
+  color: #010303;
+}
+
+.c--dark--dk--3\:fcs:focus {
+  color: black;
+}
+
+.c--dark--dk--4\:fcs:focus {
+  color: black;
+}
+
+.c--dark--dk--5\:fcs:focus {
+  color: black;
+}
+
+.c--dark--compl {
+  color: #2b130c;
+}
+
+.c--dark--compl\:hvr:hover {
+  color: #2b130c;
+}
+
+.c--dark--compl\:fcs:focus {
+  color: #2b130c;
 }
 
 .c--light {
   color: #F8F8FF;
 }
 
-.c--primary--hvr:hover {
-  color: #42a5f5;
-}
-
-.c--secondary--hvr:hover {
-  color: #ba68c8;
-}
-
-.c--muted--hvr:hover {
-  color: #535353;
-}
-
-.c--accent--hvr:hover {
-  color: #59B3A9;
-}
-
-.c--error--hvr:hover {
-  color: #ef5350;
-}
-
-.c--warning--hvr:hover {
-  color: #ff9800;
-}
-
-.c--info--hvr:hover {
-  color: #03a9f4;
-}
-
-.c--success--hvr:hover {
-  color: #4caf50;
-}
-
-.c--dark--hvr:hover {
-  color: #0c242b;
-}
-
-.c--light--hvr:hover {
+.c--light\:hvr:hover {
   color: #F8F8FF;
 }
 
-.c--primary--fcs:focus {
-  color: #42a5f5;
-}
-
-.c--secondary--fcs:focus {
-  color: #ba68c8;
-}
-
-.c--muted--fcs:focus {
-  color: #535353;
-}
-
-.c--accent--fcs:focus {
-  color: #59B3A9;
-}
-
-.c--error--fcs:focus {
-  color: #ef5350;
-}
-
-.c--warning--fcs:focus {
-  color: #ff9800;
-}
-
-.c--info--fcs:focus {
-  color: #03a9f4;
-}
-
-.c--success--fcs:focus {
-  color: #4caf50;
-}
-
-.c--dark--fcs:focus {
-  color: #0c242b;
-}
-
-.c--light--fcs:focus {
+.c--light\:fcs:focus {
   color: #F8F8FF;
+}
+
+.c--light--lt--1 {
+  color: white;
+}
+
+.c--light--lt--2 {
+  color: white;
+}
+
+.c--light--lt--3 {
+  color: white;
+}
+
+.c--light--lt--4 {
+  color: white;
+}
+
+.c--light--lt--5 {
+  color: white;
+}
+
+.c--light--lt--1\:hvr:hover {
+  color: white;
+}
+
+.c--light--lt--2\:hvr:hover {
+  color: white;
+}
+
+.c--light--lt--3\:hvr:hover {
+  color: white;
+}
+
+.c--light--lt--4\:hvr:hover {
+  color: white;
+}
+
+.c--light--lt--5\:hvr:hover {
+  color: white;
+}
+
+.c--light--lt--1\:fcs:focus {
+  color: white;
+}
+
+.c--light--lt--2\:fcs:focus {
+  color: white;
+}
+
+.c--light--lt--3\:fcs:focus {
+  color: white;
+}
+
+.c--light--lt--4\:fcs:focus {
+  color: white;
+}
+
+.c--light--lt--5\:fcs:focus {
+  color: white;
+}
+
+.c--light--dk--1 {
+  color: #dfdfff;
+}
+
+.c--light--dk--2 {
+  color: #c5c5ff;
+}
+
+.c--light--dk--3 {
+  color: #acacff;
+}
+
+.c--light--dk--4 {
+  color: #9292ff;
+}
+
+.c--light--dk--5 {
+  color: #7979ff;
+}
+
+.c--light--dk--1\:hvr:hover {
+  color: #dfdfff;
+}
+
+.c--light--dk--2\:hvr:hover {
+  color: #c5c5ff;
+}
+
+.c--light--dk--3\:hvr:hover {
+  color: #acacff;
+}
+
+.c--light--dk--4\:hvr:hover {
+  color: #9292ff;
+}
+
+.c--light--dk--5\:hvr:hover {
+  color: #7979ff;
+}
+
+.c--light--dk--1\:fcs:focus {
+  color: #dfdfff;
+}
+
+.c--light--dk--2\:fcs:focus {
+  color: #c5c5ff;
+}
+
+.c--light--dk--3\:fcs:focus {
+  color: #acacff;
+}
+
+.c--light--dk--4\:fcs:focus {
+  color: #9292ff;
+}
+
+.c--light--dk--5\:fcs:focus {
+  color: #7979ff;
+}
+
+.c--light--compl {
+  color: #fffff8;
+}
+
+.c--light--compl\:hvr:hover {
+  color: #fffff8;
+}
+
+.c--light--compl\:fcs:focus {
+  color: #fffff8;
 }
 
 .c--facebook {
   color: #1877f2;
 }
 
+.c--facebook\:hvr:hover {
+  color: #1877f2;
+}
+
+.c--facebook\:fcs:focus {
+  color: #1877f2;
+}
+
+.c--facebook--lt--1 {
+  color: #3085f3;
+}
+
+.c--facebook--lt--2 {
+  color: #4893f5;
+}
+
+.c--facebook--lt--3 {
+  color: #60a2f6;
+}
+
+.c--facebook--lt--4 {
+  color: #79b0f7;
+}
+
+.c--facebook--lt--5 {
+  color: #91bef9;
+}
+
+.c--facebook--lt--1\:hvr:hover {
+  color: #3085f3;
+}
+
+.c--facebook--lt--2\:hvr:hover {
+  color: #4893f5;
+}
+
+.c--facebook--lt--3\:hvr:hover {
+  color: #60a2f6;
+}
+
+.c--facebook--lt--4\:hvr:hover {
+  color: #79b0f7;
+}
+
+.c--facebook--lt--5\:hvr:hover {
+  color: #91bef9;
+}
+
+.c--facebook--lt--1\:fcs:focus {
+  color: #3085f3;
+}
+
+.c--facebook--lt--2\:fcs:focus {
+  color: #4893f5;
+}
+
+.c--facebook--lt--3\:fcs:focus {
+  color: #60a2f6;
+}
+
+.c--facebook--lt--4\:fcs:focus {
+  color: #79b0f7;
+}
+
+.c--facebook--lt--5\:fcs:focus {
+  color: #91bef9;
+}
+
+.c--facebook--dk--1 {
+  color: #0d6ae4;
+}
+
+.c--facebook--dk--2 {
+  color: #0b5fcc;
+}
+
+.c--facebook--dk--3 {
+  color: #0a54b3;
+}
+
+.c--facebook--dk--4 {
+  color: #09499b;
+}
+
+.c--facebook--dk--5 {
+  color: #073d83;
+}
+
+.c--facebook--dk--1\:hvr:hover {
+  color: #0d6ae4;
+}
+
+.c--facebook--dk--2\:hvr:hover {
+  color: #0b5fcc;
+}
+
+.c--facebook--dk--3\:hvr:hover {
+  color: #0a54b3;
+}
+
+.c--facebook--dk--4\:hvr:hover {
+  color: #09499b;
+}
+
+.c--facebook--dk--5\:hvr:hover {
+  color: #073d83;
+}
+
+.c--facebook--dk--1\:fcs:focus {
+  color: #0d6ae4;
+}
+
+.c--facebook--dk--2\:fcs:focus {
+  color: #0b5fcc;
+}
+
+.c--facebook--dk--3\:fcs:focus {
+  color: #0a54b3;
+}
+
+.c--facebook--dk--4\:fcs:focus {
+  color: #09499b;
+}
+
+.c--facebook--dk--5\:fcs:focus {
+  color: #073d83;
+}
+
+.c--facebook--compl {
+  color: #f29318;
+}
+
+.c--facebook--compl\:hvr:hover {
+  color: #f29318;
+}
+
+.c--facebook--compl\:fcs:focus {
+  color: #f29318;
+}
+
 .c--facebookold {
   color: #3b5998;
+}
+
+.c--facebookold\:hvr:hover {
+  color: #3b5998;
+}
+
+.c--facebookold\:fcs:focus {
+  color: #3b5998;
+}
+
+.c--facebookold--lt--1 {
+  color: #4264aa;
+}
+
+.c--facebookold--lt--2 {
+  color: #4c70ba;
+}
+
+.c--facebookold--lt--3 {
+  color: #5f7ec1;
+}
+
+.c--facebookold--lt--4 {
+  color: #718dc8;
+}
+
+.c--facebookold--lt--5 {
+  color: #839ccf;
+}
+
+.c--facebookold--lt--1\:hvr:hover {
+  color: #4264aa;
+}
+
+.c--facebookold--lt--2\:hvr:hover {
+  color: #4c70ba;
+}
+
+.c--facebookold--lt--3\:hvr:hover {
+  color: #5f7ec1;
+}
+
+.c--facebookold--lt--4\:hvr:hover {
+  color: #718dc8;
+}
+
+.c--facebookold--lt--5\:hvr:hover {
+  color: #839ccf;
+}
+
+.c--facebookold--lt--1\:fcs:focus {
+  color: #4264aa;
+}
+
+.c--facebookold--lt--2\:fcs:focus {
+  color: #4c70ba;
+}
+
+.c--facebookold--lt--3\:fcs:focus {
+  color: #5f7ec1;
+}
+
+.c--facebookold--lt--4\:fcs:focus {
+  color: #718dc8;
+}
+
+.c--facebookold--lt--5\:fcs:focus {
+  color: #839ccf;
+}
+
+.c--facebookold--dk--1 {
+  color: #344e86;
+}
+
+.c--facebookold--dk--2 {
+  color: #2d4373;
+}
+
+.c--facebookold--dk--3 {
+  color: #263961;
+}
+
+.c--facebookold--dk--4 {
+  color: #1e2e4f;
+}
+
+.c--facebookold--dk--5 {
+  color: #17233c;
+}
+
+.c--facebookold--dk--1\:hvr:hover {
+  color: #344e86;
+}
+
+.c--facebookold--dk--2\:hvr:hover {
+  color: #2d4373;
+}
+
+.c--facebookold--dk--3\:hvr:hover {
+  color: #263961;
+}
+
+.c--facebookold--dk--4\:hvr:hover {
+  color: #1e2e4f;
+}
+
+.c--facebookold--dk--5\:hvr:hover {
+  color: #17233c;
+}
+
+.c--facebookold--dk--1\:fcs:focus {
+  color: #344e86;
+}
+
+.c--facebookold--dk--2\:fcs:focus {
+  color: #2d4373;
+}
+
+.c--facebookold--dk--3\:fcs:focus {
+  color: #263961;
+}
+
+.c--facebookold--dk--4\:fcs:focus {
+  color: #1e2e4f;
+}
+
+.c--facebookold--dk--5\:fcs:focus {
+  color: #17233c;
+}
+
+.c--facebookold--compl {
+  color: #987a3b;
+}
+
+.c--facebookold--compl\:hvr:hover {
+  color: #987a3b;
+}
+
+.c--facebookold--compl\:fcs:focus {
+  color: #987a3b;
 }
 
 .c--twitter {
   color: #1da1f2;
 }
 
+.c--twitter\:hvr:hover {
+  color: #1da1f2;
+}
+
+.c--twitter\:fcs:focus {
+  color: #1da1f2;
+}
+
+.c--twitter--lt--1 {
+  color: #35abf3;
+}
+
+.c--twitter--lt--2 {
+  color: #4db5f5;
+}
+
+.c--twitter--lt--3 {
+  color: #65bff6;
+}
+
+.c--twitter--lt--4 {
+  color: #7dc9f8;
+}
+
+.c--twitter--lt--5 {
+  color: #96d3f9;
+}
+
+.c--twitter--lt--1\:hvr:hover {
+  color: #35abf3;
+}
+
+.c--twitter--lt--2\:hvr:hover {
+  color: #4db5f5;
+}
+
+.c--twitter--lt--3\:hvr:hover {
+  color: #65bff6;
+}
+
+.c--twitter--lt--4\:hvr:hover {
+  color: #7dc9f8;
+}
+
+.c--twitter--lt--5\:hvr:hover {
+  color: #96d3f9;
+}
+
+.c--twitter--lt--1\:fcs:focus {
+  color: #35abf3;
+}
+
+.c--twitter--lt--2\:fcs:focus {
+  color: #4db5f5;
+}
+
+.c--twitter--lt--3\:fcs:focus {
+  color: #65bff6;
+}
+
+.c--twitter--lt--4\:fcs:focus {
+  color: #7dc9f8;
+}
+
+.c--twitter--lt--5\:fcs:focus {
+  color: #96d3f9;
+}
+
+.c--twitter--dk--1 {
+  color: #0d95e8;
+}
+
+.c--twitter--dk--2 {
+  color: #0c85d0;
+}
+
+.c--twitter--dk--3 {
+  color: #0b76b8;
+}
+
+.c--twitter--dk--4 {
+  color: #0967a0;
+}
+
+.c--twitter--dk--5 {
+  color: #085788;
+}
+
+.c--twitter--dk--1\:hvr:hover {
+  color: #0d95e8;
+}
+
+.c--twitter--dk--2\:hvr:hover {
+  color: #0c85d0;
+}
+
+.c--twitter--dk--3\:hvr:hover {
+  color: #0b76b8;
+}
+
+.c--twitter--dk--4\:hvr:hover {
+  color: #0967a0;
+}
+
+.c--twitter--dk--5\:hvr:hover {
+  color: #085788;
+}
+
+.c--twitter--dk--1\:fcs:focus {
+  color: #0d95e8;
+}
+
+.c--twitter--dk--2\:fcs:focus {
+  color: #0c85d0;
+}
+
+.c--twitter--dk--3\:fcs:focus {
+  color: #0b76b8;
+}
+
+.c--twitter--dk--4\:fcs:focus {
+  color: #0967a0;
+}
+
+.c--twitter--dk--5\:fcs:focus {
+  color: #085788;
+}
+
+.c--twitter--compl {
+  color: #f26e1d;
+}
+
+.c--twitter--compl\:hvr:hover {
+  color: #f26e1d;
+}
+
+.c--twitter--compl\:fcs:focus {
+  color: #f26e1d;
+}
+
 .c--youtube {
   color: #ff0000;
+}
+
+.c--youtube\:hvr:hover {
+  color: #ff0000;
+}
+
+.c--youtube\:fcs:focus {
+  color: #ff0000;
+}
+
+.c--youtube--lt--1 {
+  color: #ff1a1a;
+}
+
+.c--youtube--lt--2 {
+  color: #ff3333;
+}
+
+.c--youtube--lt--3 {
+  color: #ff4d4d;
+}
+
+.c--youtube--lt--4 {
+  color: #ff6666;
+}
+
+.c--youtube--lt--5 {
+  color: #ff8080;
+}
+
+.c--youtube--lt--1\:hvr:hover {
+  color: #ff1a1a;
+}
+
+.c--youtube--lt--2\:hvr:hover {
+  color: #ff3333;
+}
+
+.c--youtube--lt--3\:hvr:hover {
+  color: #ff4d4d;
+}
+
+.c--youtube--lt--4\:hvr:hover {
+  color: #ff6666;
+}
+
+.c--youtube--lt--5\:hvr:hover {
+  color: #ff8080;
+}
+
+.c--youtube--lt--1\:fcs:focus {
+  color: #ff1a1a;
+}
+
+.c--youtube--lt--2\:fcs:focus {
+  color: #ff3333;
+}
+
+.c--youtube--lt--3\:fcs:focus {
+  color: #ff4d4d;
+}
+
+.c--youtube--lt--4\:fcs:focus {
+  color: #ff6666;
+}
+
+.c--youtube--lt--5\:fcs:focus {
+  color: #ff8080;
+}
+
+.c--youtube--dk--1 {
+  color: #e60000;
+}
+
+.c--youtube--dk--2 {
+  color: #cc0000;
+}
+
+.c--youtube--dk--3 {
+  color: #b30000;
+}
+
+.c--youtube--dk--4 {
+  color: #990000;
+}
+
+.c--youtube--dk--5 {
+  color: maroon;
+}
+
+.c--youtube--dk--1\:hvr:hover {
+  color: #e60000;
+}
+
+.c--youtube--dk--2\:hvr:hover {
+  color: #cc0000;
+}
+
+.c--youtube--dk--3\:hvr:hover {
+  color: #b30000;
+}
+
+.c--youtube--dk--4\:hvr:hover {
+  color: #990000;
+}
+
+.c--youtube--dk--5\:hvr:hover {
+  color: maroon;
+}
+
+.c--youtube--dk--1\:fcs:focus {
+  color: #e60000;
+}
+
+.c--youtube--dk--2\:fcs:focus {
+  color: #cc0000;
+}
+
+.c--youtube--dk--3\:fcs:focus {
+  color: #b30000;
+}
+
+.c--youtube--dk--4\:fcs:focus {
+  color: #990000;
+}
+
+.c--youtube--dk--5\:fcs:focus {
+  color: maroon;
+}
+
+.c--youtube--compl {
+  color: aqua;
+}
+
+.c--youtube--compl\:hvr:hover {
+  color: aqua;
+}
+
+.c--youtube--compl\:fcs:focus {
+  color: aqua;
 }
 
 .c--linkedin {
   color: #0a66c2;
 }
 
+.c--linkedin\:hvr:hover {
+  color: #0a66c2;
+}
+
+.c--linkedin\:fcs:focus {
+  color: #0a66c2;
+}
+
+.c--linkedin--lt--1 {
+  color: #0b73da;
+}
+
+.c--linkedin--lt--2 {
+  color: #0d80f3;
+}
+
+.c--linkedin--lt--3 {
+  color: #258cf4;
+}
+
+.c--linkedin--lt--4 {
+  color: #3d99f5;
+}
+
+.c--linkedin--lt--5 {
+  color: #55a6f6;
+}
+
+.c--linkedin--lt--1\:hvr:hover {
+  color: #0b73da;
+}
+
+.c--linkedin--lt--2\:hvr:hover {
+  color: #0d80f3;
+}
+
+.c--linkedin--lt--3\:hvr:hover {
+  color: #258cf4;
+}
+
+.c--linkedin--lt--4\:hvr:hover {
+  color: #3d99f5;
+}
+
+.c--linkedin--lt--5\:hvr:hover {
+  color: #55a6f6;
+}
+
+.c--linkedin--lt--1\:fcs:focus {
+  color: #0b73da;
+}
+
+.c--linkedin--lt--2\:fcs:focus {
+  color: #0d80f3;
+}
+
+.c--linkedin--lt--3\:fcs:focus {
+  color: #258cf4;
+}
+
+.c--linkedin--lt--4\:fcs:focus {
+  color: #3d99f5;
+}
+
+.c--linkedin--lt--5\:fcs:focus {
+  color: #55a6f6;
+}
+
+.c--linkedin--dk--1 {
+  color: #0959aa;
+}
+
+.c--linkedin--dk--2 {
+  color: #084d92;
+}
+
+.c--linkedin--dk--3 {
+  color: #064079;
+}
+
+.c--linkedin--dk--4 {
+  color: #053361;
+}
+
+.c--linkedin--dk--5 {
+  color: #042649;
+}
+
+.c--linkedin--dk--1\:hvr:hover {
+  color: #0959aa;
+}
+
+.c--linkedin--dk--2\:hvr:hover {
+  color: #084d92;
+}
+
+.c--linkedin--dk--3\:hvr:hover {
+  color: #064079;
+}
+
+.c--linkedin--dk--4\:hvr:hover {
+  color: #053361;
+}
+
+.c--linkedin--dk--5\:hvr:hover {
+  color: #042649;
+}
+
+.c--linkedin--dk--1\:fcs:focus {
+  color: #0959aa;
+}
+
+.c--linkedin--dk--2\:fcs:focus {
+  color: #084d92;
+}
+
+.c--linkedin--dk--3\:fcs:focus {
+  color: #064079;
+}
+
+.c--linkedin--dk--4\:fcs:focus {
+  color: #053361;
+}
+
+.c--linkedin--dk--5\:fcs:focus {
+  color: #042649;
+}
+
+.c--linkedin--compl {
+  color: #c2660a;
+}
+
+.c--linkedin--compl\:hvr:hover {
+  color: #c2660a;
+}
+
+.c--linkedin--compl\:fcs:focus {
+  color: #c2660a;
+}
+
 .c--instagram {
   color: #c32aa3;
+}
+
+.c--instagram\:hvr:hover {
+  color: #c32aa3;
+}
+
+.c--instagram\:fcs:focus {
+  color: #c32aa3;
+}
+
+.c--instagram--lt--1 {
+  color: #d333b2;
+}
+
+.c--instagram--lt--2 {
+  color: #d848ba;
+}
+
+.c--instagram--lt--3 {
+  color: #dc5dc2;
+}
+
+.c--instagram--lt--4 {
+  color: #e172ca;
+}
+
+.c--instagram--lt--5 {
+  color: #e587d2;
+}
+
+.c--instagram--lt--1\:hvr:hover {
+  color: #d333b2;
+}
+
+.c--instagram--lt--2\:hvr:hover {
+  color: #d848ba;
+}
+
+.c--instagram--lt--3\:hvr:hover {
+  color: #dc5dc2;
+}
+
+.c--instagram--lt--4\:hvr:hover {
+  color: #e172ca;
+}
+
+.c--instagram--lt--5\:hvr:hover {
+  color: #e587d2;
+}
+
+.c--instagram--lt--1\:fcs:focus {
+  color: #d333b2;
+}
+
+.c--instagram--lt--2\:fcs:focus {
+  color: #d848ba;
+}
+
+.c--instagram--lt--3\:fcs:focus {
+  color: #dc5dc2;
+}
+
+.c--instagram--lt--4\:fcs:focus {
+  color: #e172ca;
+}
+
+.c--instagram--lt--5\:fcs:focus {
+  color: #e587d2;
+}
+
+.c--instagram--dk--1 {
+  color: #ae2591;
+}
+
+.c--instagram--dk--2 {
+  color: #992180;
+}
+
+.c--instagram--dk--3 {
+  color: #841c6e;
+}
+
+.c--instagram--dk--4 {
+  color: #6f185d;
+}
+
+.c--instagram--dk--5 {
+  color: #5a134b;
+}
+
+.c--instagram--dk--1\:hvr:hover {
+  color: #ae2591;
+}
+
+.c--instagram--dk--2\:hvr:hover {
+  color: #992180;
+}
+
+.c--instagram--dk--3\:hvr:hover {
+  color: #841c6e;
+}
+
+.c--instagram--dk--4\:hvr:hover {
+  color: #6f185d;
+}
+
+.c--instagram--dk--5\:hvr:hover {
+  color: #5a134b;
+}
+
+.c--instagram--dk--1\:fcs:focus {
+  color: #ae2591;
+}
+
+.c--instagram--dk--2\:fcs:focus {
+  color: #992180;
+}
+
+.c--instagram--dk--3\:fcs:focus {
+  color: #841c6e;
+}
+
+.c--instagram--dk--4\:fcs:focus {
+  color: #6f185d;
+}
+
+.c--instagram--dk--5\:fcs:focus {
+  color: #5a134b;
+}
+
+.c--instagram--compl {
+  color: #2ac34a;
+}
+
+.c--instagram--compl\:hvr:hover {
+  color: #2ac34a;
+}
+
+.c--instagram--compl\:fcs:focus {
+  color: #2ac34a;
 }
 
 .c--google {
   color: #4285f4;
 }
 
+.c--google\:hvr:hover {
+  color: #4285f4;
+}
+
+.c--google\:fcs:focus {
+  color: #4285f4;
+}
+
+.c--google--lt--1 {
+  color: #5a95f5;
+}
+
+.c--google--lt--2 {
+  color: #72a4f7;
+}
+
+.c--google--lt--3 {
+  color: #8ab4f8;
+}
+
+.c--google--lt--4 {
+  color: #a2c3fa;
+}
+
+.c--google--lt--5 {
+  color: #bad3fb;
+}
+
+.c--google--lt--1\:hvr:hover {
+  color: #5a95f5;
+}
+
+.c--google--lt--2\:hvr:hover {
+  color: #72a4f7;
+}
+
+.c--google--lt--3\:hvr:hover {
+  color: #8ab4f8;
+}
+
+.c--google--lt--4\:hvr:hover {
+  color: #a2c3fa;
+}
+
+.c--google--lt--5\:hvr:hover {
+  color: #bad3fb;
+}
+
+.c--google--lt--1\:fcs:focus {
+  color: #5a95f5;
+}
+
+.c--google--lt--2\:fcs:focus {
+  color: #72a4f7;
+}
+
+.c--google--lt--3\:fcs:focus {
+  color: #8ab4f8;
+}
+
+.c--google--lt--4\:fcs:focus {
+  color: #a2c3fa;
+}
+
+.c--google--lt--5\:fcs:focus {
+  color: #bad3fb;
+}
+
+.c--google--dk--1 {
+  color: #2a75f3;
+}
+
+.c--google--dk--2 {
+  color: #1266f1;
+}
+
+.c--google--dk--3 {
+  color: #0d5bdd;
+}
+
+.c--google--dk--4 {
+  color: #0b51c5;
+}
+
+.c--google--dk--5 {
+  color: #0a47ac;
+}
+
+.c--google--dk--1\:hvr:hover {
+  color: #2a75f3;
+}
+
+.c--google--dk--2\:hvr:hover {
+  color: #1266f1;
+}
+
+.c--google--dk--3\:hvr:hover {
+  color: #0d5bdd;
+}
+
+.c--google--dk--4\:hvr:hover {
+  color: #0b51c5;
+}
+
+.c--google--dk--5\:hvr:hover {
+  color: #0a47ac;
+}
+
+.c--google--dk--1\:fcs:focus {
+  color: #2a75f3;
+}
+
+.c--google--dk--2\:fcs:focus {
+  color: #1266f1;
+}
+
+.c--google--dk--3\:fcs:focus {
+  color: #0d5bdd;
+}
+
+.c--google--dk--4\:fcs:focus {
+  color: #0b51c5;
+}
+
+.c--google--dk--5\:fcs:focus {
+  color: #0a47ac;
+}
+
+.c--google--compl {
+  color: #f4b142;
+}
+
+.c--google--compl\:hvr:hover {
+  color: #f4b142;
+}
+
+.c--google--compl\:fcs:focus {
+  color: #f4b142;
+}
+
 .c--googleplus {
   color: #db4437;
+}
+
+.c--googleplus\:hvr:hover {
+  color: #db4437;
+}
+
+.c--googleplus\:fcs:focus {
+  color: #db4437;
+}
+
+.c--googleplus--lt--1 {
+  color: #df584d;
+}
+
+.c--googleplus--lt--2 {
+  color: #e36c62;
+}
+
+.c--googleplus--lt--3 {
+  color: #e78178;
+}
+
+.c--googleplus--lt--4 {
+  color: #eb958d;
+}
+
+.c--googleplus--lt--5 {
+  color: #eea9a3;
+}
+
+.c--googleplus--lt--1\:hvr:hover {
+  color: #df584d;
+}
+
+.c--googleplus--lt--2\:hvr:hover {
+  color: #e36c62;
+}
+
+.c--googleplus--lt--3\:hvr:hover {
+  color: #e78178;
+}
+
+.c--googleplus--lt--4\:hvr:hover {
+  color: #eb958d;
+}
+
+.c--googleplus--lt--5\:hvr:hover {
+  color: #eea9a3;
+}
+
+.c--googleplus--lt--1\:fcs:focus {
+  color: #df584d;
+}
+
+.c--googleplus--lt--2\:fcs:focus {
+  color: #e36c62;
+}
+
+.c--googleplus--lt--3\:fcs:focus {
+  color: #e78178;
+}
+
+.c--googleplus--lt--4\:fcs:focus {
+  color: #eb958d;
+}
+
+.c--googleplus--lt--5\:fcs:focus {
+  color: #eea9a3;
+}
+
+.c--googleplus--dk--1 {
+  color: #d33426;
+}
+
+.c--googleplus--dk--2 {
+  color: #bd2e22;
+}
+
+.c--googleplus--dk--3 {
+  color: #a7291e;
+}
+
+.c--googleplus--dk--4 {
+  color: #92241a;
+}
+
+.c--googleplus--dk--5 {
+  color: #7c1e16;
+}
+
+.c--googleplus--dk--1\:hvr:hover {
+  color: #d33426;
+}
+
+.c--googleplus--dk--2\:hvr:hover {
+  color: #bd2e22;
+}
+
+.c--googleplus--dk--3\:hvr:hover {
+  color: #a7291e;
+}
+
+.c--googleplus--dk--4\:hvr:hover {
+  color: #92241a;
+}
+
+.c--googleplus--dk--5\:hvr:hover {
+  color: #7c1e16;
+}
+
+.c--googleplus--dk--1\:fcs:focus {
+  color: #d33426;
+}
+
+.c--googleplus--dk--2\:fcs:focus {
+  color: #bd2e22;
+}
+
+.c--googleplus--dk--3\:fcs:focus {
+  color: #a7291e;
+}
+
+.c--googleplus--dk--4\:fcs:focus {
+  color: #92241a;
+}
+
+.c--googleplus--dk--5\:fcs:focus {
+  color: #7c1e16;
+}
+
+.c--googleplus--compl {
+  color: #37cedb;
+}
+
+.c--googleplus--compl\:hvr:hover {
+  color: #37cedb;
+}
+
+.c--googleplus--compl\:fcs:focus {
+  color: #37cedb;
 }
 
 .c--pinterest {
   color: #bd081c;
 }
 
+.c--pinterest\:hvr:hover {
+  color: #bd081c;
+}
+
+.c--pinterest\:fcs:focus {
+  color: #bd081c;
+}
+
+.c--pinterest--lt--1 {
+  color: #d50920;
+}
+
+.c--pinterest--lt--2 {
+  color: #ee0a23;
+}
+
+.c--pinterest--lt--3 {
+  color: #f51c34;
+}
+
+.c--pinterest--lt--4 {
+  color: #f6354a;
+}
+
+.c--pinterest--lt--5 {
+  color: #f74d60;
+}
+
+.c--pinterest--lt--1\:hvr:hover {
+  color: #d50920;
+}
+
+.c--pinterest--lt--2\:hvr:hover {
+  color: #ee0a23;
+}
+
+.c--pinterest--lt--3\:hvr:hover {
+  color: #f51c34;
+}
+
+.c--pinterest--lt--4\:hvr:hover {
+  color: #f6354a;
+}
+
+.c--pinterest--lt--5\:hvr:hover {
+  color: #f74d60;
+}
+
+.c--pinterest--lt--1\:fcs:focus {
+  color: #d50920;
+}
+
+.c--pinterest--lt--2\:fcs:focus {
+  color: #ee0a23;
+}
+
+.c--pinterest--lt--3\:fcs:focus {
+  color: #f51c34;
+}
+
+.c--pinterest--lt--4\:fcs:focus {
+  color: #f6354a;
+}
+
+.c--pinterest--lt--5\:fcs:focus {
+  color: #f74d60;
+}
+
+.c--pinterest--dk--1 {
+  color: #a50718;
+}
+
+.c--pinterest--dk--2 {
+  color: #8c0615;
+}
+
+.c--pinterest--dk--3 {
+  color: #740511;
+}
+
+.c--pinterest--dk--4 {
+  color: #5b040e;
+}
+
+.c--pinterest--dk--5 {
+  color: #43030a;
+}
+
+.c--pinterest--dk--1\:hvr:hover {
+  color: #a50718;
+}
+
+.c--pinterest--dk--2\:hvr:hover {
+  color: #8c0615;
+}
+
+.c--pinterest--dk--3\:hvr:hover {
+  color: #740511;
+}
+
+.c--pinterest--dk--4\:hvr:hover {
+  color: #5b040e;
+}
+
+.c--pinterest--dk--5\:hvr:hover {
+  color: #43030a;
+}
+
+.c--pinterest--dk--1\:fcs:focus {
+  color: #a50718;
+}
+
+.c--pinterest--dk--2\:fcs:focus {
+  color: #8c0615;
+}
+
+.c--pinterest--dk--3\:fcs:focus {
+  color: #740511;
+}
+
+.c--pinterest--dk--4\:fcs:focus {
+  color: #5b040e;
+}
+
+.c--pinterest--dk--5\:fcs:focus {
+  color: #43030a;
+}
+
+.c--pinterest--compl {
+  color: #08bda9;
+}
+
+.c--pinterest--compl\:hvr:hover {
+  color: #08bda9;
+}
+
+.c--pinterest--compl\:fcs:focus {
+  color: #08bda9;
+}
+
 .c--vimeo {
   color: #1ab7ea;
+}
+
+.c--vimeo\:hvr:hover {
+  color: #1ab7ea;
+}
+
+.c--vimeo\:fcs:focus {
+  color: #1ab7ea;
+}
+
+.c--vimeo--lt--1 {
+  color: #31beec;
+}
+
+.c--vimeo--lt--2 {
+  color: #49c6ee;
+}
+
+.c--vimeo--lt--3 {
+  color: #60cdf0;
+}
+
+.c--vimeo--lt--4 {
+  color: #77d4f3;
+}
+
+.c--vimeo--lt--5 {
+  color: #8fdcf5;
+}
+
+.c--vimeo--lt--1\:hvr:hover {
+  color: #31beec;
+}
+
+.c--vimeo--lt--2\:hvr:hover {
+  color: #49c6ee;
+}
+
+.c--vimeo--lt--3\:hvr:hover {
+  color: #60cdf0;
+}
+
+.c--vimeo--lt--4\:hvr:hover {
+  color: #77d4f3;
+}
+
+.c--vimeo--lt--5\:hvr:hover {
+  color: #8fdcf5;
+}
+
+.c--vimeo--lt--1\:fcs:focus {
+  color: #31beec;
+}
+
+.c--vimeo--lt--2\:fcs:focus {
+  color: #49c6ee;
+}
+
+.c--vimeo--lt--3\:fcs:focus {
+  color: #60cdf0;
+}
+
+.c--vimeo--lt--4\:fcs:focus {
+  color: #77d4f3;
+}
+
+.c--vimeo--lt--5\:fcs:focus {
+  color: #8fdcf5;
+}
+
+.c--vimeo--dk--1 {
+  color: #14a7d7;
+}
+
+.c--vimeo--dk--2 {
+  color: #1295bf;
+}
+
+.c--vimeo--dk--3 {
+  color: #0f83a8;
+}
+
+.c--vimeo--dk--4 {
+  color: #0d7091;
+}
+
+.c--vimeo--dk--5 {
+  color: #0b5e79;
+}
+
+.c--vimeo--dk--1\:hvr:hover {
+  color: #14a7d7;
+}
+
+.c--vimeo--dk--2\:hvr:hover {
+  color: #1295bf;
+}
+
+.c--vimeo--dk--3\:hvr:hover {
+  color: #0f83a8;
+}
+
+.c--vimeo--dk--4\:hvr:hover {
+  color: #0d7091;
+}
+
+.c--vimeo--dk--5\:hvr:hover {
+  color: #0b5e79;
+}
+
+.c--vimeo--dk--1\:fcs:focus {
+  color: #14a7d7;
+}
+
+.c--vimeo--dk--2\:fcs:focus {
+  color: #1295bf;
+}
+
+.c--vimeo--dk--3\:fcs:focus {
+  color: #0f83a8;
+}
+
+.c--vimeo--dk--4\:fcs:focus {
+  color: #0d7091;
+}
+
+.c--vimeo--dk--5\:fcs:focus {
+  color: #0b5e79;
+}
+
+.c--vimeo--compl {
+  color: #ea4d1a;
+}
+
+.c--vimeo--compl\:hvr:hover {
+  color: #ea4d1a;
+}
+
+.c--vimeo--compl\:fcs:focus {
+  color: #ea4d1a;
 }
 
 .c--tumblr {
   color: #2c4762;
 }
 
+.c--tumblr\:hvr:hover {
+  color: #2c4762;
+}
+
+.c--tumblr\:fcs:focus {
+  color: #2c4762;
+}
+
+.c--tumblr--lt--1 {
+  color: #345474;
+}
+
+.c--tumblr--lt--2 {
+  color: #3c6185;
+}
+
+.c--tumblr--lt--3 {
+  color: #446d97;
+}
+
+.c--tumblr--lt--4 {
+  color: #4c7aa8;
+}
+
+.c--tumblr--lt--5 {
+  color: #5987b4;
+}
+
+.c--tumblr--lt--1\:hvr:hover {
+  color: #345474;
+}
+
+.c--tumblr--lt--2\:hvr:hover {
+  color: #3c6185;
+}
+
+.c--tumblr--lt--3\:hvr:hover {
+  color: #446d97;
+}
+
+.c--tumblr--lt--4\:hvr:hover {
+  color: #4c7aa8;
+}
+
+.c--tumblr--lt--5\:hvr:hover {
+  color: #5987b4;
+}
+
+.c--tumblr--lt--1\:fcs:focus {
+  color: #345474;
+}
+
+.c--tumblr--lt--2\:fcs:focus {
+  color: #3c6185;
+}
+
+.c--tumblr--lt--3\:fcs:focus {
+  color: #446d97;
+}
+
+.c--tumblr--lt--4\:fcs:focus {
+  color: #4c7aa8;
+}
+
+.c--tumblr--lt--5\:fcs:focus {
+  color: #5987b4;
+}
+
+.c--tumblr--dk--1 {
+  color: #243a50;
+}
+
+.c--tumblr--dk--2 {
+  color: #1c2e3f;
+}
+
+.c--tumblr--dk--3 {
+  color: #14212d;
+}
+
+.c--tumblr--dk--4 {
+  color: #0c141c;
+}
+
+.c--tumblr--dk--5 {
+  color: #04070a;
+}
+
+.c--tumblr--dk--1\:hvr:hover {
+  color: #243a50;
+}
+
+.c--tumblr--dk--2\:hvr:hover {
+  color: #1c2e3f;
+}
+
+.c--tumblr--dk--3\:hvr:hover {
+  color: #14212d;
+}
+
+.c--tumblr--dk--4\:hvr:hover {
+  color: #0c141c;
+}
+
+.c--tumblr--dk--5\:hvr:hover {
+  color: #04070a;
+}
+
+.c--tumblr--dk--1\:fcs:focus {
+  color: #243a50;
+}
+
+.c--tumblr--dk--2\:fcs:focus {
+  color: #1c2e3f;
+}
+
+.c--tumblr--dk--3\:fcs:focus {
+  color: #14212d;
+}
+
+.c--tumblr--dk--4\:fcs:focus {
+  color: #0c141c;
+}
+
+.c--tumblr--dk--5\:fcs:focus {
+  color: #04070a;
+}
+
+.c--tumblr--compl {
+  color: #62472c;
+}
+
+.c--tumblr--compl\:hvr:hover {
+  color: #62472c;
+}
+
+.c--tumblr--compl\:fcs:focus {
+  color: #62472c;
+}
+
 .c--snapchat {
   color: #fffc00;
+}
+
+.c--snapchat\:hvr:hover {
+  color: #fffc00;
+}
+
+.c--snapchat\:fcs:focus {
+  color: #fffc00;
+}
+
+.c--snapchat--lt--1 {
+  color: #fffc1a;
+}
+
+.c--snapchat--lt--2 {
+  color: #fffd33;
+}
+
+.c--snapchat--lt--3 {
+  color: #fffd4d;
+}
+
+.c--snapchat--lt--4 {
+  color: #fffd66;
+}
+
+.c--snapchat--lt--5 {
+  color: #fffe80;
+}
+
+.c--snapchat--lt--1\:hvr:hover {
+  color: #fffc1a;
+}
+
+.c--snapchat--lt--2\:hvr:hover {
+  color: #fffd33;
+}
+
+.c--snapchat--lt--3\:hvr:hover {
+  color: #fffd4d;
+}
+
+.c--snapchat--lt--4\:hvr:hover {
+  color: #fffd66;
+}
+
+.c--snapchat--lt--5\:hvr:hover {
+  color: #fffe80;
+}
+
+.c--snapchat--lt--1\:fcs:focus {
+  color: #fffc1a;
+}
+
+.c--snapchat--lt--2\:fcs:focus {
+  color: #fffd33;
+}
+
+.c--snapchat--lt--3\:fcs:focus {
+  color: #fffd4d;
+}
+
+.c--snapchat--lt--4\:fcs:focus {
+  color: #fffd66;
+}
+
+.c--snapchat--lt--5\:fcs:focus {
+  color: #fffe80;
+}
+
+.c--snapchat--dk--1 {
+  color: #e6e300;
+}
+
+.c--snapchat--dk--2 {
+  color: #ccca00;
+}
+
+.c--snapchat--dk--3 {
+  color: #b3b000;
+}
+
+.c--snapchat--dk--4 {
+  color: #999700;
+}
+
+.c--snapchat--dk--5 {
+  color: #807e00;
+}
+
+.c--snapchat--dk--1\:hvr:hover {
+  color: #e6e300;
+}
+
+.c--snapchat--dk--2\:hvr:hover {
+  color: #ccca00;
+}
+
+.c--snapchat--dk--3\:hvr:hover {
+  color: #b3b000;
+}
+
+.c--snapchat--dk--4\:hvr:hover {
+  color: #999700;
+}
+
+.c--snapchat--dk--5\:hvr:hover {
+  color: #807e00;
+}
+
+.c--snapchat--dk--1\:fcs:focus {
+  color: #e6e300;
+}
+
+.c--snapchat--dk--2\:fcs:focus {
+  color: #ccca00;
+}
+
+.c--snapchat--dk--3\:fcs:focus {
+  color: #b3b000;
+}
+
+.c--snapchat--dk--4\:fcs:focus {
+  color: #999700;
+}
+
+.c--snapchat--dk--5\:fcs:focus {
+  color: #807e00;
+}
+
+.c--snapchat--compl {
+  color: #0003ff;
+}
+
+.c--snapchat--compl\:hvr:hover {
+  color: #0003ff;
+}
+
+.c--snapchat--compl\:fcs:focus {
+  color: #0003ff;
 }
 
 .c--whatsapp {
   color: #25d366;
 }
 
+.c--whatsapp\:hvr:hover {
+  color: #25d366;
+}
+
+.c--whatsapp\:fcs:focus {
+  color: #25d366;
+}
+
+.c--whatsapp--lt--1 {
+  color: #36dc74;
+}
+
+.c--whatsapp--lt--2 {
+  color: #4be083;
+}
+
+.c--whatsapp--lt--3 {
+  color: #61e392;
+}
+
+.c--whatsapp--lt--4 {
+  color: #77e7a1;
+}
+
+.c--whatsapp--lt--5 {
+  color: #8debb0;
+}
+
+.c--whatsapp--lt--1\:hvr:hover {
+  color: #36dc74;
+}
+
+.c--whatsapp--lt--2\:hvr:hover {
+  color: #4be083;
+}
+
+.c--whatsapp--lt--3\:hvr:hover {
+  color: #61e392;
+}
+
+.c--whatsapp--lt--4\:hvr:hover {
+  color: #77e7a1;
+}
+
+.c--whatsapp--lt--5\:hvr:hover {
+  color: #8debb0;
+}
+
+.c--whatsapp--lt--1\:fcs:focus {
+  color: #36dc74;
+}
+
+.c--whatsapp--lt--2\:fcs:focus {
+  color: #4be083;
+}
+
+.c--whatsapp--lt--3\:fcs:focus {
+  color: #61e392;
+}
+
+.c--whatsapp--lt--4\:fcs:focus {
+  color: #77e7a1;
+}
+
+.c--whatsapp--lt--5\:fcs:focus {
+  color: #8debb0;
+}
+
+.c--whatsapp--dk--1 {
+  color: #21bd5c;
+}
+
+.c--whatsapp--dk--2 {
+  color: #1da851;
+}
+
+.c--whatsapp--dk--3 {
+  color: #1a9247;
+}
+
+.c--whatsapp--dk--4 {
+  color: #167c3c;
+}
+
+.c--whatsapp--dk--5 {
+  color: #126732;
+}
+
+.c--whatsapp--dk--1\:hvr:hover {
+  color: #21bd5c;
+}
+
+.c--whatsapp--dk--2\:hvr:hover {
+  color: #1da851;
+}
+
+.c--whatsapp--dk--3\:hvr:hover {
+  color: #1a9247;
+}
+
+.c--whatsapp--dk--4\:hvr:hover {
+  color: #167c3c;
+}
+
+.c--whatsapp--dk--5\:hvr:hover {
+  color: #126732;
+}
+
+.c--whatsapp--dk--1\:fcs:focus {
+  color: #21bd5c;
+}
+
+.c--whatsapp--dk--2\:fcs:focus {
+  color: #1da851;
+}
+
+.c--whatsapp--dk--3\:fcs:focus {
+  color: #1a9247;
+}
+
+.c--whatsapp--dk--4\:fcs:focus {
+  color: #167c3c;
+}
+
+.c--whatsapp--dk--5\:fcs:focus {
+  color: #126732;
+}
+
+.c--whatsapp--compl {
+  color: #d32592;
+}
+
+.c--whatsapp--compl\:hvr:hover {
+  color: #d32592;
+}
+
+.c--whatsapp--compl\:fcs:focus {
+  color: #d32592;
+}
+
 .c--tiktok {
   color: #010101;
+}
+
+.c--tiktok\:hvr:hover {
+  color: #010101;
+}
+
+.c--tiktok\:fcs:focus {
+  color: #010101;
+}
+
+.c--tiktok--lt--1 {
+  color: #0e0e0e;
+}
+
+.c--tiktok--lt--2 {
+  color: #1b1b1b;
+}
+
+.c--tiktok--lt--3 {
+  color: #272727;
+}
+
+.c--tiktok--lt--4 {
+  color: #343434;
+}
+
+.c--tiktok--lt--5 {
+  color: #414141;
+}
+
+.c--tiktok--lt--1\:hvr:hover {
+  color: #0e0e0e;
+}
+
+.c--tiktok--lt--2\:hvr:hover {
+  color: #1b1b1b;
+}
+
+.c--tiktok--lt--3\:hvr:hover {
+  color: #272727;
+}
+
+.c--tiktok--lt--4\:hvr:hover {
+  color: #343434;
+}
+
+.c--tiktok--lt--5\:hvr:hover {
+  color: #414141;
+}
+
+.c--tiktok--lt--1\:fcs:focus {
+  color: #0e0e0e;
+}
+
+.c--tiktok--lt--2\:fcs:focus {
+  color: #1b1b1b;
+}
+
+.c--tiktok--lt--3\:fcs:focus {
+  color: #272727;
+}
+
+.c--tiktok--lt--4\:fcs:focus {
+  color: #343434;
+}
+
+.c--tiktok--lt--5\:fcs:focus {
+  color: #414141;
+}
+
+.c--tiktok--dk--1 {
+  color: black;
+}
+
+.c--tiktok--dk--2 {
+  color: black;
+}
+
+.c--tiktok--dk--3 {
+  color: black;
+}
+
+.c--tiktok--dk--4 {
+  color: black;
+}
+
+.c--tiktok--dk--5 {
+  color: black;
+}
+
+.c--tiktok--dk--1\:hvr:hover {
+  color: black;
+}
+
+.c--tiktok--dk--2\:hvr:hover {
+  color: black;
+}
+
+.c--tiktok--dk--3\:hvr:hover {
+  color: black;
+}
+
+.c--tiktok--dk--4\:hvr:hover {
+  color: black;
+}
+
+.c--tiktok--dk--5\:hvr:hover {
+  color: black;
+}
+
+.c--tiktok--dk--1\:fcs:focus {
+  color: black;
+}
+
+.c--tiktok--dk--2\:fcs:focus {
+  color: black;
+}
+
+.c--tiktok--dk--3\:fcs:focus {
+  color: black;
+}
+
+.c--tiktok--dk--4\:fcs:focus {
+  color: black;
+}
+
+.c--tiktok--dk--5\:fcs:focus {
+  color: black;
+}
+
+.c--tiktok--compl {
+  color: #010101;
+}
+
+.c--tiktok--compl\:hvr:hover {
+  color: #010101;
+}
+
+.c--tiktok--compl\:fcs:focus {
+  color: #010101;
+}
+
+.c--mastodon {
+  color: #2b90d9;
+}
+
+.c--mastodon\:hvr:hover {
+  color: #2b90d9;
+}
+
+.c--mastodon\:fcs:focus {
+  color: #2b90d9;
+}
+
+.c--mastodon--lt--1 {
+  color: #419bdd;
+}
+
+.c--mastodon--lt--2 {
+  color: #56a7e1;
+}
+
+.c--mastodon--lt--3 {
+  color: #6cb2e5;
+}
+
+.c--mastodon--lt--4 {
+  color: #81bde9;
+}
+
+.c--mastodon--lt--5 {
+  color: #97c9ec;
+}
+
+.c--mastodon--lt--1\:hvr:hover {
+  color: #419bdd;
+}
+
+.c--mastodon--lt--2\:hvr:hover {
+  color: #56a7e1;
+}
+
+.c--mastodon--lt--3\:hvr:hover {
+  color: #6cb2e5;
+}
+
+.c--mastodon--lt--4\:hvr:hover {
+  color: #81bde9;
+}
+
+.c--mastodon--lt--5\:hvr:hover {
+  color: #97c9ec;
+}
+
+.c--mastodon--lt--1\:fcs:focus {
+  color: #419bdd;
+}
+
+.c--mastodon--lt--2\:fcs:focus {
+  color: #56a7e1;
+}
+
+.c--mastodon--lt--3\:fcs:focus {
+  color: #6cb2e5;
+}
+
+.c--mastodon--lt--4\:fcs:focus {
+  color: #81bde9;
+}
+
+.c--mastodon--lt--5\:fcs:focus {
+  color: #97c9ec;
+}
+
+.c--mastodon--dk--1 {
+  color: #2482c7;
+}
+
+.c--mastodon--dk--2 {
+  color: #2074b1;
+}
+
+.c--mastodon--dk--3 {
+  color: #1c669c;
+}
+
+.c--mastodon--dk--4 {
+  color: #185886;
+}
+
+.c--mastodon--dk--5 {
+  color: #144a70;
+}
+
+.c--mastodon--dk--1\:hvr:hover {
+  color: #2482c7;
+}
+
+.c--mastodon--dk--2\:hvr:hover {
+  color: #2074b1;
+}
+
+.c--mastodon--dk--3\:hvr:hover {
+  color: #1c669c;
+}
+
+.c--mastodon--dk--4\:hvr:hover {
+  color: #185886;
+}
+
+.c--mastodon--dk--5\:hvr:hover {
+  color: #144a70;
+}
+
+.c--mastodon--dk--1\:fcs:focus {
+  color: #2482c7;
+}
+
+.c--mastodon--dk--2\:fcs:focus {
+  color: #2074b1;
+}
+
+.c--mastodon--dk--3\:fcs:focus {
+  color: #1c669c;
+}
+
+.c--mastodon--dk--4\:fcs:focus {
+  color: #185886;
+}
+
+.c--mastodon--dk--5\:fcs:focus {
+  color: #144a70;
+}
+
+.c--mastodon--compl {
+  color: #d9742b;
+}
+
+.c--mastodon--compl\:hvr:hover {
+  color: #d9742b;
+}
+
+.c--mastodon--compl\:fcs:focus {
+  color: #d9742b;
 }
 
 .c--apple {
   color: #a6b1b7;
 }
 
+.c--apple\:hvr:hover {
+  color: #a6b1b7;
+}
+
+.c--apple\:fcs:focus {
+  color: #a6b1b7;
+}
+
+.c--apple--lt--1 {
+  color: #b4bdc2;
+}
+
+.c--apple--lt--2 {
+  color: #c2cace;
+}
+
+.c--apple--lt--3 {
+  color: #d0d6d9;
+}
+
+.c--apple--lt--4 {
+  color: #dee2e5;
+}
+
+.c--apple--lt--5 {
+  color: #eceff0;
+}
+
+.c--apple--lt--1\:hvr:hover {
+  color: #b4bdc2;
+}
+
+.c--apple--lt--2\:hvr:hover {
+  color: #c2cace;
+}
+
+.c--apple--lt--3\:hvr:hover {
+  color: #d0d6d9;
+}
+
+.c--apple--lt--4\:hvr:hover {
+  color: #dee2e5;
+}
+
+.c--apple--lt--5\:hvr:hover {
+  color: #eceff0;
+}
+
+.c--apple--lt--1\:fcs:focus {
+  color: #b4bdc2;
+}
+
+.c--apple--lt--2\:fcs:focus {
+  color: #c2cace;
+}
+
+.c--apple--lt--3\:fcs:focus {
+  color: #d0d6d9;
+}
+
+.c--apple--lt--4\:fcs:focus {
+  color: #dee2e5;
+}
+
+.c--apple--lt--5\:fcs:focus {
+  color: #eceff0;
+}
+
+.c--apple--dk--1 {
+  color: #98a5ac;
+}
+
+.c--apple--dk--2 {
+  color: #8a98a0;
+}
+
+.c--apple--dk--3 {
+  color: #7c8c95;
+}
+
+.c--apple--dk--4 {
+  color: #6e7f89;
+}
+
+.c--apple--dk--5 {
+  color: #63727a;
+}
+
+.c--apple--dk--1\:hvr:hover {
+  color: #98a5ac;
+}
+
+.c--apple--dk--2\:hvr:hover {
+  color: #8a98a0;
+}
+
+.c--apple--dk--3\:hvr:hover {
+  color: #7c8c95;
+}
+
+.c--apple--dk--4\:hvr:hover {
+  color: #6e7f89;
+}
+
+.c--apple--dk--5\:hvr:hover {
+  color: #63727a;
+}
+
+.c--apple--dk--1\:fcs:focus {
+  color: #98a5ac;
+}
+
+.c--apple--dk--2\:fcs:focus {
+  color: #8a98a0;
+}
+
+.c--apple--dk--3\:fcs:focus {
+  color: #7c8c95;
+}
+
+.c--apple--dk--4\:fcs:focus {
+  color: #6e7f89;
+}
+
+.c--apple--dk--5\:fcs:focus {
+  color: #63727a;
+}
+
+.c--apple--compl {
+  color: #b7aca6;
+}
+
+.c--apple--compl\:hvr:hover {
+  color: #b7aca6;
+}
+
+.c--apple--compl\:fcs:focus {
+  color: #b7aca6;
+}
+
 .c--amazon {
   color: #ff9900;
+}
+
+.c--amazon\:hvr:hover {
+  color: #ff9900;
+}
+
+.c--amazon\:fcs:focus {
+  color: #ff9900;
+}
+
+.c--amazon--lt--1 {
+  color: #ffa31a;
+}
+
+.c--amazon--lt--2 {
+  color: #ffad33;
+}
+
+.c--amazon--lt--3 {
+  color: #ffb84d;
+}
+
+.c--amazon--lt--4 {
+  color: #ffc266;
+}
+
+.c--amazon--lt--5 {
+  color: #ffcc80;
+}
+
+.c--amazon--lt--1\:hvr:hover {
+  color: #ffa31a;
+}
+
+.c--amazon--lt--2\:hvr:hover {
+  color: #ffad33;
+}
+
+.c--amazon--lt--3\:hvr:hover {
+  color: #ffb84d;
+}
+
+.c--amazon--lt--4\:hvr:hover {
+  color: #ffc266;
+}
+
+.c--amazon--lt--5\:hvr:hover {
+  color: #ffcc80;
+}
+
+.c--amazon--lt--1\:fcs:focus {
+  color: #ffa31a;
+}
+
+.c--amazon--lt--2\:fcs:focus {
+  color: #ffad33;
+}
+
+.c--amazon--lt--3\:fcs:focus {
+  color: #ffb84d;
+}
+
+.c--amazon--lt--4\:fcs:focus {
+  color: #ffc266;
+}
+
+.c--amazon--lt--5\:fcs:focus {
+  color: #ffcc80;
+}
+
+.c--amazon--dk--1 {
+  color: #e68a00;
+}
+
+.c--amazon--dk--2 {
+  color: #cc7a00;
+}
+
+.c--amazon--dk--3 {
+  color: #b36b00;
+}
+
+.c--amazon--dk--4 {
+  color: #995c00;
+}
+
+.c--amazon--dk--5 {
+  color: #804d00;
+}
+
+.c--amazon--dk--1\:hvr:hover {
+  color: #e68a00;
+}
+
+.c--amazon--dk--2\:hvr:hover {
+  color: #cc7a00;
+}
+
+.c--amazon--dk--3\:hvr:hover {
+  color: #b36b00;
+}
+
+.c--amazon--dk--4\:hvr:hover {
+  color: #995c00;
+}
+
+.c--amazon--dk--5\:hvr:hover {
+  color: #804d00;
+}
+
+.c--amazon--dk--1\:fcs:focus {
+  color: #e68a00;
+}
+
+.c--amazon--dk--2\:fcs:focus {
+  color: #cc7a00;
+}
+
+.c--amazon--dk--3\:fcs:focus {
+  color: #b36b00;
+}
+
+.c--amazon--dk--4\:fcs:focus {
+  color: #995c00;
+}
+
+.c--amazon--dk--5\:fcs:focus {
+  color: #804d00;
+}
+
+.c--amazon--compl {
+  color: #0066ff;
+}
+
+.c--amazon--compl\:hvr:hover {
+  color: #0066ff;
+}
+
+.c--amazon--compl\:fcs:focus {
+  color: #0066ff;
 }
 
 .c--microsoft {
   color: #f35022;
 }
 
+.c--microsoft\:hvr:hover {
+  color: #f35022;
+}
+
+.c--microsoft\:fcs:focus {
+  color: #f35022;
+}
+
+.c--microsoft--lt--1 {
+  color: #f4633a;
+}
+
+.c--microsoft--lt--2 {
+  color: #f67652;
+}
+
+.c--microsoft--lt--3 {
+  color: #f7896b;
+}
+
+.c--microsoft--lt--4 {
+  color: #f89d83;
+}
+
+.c--microsoft--lt--5 {
+  color: #fab09b;
+}
+
+.c--microsoft--lt--1\:hvr:hover {
+  color: #f4633a;
+}
+
+.c--microsoft--lt--2\:hvr:hover {
+  color: #f67652;
+}
+
+.c--microsoft--lt--3\:hvr:hover {
+  color: #f7896b;
+}
+
+.c--microsoft--lt--4\:hvr:hover {
+  color: #f89d83;
+}
+
+.c--microsoft--lt--5\:hvr:hover {
+  color: #fab09b;
+}
+
+.c--microsoft--lt--1\:fcs:focus {
+  color: #f4633a;
+}
+
+.c--microsoft--lt--2\:fcs:focus {
+  color: #f67652;
+}
+
+.c--microsoft--lt--3\:fcs:focus {
+  color: #f7896b;
+}
+
+.c--microsoft--lt--4\:fcs:focus {
+  color: #f89d83;
+}
+
+.c--microsoft--lt--5\:fcs:focus {
+  color: #fab09b;
+}
+
+.c--microsoft--dk--1 {
+  color: #ef3f0d;
+}
+
+.c--microsoft--dk--2 {
+  color: #d6380c;
+}
+
+.c--microsoft--dk--3 {
+  color: #be320a;
+}
+
+.c--microsoft--dk--4 {
+  color: #a62c09;
+}
+
+.c--microsoft--dk--5 {
+  color: #8e2508;
+}
+
+.c--microsoft--dk--1\:hvr:hover {
+  color: #ef3f0d;
+}
+
+.c--microsoft--dk--2\:hvr:hover {
+  color: #d6380c;
+}
+
+.c--microsoft--dk--3\:hvr:hover {
+  color: #be320a;
+}
+
+.c--microsoft--dk--4\:hvr:hover {
+  color: #a62c09;
+}
+
+.c--microsoft--dk--5\:hvr:hover {
+  color: #8e2508;
+}
+
+.c--microsoft--dk--1\:fcs:focus {
+  color: #ef3f0d;
+}
+
+.c--microsoft--dk--2\:fcs:focus {
+  color: #d6380c;
+}
+
+.c--microsoft--dk--3\:fcs:focus {
+  color: #be320a;
+}
+
+.c--microsoft--dk--4\:fcs:focus {
+  color: #a62c09;
+}
+
+.c--microsoft--dk--5\:fcs:focus {
+  color: #8e2508;
+}
+
+.c--microsoft--compl {
+  color: #22c5f3;
+}
+
+.c--microsoft--compl\:hvr:hover {
+  color: #22c5f3;
+}
+
+.c--microsoft--compl\:fcs:focus {
+  color: #22c5f3;
+}
+
 .c--medium {
   color: #02b875;
+}
+
+.c--medium\:hvr:hover {
+  color: #02b875;
+}
+
+.c--medium\:fcs:focus {
+  color: #02b875;
+}
+
+.c--medium--lt--1 {
+  color: #02d185;
+}
+
+.c--medium--lt--2 {
+  color: #03ea95;
+}
+
+.c--medium--lt--3 {
+  color: #0afca3;
+}
+
+.c--medium--lt--4 {
+  color: #23fdad;
+}
+
+.c--medium--lt--5 {
+  color: #3dfdb6;
+}
+
+.c--medium--lt--1\:hvr:hover {
+  color: #02d185;
+}
+
+.c--medium--lt--2\:hvr:hover {
+  color: #03ea95;
+}
+
+.c--medium--lt--3\:hvr:hover {
+  color: #0afca3;
+}
+
+.c--medium--lt--4\:hvr:hover {
+  color: #23fdad;
+}
+
+.c--medium--lt--5\:hvr:hover {
+  color: #3dfdb6;
+}
+
+.c--medium--lt--1\:fcs:focus {
+  color: #02d185;
+}
+
+.c--medium--lt--2\:fcs:focus {
+  color: #03ea95;
+}
+
+.c--medium--lt--3\:fcs:focus {
+  color: #0afca3;
+}
+
+.c--medium--lt--4\:fcs:focus {
+  color: #23fdad;
+}
+
+.c--medium--lt--5\:fcs:focus {
+  color: #3dfdb6;
+}
+
+.c--medium--dk--1 {
+  color: #029f65;
+}
+
+.c--medium--dk--2 {
+  color: #018655;
+}
+
+.c--medium--dk--3 {
+  color: #016c45;
+}
+
+.c--medium--dk--4 {
+  color: #015335;
+}
+
+.c--medium--dk--5 {
+  color: #013a25;
+}
+
+.c--medium--dk--1\:hvr:hover {
+  color: #029f65;
+}
+
+.c--medium--dk--2\:hvr:hover {
+  color: #018655;
+}
+
+.c--medium--dk--3\:hvr:hover {
+  color: #016c45;
+}
+
+.c--medium--dk--4\:hvr:hover {
+  color: #015335;
+}
+
+.c--medium--dk--5\:hvr:hover {
+  color: #013a25;
+}
+
+.c--medium--dk--1\:fcs:focus {
+  color: #029f65;
+}
+
+.c--medium--dk--2\:fcs:focus {
+  color: #018655;
+}
+
+.c--medium--dk--3\:fcs:focus {
+  color: #016c45;
+}
+
+.c--medium--dk--4\:fcs:focus {
+  color: #015335;
+}
+
+.c--medium--dk--5\:fcs:focus {
+  color: #013a25;
+}
+
+.c--medium--compl {
+  color: #b80245;
+}
+
+.c--medium--compl\:hvr:hover {
+  color: #b80245;
+}
+
+.c--medium--compl\:fcs:focus {
+  color: #b80245;
 }
 
 .c--skype {
   color: #00aff0;
 }
 
+.c--skype\:hvr:hover {
+  color: #00aff0;
+}
+
+.c--skype\:fcs:focus {
+  color: #00aff0;
+}
+
+.c--skype--lt--1 {
+  color: #0bbdff;
+}
+
+.c--skype--lt--2 {
+  color: #24c4ff;
+}
+
+.c--skype--lt--3 {
+  color: #3ecbff;
+}
+
+.c--skype--lt--4 {
+  color: #57d2ff;
+}
+
+.c--skype--lt--5 {
+  color: #71d8ff;
+}
+
+.c--skype--lt--1\:hvr:hover {
+  color: #0bbdff;
+}
+
+.c--skype--lt--2\:hvr:hover {
+  color: #24c4ff;
+}
+
+.c--skype--lt--3\:hvr:hover {
+  color: #3ecbff;
+}
+
+.c--skype--lt--4\:hvr:hover {
+  color: #57d2ff;
+}
+
+.c--skype--lt--5\:hvr:hover {
+  color: #71d8ff;
+}
+
+.c--skype--lt--1\:fcs:focus {
+  color: #0bbdff;
+}
+
+.c--skype--lt--2\:fcs:focus {
+  color: #24c4ff;
+}
+
+.c--skype--lt--3\:fcs:focus {
+  color: #3ecbff;
+}
+
+.c--skype--lt--4\:fcs:focus {
+  color: #57d2ff;
+}
+
+.c--skype--lt--5\:fcs:focus {
+  color: #71d8ff;
+}
+
+.c--skype--dk--1 {
+  color: #009cd7;
+}
+
+.c--skype--dk--2 {
+  color: #008abd;
+}
+
+.c--skype--dk--3 {
+  color: #0077a4;
+}
+
+.c--skype--dk--4 {
+  color: #00658a;
+}
+
+.c--skype--dk--5 {
+  color: #005271;
+}
+
+.c--skype--dk--1\:hvr:hover {
+  color: #009cd7;
+}
+
+.c--skype--dk--2\:hvr:hover {
+  color: #008abd;
+}
+
+.c--skype--dk--3\:hvr:hover {
+  color: #0077a4;
+}
+
+.c--skype--dk--4\:hvr:hover {
+  color: #00658a;
+}
+
+.c--skype--dk--5\:hvr:hover {
+  color: #005271;
+}
+
+.c--skype--dk--1\:fcs:focus {
+  color: #009cd7;
+}
+
+.c--skype--dk--2\:fcs:focus {
+  color: #008abd;
+}
+
+.c--skype--dk--3\:fcs:focus {
+  color: #0077a4;
+}
+
+.c--skype--dk--4\:fcs:focus {
+  color: #00658a;
+}
+
+.c--skype--dk--5\:fcs:focus {
+  color: #005271;
+}
+
+.c--skype--compl {
+  color: #f04100;
+}
+
+.c--skype--compl\:hvr:hover {
+  color: #f04100;
+}
+
+.c--skype--compl\:fcs:focus {
+  color: #f04100;
+}
+
 .c--android {
   color: #a4c639;
+}
+
+.c--android\:hvr:hover {
+  color: #a4c639;
+}
+
+.c--android\:fcs:focus {
+  color: #a4c639;
+}
+
+.c--android--lt--1 {
+  color: #adcc4d;
+}
+
+.c--android--lt--2 {
+  color: #b6d161;
+}
+
+.c--android--lt--3 {
+  color: #bfd774;
+}
+
+.c--android--lt--4 {
+  color: #c8dd88;
+}
+
+.c--android--lt--5 {
+  color: #d2e39c;
+}
+
+.c--android--lt--1\:hvr:hover {
+  color: #adcc4d;
+}
+
+.c--android--lt--2\:hvr:hover {
+  color: #b6d161;
+}
+
+.c--android--lt--3\:hvr:hover {
+  color: #bfd774;
+}
+
+.c--android--lt--4\:hvr:hover {
+  color: #c8dd88;
+}
+
+.c--android--lt--5\:hvr:hover {
+  color: #d2e39c;
+}
+
+.c--android--lt--1\:fcs:focus {
+  color: #adcc4d;
+}
+
+.c--android--lt--2\:fcs:focus {
+  color: #b6d161;
+}
+
+.c--android--lt--3\:fcs:focus {
+  color: #bfd774;
+}
+
+.c--android--lt--4\:fcs:focus {
+  color: #c8dd88;
+}
+
+.c--android--lt--5\:fcs:focus {
+  color: #d2e39c;
+}
+
+.c--android--dk--1 {
+  color: #94b233;
+}
+
+.c--android--dk--2 {
+  color: #839e2e;
+}
+
+.c--android--dk--3 {
+  color: #738b28;
+}
+
+.c--android--dk--4 {
+  color: #627722;
+}
+
+.c--android--dk--5 {
+  color: #52631d;
+}
+
+.c--android--dk--1\:hvr:hover {
+  color: #94b233;
+}
+
+.c--android--dk--2\:hvr:hover {
+  color: #839e2e;
+}
+
+.c--android--dk--3\:hvr:hover {
+  color: #738b28;
+}
+
+.c--android--dk--4\:hvr:hover {
+  color: #627722;
+}
+
+.c--android--dk--5\:hvr:hover {
+  color: #52631d;
+}
+
+.c--android--dk--1\:fcs:focus {
+  color: #94b233;
+}
+
+.c--android--dk--2\:fcs:focus {
+  color: #839e2e;
+}
+
+.c--android--dk--3\:fcs:focus {
+  color: #738b28;
+}
+
+.c--android--dk--4\:fcs:focus {
+  color: #627722;
+}
+
+.c--android--dk--5\:fcs:focus {
+  color: #52631d;
+}
+
+.c--android--compl {
+  color: #5b39c6;
+}
+
+.c--android--compl\:hvr:hover {
+  color: #5b39c6;
+}
+
+.c--android--compl\:fcs:focus {
+  color: #5b39c6;
 }
 
 .c--yahoo {
   color: #430297;
 }
 
+.c--yahoo\:hvr:hover {
+  color: #430297;
+}
+
+.c--yahoo\:fcs:focus {
+  color: #430297;
+}
+
+.c--yahoo--lt--1 {
+  color: #4e02b0;
+}
+
+.c--yahoo--lt--2 {
+  color: #5903c9;
+}
+
+.c--yahoo--lt--3 {
+  color: #6503e3;
+}
+
+.c--yahoo--lt--4 {
+  color: #7003fc;
+}
+
+.c--yahoo--lt--5 {
+  color: #7e1dfc;
+}
+
+.c--yahoo--lt--1\:hvr:hover {
+  color: #4e02b0;
+}
+
+.c--yahoo--lt--2\:hvr:hover {
+  color: #5903c9;
+}
+
+.c--yahoo--lt--3\:hvr:hover {
+  color: #6503e3;
+}
+
+.c--yahoo--lt--4\:hvr:hover {
+  color: #7003fc;
+}
+
+.c--yahoo--lt--5\:hvr:hover {
+  color: #7e1dfc;
+}
+
+.c--yahoo--lt--1\:fcs:focus {
+  color: #4e02b0;
+}
+
+.c--yahoo--lt--2\:fcs:focus {
+  color: #5903c9;
+}
+
+.c--yahoo--lt--3\:fcs:focus {
+  color: #6503e3;
+}
+
+.c--yahoo--lt--4\:fcs:focus {
+  color: #7003fc;
+}
+
+.c--yahoo--lt--5\:fcs:focus {
+  color: #7e1dfc;
+}
+
+.c--yahoo--dk--1 {
+  color: #38027e;
+}
+
+.c--yahoo--dk--2 {
+  color: #2d0165;
+}
+
+.c--yahoo--dk--3 {
+  color: #22014c;
+}
+
+.c--yahoo--dk--4 {
+  color: #160132;
+}
+
+.c--yahoo--dk--5 {
+  color: #0b0019;
+}
+
+.c--yahoo--dk--1\:hvr:hover {
+  color: #38027e;
+}
+
+.c--yahoo--dk--2\:hvr:hover {
+  color: #2d0165;
+}
+
+.c--yahoo--dk--3\:hvr:hover {
+  color: #22014c;
+}
+
+.c--yahoo--dk--4\:hvr:hover {
+  color: #160132;
+}
+
+.c--yahoo--dk--5\:hvr:hover {
+  color: #0b0019;
+}
+
+.c--yahoo--dk--1\:fcs:focus {
+  color: #38027e;
+}
+
+.c--yahoo--dk--2\:fcs:focus {
+  color: #2d0165;
+}
+
+.c--yahoo--dk--3\:fcs:focus {
+  color: #22014c;
+}
+
+.c--yahoo--dk--4\:fcs:focus {
+  color: #160132;
+}
+
+.c--yahoo--dk--5\:fcs:focus {
+  color: #0b0019;
+}
+
+.c--yahoo--compl {
+  color: #569702;
+}
+
+.c--yahoo--compl\:hvr:hover {
+  color: #569702;
+}
+
+.c--yahoo--compl\:fcs:focus {
+  color: #569702;
+}
+
 .c--twitch {
   color: #9146ff;
+}
+
+.c--twitch\:hvr:hover {
+  color: #9146ff;
+}
+
+.c--twitch\:fcs:focus {
+  color: #9146ff;
+}
+
+.c--twitch--lt--1 {
+  color: #a060ff;
+}
+
+.c--twitch--lt--2 {
+  color: #af79ff;
+}
+
+.c--twitch--lt--3 {
+  color: #be93ff;
+}
+
+.c--twitch--lt--4 {
+  color: #ceacff;
+}
+
+.c--twitch--lt--5 {
+  color: #ddc6ff;
+}
+
+.c--twitch--lt--1\:hvr:hover {
+  color: #a060ff;
+}
+
+.c--twitch--lt--2\:hvr:hover {
+  color: #af79ff;
+}
+
+.c--twitch--lt--3\:hvr:hover {
+  color: #be93ff;
+}
+
+.c--twitch--lt--4\:hvr:hover {
+  color: #ceacff;
+}
+
+.c--twitch--lt--5\:hvr:hover {
+  color: #ddc6ff;
+}
+
+.c--twitch--lt--1\:fcs:focus {
+  color: #a060ff;
+}
+
+.c--twitch--lt--2\:fcs:focus {
+  color: #af79ff;
+}
+
+.c--twitch--lt--3\:fcs:focus {
+  color: #be93ff;
+}
+
+.c--twitch--lt--4\:fcs:focus {
+  color: #ceacff;
+}
+
+.c--twitch--lt--5\:fcs:focus {
+  color: #ddc6ff;
+}
+
+.c--twitch--dk--1 {
+  color: #822dff;
+}
+
+.c--twitch--dk--2 {
+  color: #7313ff;
+}
+
+.c--twitch--dk--3 {
+  color: #6500f9;
+}
+
+.c--twitch--dk--4 {
+  color: #5a00df;
+}
+
+.c--twitch--dk--5 {
+  color: #5000c6;
+}
+
+.c--twitch--dk--1\:hvr:hover {
+  color: #822dff;
+}
+
+.c--twitch--dk--2\:hvr:hover {
+  color: #7313ff;
+}
+
+.c--twitch--dk--3\:hvr:hover {
+  color: #6500f9;
+}
+
+.c--twitch--dk--4\:hvr:hover {
+  color: #5a00df;
+}
+
+.c--twitch--dk--5\:hvr:hover {
+  color: #5000c6;
+}
+
+.c--twitch--dk--1\:fcs:focus {
+  color: #822dff;
+}
+
+.c--twitch--dk--2\:fcs:focus {
+  color: #7313ff;
+}
+
+.c--twitch--dk--3\:fcs:focus {
+  color: #6500f9;
+}
+
+.c--twitch--dk--4\:fcs:focus {
+  color: #5a00df;
+}
+
+.c--twitch--dk--5\:fcs:focus {
+  color: #5000c6;
+}
+
+.c--twitch--compl {
+  color: #b4ff46;
+}
+
+.c--twitch--compl\:hvr:hover {
+  color: #b4ff46;
+}
+
+.c--twitch--compl\:fcs:focus {
+  color: #b4ff46;
 }
 
 .c--soundcloud {
   color: #ff5500;
 }
 
+.c--soundcloud\:hvr:hover {
+  color: #ff5500;
+}
+
+.c--soundcloud\:fcs:focus {
+  color: #ff5500;
+}
+
+.c--soundcloud--lt--1 {
+  color: #ff661a;
+}
+
+.c--soundcloud--lt--2 {
+  color: #ff7733;
+}
+
+.c--soundcloud--lt--3 {
+  color: #ff884d;
+}
+
+.c--soundcloud--lt--4 {
+  color: #ff9966;
+}
+
+.c--soundcloud--lt--5 {
+  color: #ffaa80;
+}
+
+.c--soundcloud--lt--1\:hvr:hover {
+  color: #ff661a;
+}
+
+.c--soundcloud--lt--2\:hvr:hover {
+  color: #ff7733;
+}
+
+.c--soundcloud--lt--3\:hvr:hover {
+  color: #ff884d;
+}
+
+.c--soundcloud--lt--4\:hvr:hover {
+  color: #ff9966;
+}
+
+.c--soundcloud--lt--5\:hvr:hover {
+  color: #ffaa80;
+}
+
+.c--soundcloud--lt--1\:fcs:focus {
+  color: #ff661a;
+}
+
+.c--soundcloud--lt--2\:fcs:focus {
+  color: #ff7733;
+}
+
+.c--soundcloud--lt--3\:fcs:focus {
+  color: #ff884d;
+}
+
+.c--soundcloud--lt--4\:fcs:focus {
+  color: #ff9966;
+}
+
+.c--soundcloud--lt--5\:fcs:focus {
+  color: #ffaa80;
+}
+
+.c--soundcloud--dk--1 {
+  color: #e64d00;
+}
+
+.c--soundcloud--dk--2 {
+  color: #cc4400;
+}
+
+.c--soundcloud--dk--3 {
+  color: #b33c00;
+}
+
+.c--soundcloud--dk--4 {
+  color: #993300;
+}
+
+.c--soundcloud--dk--5 {
+  color: #802b00;
+}
+
+.c--soundcloud--dk--1\:hvr:hover {
+  color: #e64d00;
+}
+
+.c--soundcloud--dk--2\:hvr:hover {
+  color: #cc4400;
+}
+
+.c--soundcloud--dk--3\:hvr:hover {
+  color: #b33c00;
+}
+
+.c--soundcloud--dk--4\:hvr:hover {
+  color: #993300;
+}
+
+.c--soundcloud--dk--5\:hvr:hover {
+  color: #802b00;
+}
+
+.c--soundcloud--dk--1\:fcs:focus {
+  color: #e64d00;
+}
+
+.c--soundcloud--dk--2\:fcs:focus {
+  color: #cc4400;
+}
+
+.c--soundcloud--dk--3\:fcs:focus {
+  color: #b33c00;
+}
+
+.c--soundcloud--dk--4\:fcs:focus {
+  color: #993300;
+}
+
+.c--soundcloud--dk--5\:fcs:focus {
+  color: #802b00;
+}
+
+.c--soundcloud--compl {
+  color: #00aaff;
+}
+
+.c--soundcloud--compl\:hvr:hover {
+  color: #00aaff;
+}
+
+.c--soundcloud--compl\:fcs:focus {
+  color: #00aaff;
+}
+
 .c--spotify {
   color: #1ed760;
+}
+
+.c--spotify\:hvr:hover {
+  color: #1ed760;
+}
+
+.c--spotify\:fcs:focus {
+  color: #1ed760;
+}
+
+.c--spotify--lt--1 {
+  color: #2de26d;
+}
+
+.c--spotify--lt--2 {
+  color: #43e57d;
+}
+
+.c--spotify--lt--3 {
+  color: #5ae88c;
+}
+
+.c--spotify--lt--4 {
+  color: #70eb9c;
+}
+
+.c--spotify--lt--5 {
+  color: #86eeab;
+}
+
+.c--spotify--lt--1\:hvr:hover {
+  color: #2de26d;
+}
+
+.c--spotify--lt--2\:hvr:hover {
+  color: #43e57d;
+}
+
+.c--spotify--lt--3\:hvr:hover {
+  color: #5ae88c;
+}
+
+.c--spotify--lt--4\:hvr:hover {
+  color: #70eb9c;
+}
+
+.c--spotify--lt--5\:hvr:hover {
+  color: #86eeab;
+}
+
+.c--spotify--lt--1\:fcs:focus {
+  color: #2de26d;
+}
+
+.c--spotify--lt--2\:fcs:focus {
+  color: #43e57d;
+}
+
+.c--spotify--lt--3\:fcs:focus {
+  color: #5ae88c;
+}
+
+.c--spotify--lt--4\:fcs:focus {
+  color: #70eb9c;
+}
+
+.c--spotify--lt--5\:fcs:focus {
+  color: #86eeab;
+}
+
+.c--spotify--dk--1 {
+  color: #1bc156;
+}
+
+.c--spotify--dk--2 {
+  color: #18aa4c;
+}
+
+.c--spotify--dk--3 {
+  color: #159442;
+}
+
+.c--spotify--dk--4 {
+  color: #127d38;
+}
+
+.c--spotify--dk--5 {
+  color: #0e672e;
+}
+
+.c--spotify--dk--1\:hvr:hover {
+  color: #1bc156;
+}
+
+.c--spotify--dk--2\:hvr:hover {
+  color: #18aa4c;
+}
+
+.c--spotify--dk--3\:hvr:hover {
+  color: #159442;
+}
+
+.c--spotify--dk--4\:hvr:hover {
+  color: #127d38;
+}
+
+.c--spotify--dk--5\:hvr:hover {
+  color: #0e672e;
+}
+
+.c--spotify--dk--1\:fcs:focus {
+  color: #1bc156;
+}
+
+.c--spotify--dk--2\:fcs:focus {
+  color: #18aa4c;
+}
+
+.c--spotify--dk--3\:fcs:focus {
+  color: #159442;
+}
+
+.c--spotify--dk--4\:fcs:focus {
+  color: #127d38;
+}
+
+.c--spotify--dk--5\:fcs:focus {
+  color: #0e672e;
+}
+
+.c--spotify--compl {
+  color: #d71e95;
+}
+
+.c--spotify--compl\:hvr:hover {
+  color: #d71e95;
+}
+
+.c--spotify--compl\:fcs:focus {
+  color: #d71e95;
 }
 
 .c--reddit {
   color: #ff5700;
 }
 
+.c--reddit\:hvr:hover {
+  color: #ff5700;
+}
+
+.c--reddit\:fcs:focus {
+  color: #ff5700;
+}
+
+.c--reddit--lt--1 {
+  color: #ff681a;
+}
+
+.c--reddit--lt--2 {
+  color: #ff7933;
+}
+
+.c--reddit--lt--3 {
+  color: #ff894d;
+}
+
+.c--reddit--lt--4 {
+  color: #ff9a66;
+}
+
+.c--reddit--lt--5 {
+  color: #ffab80;
+}
+
+.c--reddit--lt--1\:hvr:hover {
+  color: #ff681a;
+}
+
+.c--reddit--lt--2\:hvr:hover {
+  color: #ff7933;
+}
+
+.c--reddit--lt--3\:hvr:hover {
+  color: #ff894d;
+}
+
+.c--reddit--lt--4\:hvr:hover {
+  color: #ff9a66;
+}
+
+.c--reddit--lt--5\:hvr:hover {
+  color: #ffab80;
+}
+
+.c--reddit--lt--1\:fcs:focus {
+  color: #ff681a;
+}
+
+.c--reddit--lt--2\:fcs:focus {
+  color: #ff7933;
+}
+
+.c--reddit--lt--3\:fcs:focus {
+  color: #ff894d;
+}
+
+.c--reddit--lt--4\:fcs:focus {
+  color: #ff9a66;
+}
+
+.c--reddit--lt--5\:fcs:focus {
+  color: #ffab80;
+}
+
+.c--reddit--dk--1 {
+  color: #e64e00;
+}
+
+.c--reddit--dk--2 {
+  color: #cc4600;
+}
+
+.c--reddit--dk--3 {
+  color: #b33d00;
+}
+
+.c--reddit--dk--4 {
+  color: #993400;
+}
+
+.c--reddit--dk--5 {
+  color: #802c00;
+}
+
+.c--reddit--dk--1\:hvr:hover {
+  color: #e64e00;
+}
+
+.c--reddit--dk--2\:hvr:hover {
+  color: #cc4600;
+}
+
+.c--reddit--dk--3\:hvr:hover {
+  color: #b33d00;
+}
+
+.c--reddit--dk--4\:hvr:hover {
+  color: #993400;
+}
+
+.c--reddit--dk--5\:hvr:hover {
+  color: #802c00;
+}
+
+.c--reddit--dk--1\:fcs:focus {
+  color: #e64e00;
+}
+
+.c--reddit--dk--2\:fcs:focus {
+  color: #cc4600;
+}
+
+.c--reddit--dk--3\:fcs:focus {
+  color: #b33d00;
+}
+
+.c--reddit--dk--4\:fcs:focus {
+  color: #993400;
+}
+
+.c--reddit--dk--5\:fcs:focus {
+  color: #802c00;
+}
+
+.c--reddit--compl {
+  color: #00a8ff;
+}
+
+.c--reddit--compl\:hvr:hover {
+  color: #00a8ff;
+}
+
+.c--reddit--compl\:fcs:focus {
+  color: #00a8ff;
+}
+
 .c--quora {
   color: #aa2200;
+}
+
+.c--quora\:hvr:hover {
+  color: #aa2200;
+}
+
+.c--quora\:fcs:focus {
+  color: #aa2200;
+}
+
+.c--quora--lt--1 {
+  color: #c42700;
+}
+
+.c--quora--lt--2 {
+  color: #dd2c00;
+}
+
+.c--quora--lt--3 {
+  color: #f73100;
+}
+
+.c--quora--lt--4 {
+  color: #ff4111;
+}
+
+.c--quora--lt--5 {
+  color: #ff552b;
+}
+
+.c--quora--lt--1\:hvr:hover {
+  color: #c42700;
+}
+
+.c--quora--lt--2\:hvr:hover {
+  color: #dd2c00;
+}
+
+.c--quora--lt--3\:hvr:hover {
+  color: #f73100;
+}
+
+.c--quora--lt--4\:hvr:hover {
+  color: #ff4111;
+}
+
+.c--quora--lt--5\:hvr:hover {
+  color: #ff552b;
+}
+
+.c--quora--lt--1\:fcs:focus {
+  color: #c42700;
+}
+
+.c--quora--lt--2\:fcs:focus {
+  color: #dd2c00;
+}
+
+.c--quora--lt--3\:fcs:focus {
+  color: #f73100;
+}
+
+.c--quora--lt--4\:fcs:focus {
+  color: #ff4111;
+}
+
+.c--quora--lt--5\:fcs:focus {
+  color: #ff552b;
+}
+
+.c--quora--dk--1 {
+  color: #911d00;
+}
+
+.c--quora--dk--2 {
+  color: #771800;
+}
+
+.c--quora--dk--3 {
+  color: #5e1300;
+}
+
+.c--quora--dk--4 {
+  color: #440e00;
+}
+
+.c--quora--dk--5 {
+  color: #2b0900;
+}
+
+.c--quora--dk--1\:hvr:hover {
+  color: #911d00;
+}
+
+.c--quora--dk--2\:hvr:hover {
+  color: #771800;
+}
+
+.c--quora--dk--3\:hvr:hover {
+  color: #5e1300;
+}
+
+.c--quora--dk--4\:hvr:hover {
+  color: #440e00;
+}
+
+.c--quora--dk--5\:hvr:hover {
+  color: #2b0900;
+}
+
+.c--quora--dk--1\:fcs:focus {
+  color: #911d00;
+}
+
+.c--quora--dk--2\:fcs:focus {
+  color: #771800;
+}
+
+.c--quora--dk--3\:fcs:focus {
+  color: #5e1300;
+}
+
+.c--quora--dk--4\:fcs:focus {
+  color: #440e00;
+}
+
+.c--quora--dk--5\:fcs:focus {
+  color: #2b0900;
+}
+
+.c--quora--compl {
+  color: #0088aa;
+}
+
+.c--quora--compl\:hvr:hover {
+  color: #0088aa;
+}
+
+.c--quora--compl\:fcs:focus {
+  color: #0088aa;
 }
 
 .c--vk {
   color: #4a76a8;
 }
 
+.c--vk\:hvr:hover {
+  color: #4a76a8;
+}
+
+.c--vk\:fcs:focus {
+  color: #4a76a8;
+}
+
+.c--vk--lt--1 {
+  color: #5783b5;
+}
+
+.c--vk--lt--2 {
+  color: #6890bd;
+}
+
+.c--vk--lt--3 {
+  color: #7a9dc4;
+}
+
+.c--vk--lt--4 {
+  color: #8caacc;
+}
+
+.c--vk--lt--5 {
+  color: #9db7d4;
+}
+
+.c--vk--lt--1\:hvr:hover {
+  color: #5783b5;
+}
+
+.c--vk--lt--2\:hvr:hover {
+  color: #6890bd;
+}
+
+.c--vk--lt--3\:hvr:hover {
+  color: #7a9dc4;
+}
+
+.c--vk--lt--4\:hvr:hover {
+  color: #8caacc;
+}
+
+.c--vk--lt--5\:hvr:hover {
+  color: #9db7d4;
+}
+
+.c--vk--lt--1\:fcs:focus {
+  color: #5783b5;
+}
+
+.c--vk--lt--2\:fcs:focus {
+  color: #6890bd;
+}
+
+.c--vk--lt--3\:fcs:focus {
+  color: #7a9dc4;
+}
+
+.c--vk--lt--4\:fcs:focus {
+  color: #8caacc;
+}
+
+.c--vk--lt--5\:fcs:focus {
+  color: #9db7d4;
+}
+
+.c--vk--dk--1 {
+  color: #426a96;
+}
+
+.c--vk--dk--2 {
+  color: #3a5d85;
+}
+
+.c--vk--dk--3 {
+  color: #335173;
+}
+
+.c--vk--dk--4 {
+  color: #2b4461;
+}
+
+.c--vk--dk--5 {
+  color: #23384f;
+}
+
+.c--vk--dk--1\:hvr:hover {
+  color: #426a96;
+}
+
+.c--vk--dk--2\:hvr:hover {
+  color: #3a5d85;
+}
+
+.c--vk--dk--3\:hvr:hover {
+  color: #335173;
+}
+
+.c--vk--dk--4\:hvr:hover {
+  color: #2b4461;
+}
+
+.c--vk--dk--5\:hvr:hover {
+  color: #23384f;
+}
+
+.c--vk--dk--1\:fcs:focus {
+  color: #426a96;
+}
+
+.c--vk--dk--2\:fcs:focus {
+  color: #3a5d85;
+}
+
+.c--vk--dk--3\:fcs:focus {
+  color: #335173;
+}
+
+.c--vk--dk--4\:fcs:focus {
+  color: #2b4461;
+}
+
+.c--vk--dk--5\:fcs:focus {
+  color: #23384f;
+}
+
+.c--vk--compl {
+  color: #a87c4a;
+}
+
+.c--vk--compl\:hvr:hover {
+  color: #a87c4a;
+}
+
+.c--vk--compl\:fcs:focus {
+  color: #a87c4a;
+}
+
 .c--vine {
   color: #00b489;
+}
+
+.c--vine\:hvr:hover {
+  color: #00b489;
+}
+
+.c--vine\:fcs:focus {
+  color: #00b489;
+}
+
+.c--vine--lt--1 {
+  color: #00ce9c;
+}
+
+.c--vine--lt--2 {
+  color: #00e7b0;
+}
+
+.c--vine--lt--3 {
+  color: #02ffc2;
+}
+
+.c--vine--lt--4 {
+  color: #1bffc9;
+}
+
+.c--vine--lt--5 {
+  color: #35ffcf;
+}
+
+.c--vine--lt--1\:hvr:hover {
+  color: #00ce9c;
+}
+
+.c--vine--lt--2\:hvr:hover {
+  color: #00e7b0;
+}
+
+.c--vine--lt--3\:hvr:hover {
+  color: #02ffc2;
+}
+
+.c--vine--lt--4\:hvr:hover {
+  color: #1bffc9;
+}
+
+.c--vine--lt--5\:hvr:hover {
+  color: #35ffcf;
+}
+
+.c--vine--lt--1\:fcs:focus {
+  color: #00ce9c;
+}
+
+.c--vine--lt--2\:fcs:focus {
+  color: #00e7b0;
+}
+
+.c--vine--lt--3\:fcs:focus {
+  color: #02ffc2;
+}
+
+.c--vine--lt--4\:fcs:focus {
+  color: #1bffc9;
+}
+
+.c--vine--lt--5\:fcs:focus {
+  color: #35ffcf;
+}
+
+.c--vine--dk--1 {
+  color: #009b76;
+}
+
+.c--vine--dk--2 {
+  color: #008162;
+}
+
+.c--vine--dk--3 {
+  color: #00684f;
+}
+
+.c--vine--dk--4 {
+  color: #004e3b;
+}
+
+.c--vine--dk--5 {
+  color: #003528;
+}
+
+.c--vine--dk--1\:hvr:hover {
+  color: #009b76;
+}
+
+.c--vine--dk--2\:hvr:hover {
+  color: #008162;
+}
+
+.c--vine--dk--3\:hvr:hover {
+  color: #00684f;
+}
+
+.c--vine--dk--4\:hvr:hover {
+  color: #004e3b;
+}
+
+.c--vine--dk--5\:hvr:hover {
+  color: #003528;
+}
+
+.c--vine--dk--1\:fcs:focus {
+  color: #009b76;
+}
+
+.c--vine--dk--2\:fcs:focus {
+  color: #008162;
+}
+
+.c--vine--dk--3\:fcs:focus {
+  color: #00684f;
+}
+
+.c--vine--dk--4\:fcs:focus {
+  color: #004e3b;
+}
+
+.c--vine--dk--5\:fcs:focus {
+  color: #003528;
+}
+
+.c--vine--compl {
+  color: #b4002b;
+}
+
+.c--vine--compl\:hvr:hover {
+  color: #b4002b;
+}
+
+.c--vine--compl\:fcs:focus {
+  color: #b4002b;
 }
 
 .c--steam {
   color: #171a21;
 }
 
+.c--steam\:hvr:hover {
+  color: #171a21;
+}
+
+.c--steam\:fcs:focus {
+  color: #171a21;
+}
+
+.c--steam--lt--1 {
+  color: #212630;
+}
+
+.c--steam--lt--2 {
+  color: #2c323f;
+}
+
+.c--steam--lt--3 {
+  color: #363e4e;
+}
+
+.c--steam--lt--4 {
+  color: #41495d;
+}
+
+.c--steam--lt--5 {
+  color: #4b556c;
+}
+
+.c--steam--lt--1\:hvr:hover {
+  color: #212630;
+}
+
+.c--steam--lt--2\:hvr:hover {
+  color: #2c323f;
+}
+
+.c--steam--lt--3\:hvr:hover {
+  color: #363e4e;
+}
+
+.c--steam--lt--4\:hvr:hover {
+  color: #41495d;
+}
+
+.c--steam--lt--5\:hvr:hover {
+  color: #4b556c;
+}
+
+.c--steam--lt--1\:fcs:focus {
+  color: #212630;
+}
+
+.c--steam--lt--2\:fcs:focus {
+  color: #2c323f;
+}
+
+.c--steam--lt--3\:fcs:focus {
+  color: #363e4e;
+}
+
+.c--steam--lt--4\:fcs:focus {
+  color: #41495d;
+}
+
+.c--steam--lt--5\:fcs:focus {
+  color: #4b556c;
+}
+
+.c--steam--dk--1 {
+  color: #0d0e12;
+}
+
+.c--steam--dk--2 {
+  color: #020203;
+}
+
+.c--steam--dk--3 {
+  color: black;
+}
+
+.c--steam--dk--4 {
+  color: black;
+}
+
+.c--steam--dk--5 {
+  color: black;
+}
+
+.c--steam--dk--1\:hvr:hover {
+  color: #0d0e12;
+}
+
+.c--steam--dk--2\:hvr:hover {
+  color: #020203;
+}
+
+.c--steam--dk--3\:hvr:hover {
+  color: black;
+}
+
+.c--steam--dk--4\:hvr:hover {
+  color: black;
+}
+
+.c--steam--dk--5\:hvr:hover {
+  color: black;
+}
+
+.c--steam--dk--1\:fcs:focus {
+  color: #0d0e12;
+}
+
+.c--steam--dk--2\:fcs:focus {
+  color: #020203;
+}
+
+.c--steam--dk--3\:fcs:focus {
+  color: black;
+}
+
+.c--steam--dk--4\:fcs:focus {
+  color: black;
+}
+
+.c--steam--dk--5\:fcs:focus {
+  color: black;
+}
+
+.c--steam--compl {
+  color: #211e17;
+}
+
+.c--steam--compl\:hvr:hover {
+  color: #211e17;
+}
+
+.c--steam--compl\:fcs:focus {
+  color: #211e17;
+}
+
 .c--discord {
   color: #5865f2;
+}
+
+.c--discord\:hvr:hover {
+  color: #5865f2;
+}
+
+.c--discord\:fcs:focus {
+  color: #5865f2;
+}
+
+.c--discord--lt--1 {
+  color: #707bf4;
+}
+
+.c--discord--lt--2 {
+  color: #8791f6;
+}
+
+.c--discord--lt--3 {
+  color: #9fa6f8;
+}
+
+.c--discord--lt--4 {
+  color: #b7bcf9;
+}
+
+.c--discord--lt--5 {
+  color: #ced2fb;
+}
+
+.c--discord--lt--1\:hvr:hover {
+  color: #707bf4;
+}
+
+.c--discord--lt--2\:hvr:hover {
+  color: #8791f6;
+}
+
+.c--discord--lt--3\:hvr:hover {
+  color: #9fa6f8;
+}
+
+.c--discord--lt--4\:hvr:hover {
+  color: #b7bcf9;
+}
+
+.c--discord--lt--5\:hvr:hover {
+  color: #ced2fb;
+}
+
+.c--discord--lt--1\:fcs:focus {
+  color: #707bf4;
+}
+
+.c--discord--lt--2\:fcs:focus {
+  color: #8791f6;
+}
+
+.c--discord--lt--3\:fcs:focus {
+  color: #9fa6f8;
+}
+
+.c--discord--lt--4\:fcs:focus {
+  color: #b7bcf9;
+}
+
+.c--discord--lt--5\:fcs:focus {
+  color: #ced2fb;
+}
+
+.c--discord--dk--1 {
+  color: #404ff0;
+}
+
+.c--discord--dk--2 {
+  color: #2939ee;
+}
+
+.c--discord--dk--3 {
+  color: #1225eb;
+}
+
+.c--discord--dk--4 {
+  color: #1021d4;
+}
+
+.c--discord--dk--5 {
+  color: #0f1dbc;
+}
+
+.c--discord--dk--1\:hvr:hover {
+  color: #404ff0;
+}
+
+.c--discord--dk--2\:hvr:hover {
+  color: #2939ee;
+}
+
+.c--discord--dk--3\:hvr:hover {
+  color: #1225eb;
+}
+
+.c--discord--dk--4\:hvr:hover {
+  color: #1021d4;
+}
+
+.c--discord--dk--5\:hvr:hover {
+  color: #0f1dbc;
+}
+
+.c--discord--dk--1\:fcs:focus {
+  color: #404ff0;
+}
+
+.c--discord--dk--2\:fcs:focus {
+  color: #2939ee;
+}
+
+.c--discord--dk--3\:fcs:focus {
+  color: #1225eb;
+}
+
+.c--discord--dk--4\:fcs:focus {
+  color: #1021d4;
+}
+
+.c--discord--dk--5\:fcs:focus {
+  color: #0f1dbc;
+}
+
+.c--discord--compl {
+  color: #f2e558;
+}
+
+.c--discord--compl\:hvr:hover {
+  color: #f2e558;
+}
+
+.c--discord--compl\:fcs:focus {
+  color: #f2e558;
 }
 
 .c--telegram {
   color: #0088cc;
 }
 
-.c--facebook--hvr:hover {
-  color: #1877f2;
-}
-
-.c--facebookold--hvr:hover {
-  color: #3b5998;
-}
-
-.c--twitter--hvr:hover {
-  color: #1da1f2;
-}
-
-.c--youtube--hvr:hover {
-  color: #ff0000;
-}
-
-.c--linkedin--hvr:hover {
-  color: #0a66c2;
-}
-
-.c--instagram--hvr:hover {
-  color: #c32aa3;
-}
-
-.c--google--hvr:hover {
-  color: #4285f4;
-}
-
-.c--googleplus--hvr:hover {
-  color: #db4437;
-}
-
-.c--pinterest--hvr:hover {
-  color: #bd081c;
-}
-
-.c--vimeo--hvr:hover {
-  color: #1ab7ea;
-}
-
-.c--tumblr--hvr:hover {
-  color: #2c4762;
-}
-
-.c--snapchat--hvr:hover {
-  color: #fffc00;
-}
-
-.c--whatsapp--hvr:hover {
-  color: #25d366;
-}
-
-.c--tiktok--hvr:hover {
-  color: #010101;
-}
-
-.c--apple--hvr:hover {
-  color: #a6b1b7;
-}
-
-.c--amazon--hvr:hover {
-  color: #ff9900;
-}
-
-.c--microsoft--hvr:hover {
-  color: #f35022;
-}
-
-.c--medium--hvr:hover {
-  color: #02b875;
-}
-
-.c--skype--hvr:hover {
-  color: #00aff0;
-}
-
-.c--android--hvr:hover {
-  color: #a4c639;
-}
-
-.c--yahoo--hvr:hover {
-  color: #430297;
-}
-
-.c--twitch--hvr:hover {
-  color: #9146ff;
-}
-
-.c--soundcloud--hvr:hover {
-  color: #ff5500;
-}
-
-.c--spotify--hvr:hover {
-  color: #1ed760;
-}
-
-.c--reddit--hvr:hover {
-  color: #ff5700;
-}
-
-.c--quora--hvr:hover {
-  color: #aa2200;
-}
-
-.c--vk--hvr:hover {
-  color: #4a76a8;
-}
-
-.c--vine--hvr:hover {
-  color: #00b489;
-}
-
-.c--steam--hvr:hover {
-  color: #171a21;
-}
-
-.c--discord--hvr:hover {
-  color: #5865f2;
-}
-
-.c--telegram--hvr:hover {
+.c--telegram\:hvr:hover {
   color: #0088cc;
 }
 
-.c--facebook--fcs:focus {
-  color: #1877f2;
-}
-
-.c--facebookold--fcs:focus {
-  color: #3b5998;
-}
-
-.c--twitter--fcs:focus {
-  color: #1da1f2;
-}
-
-.c--youtube--fcs:focus {
-  color: #ff0000;
-}
-
-.c--linkedin--fcs:focus {
-  color: #0a66c2;
-}
-
-.c--instagram--fcs:focus {
-  color: #c32aa3;
-}
-
-.c--google--fcs:focus {
-  color: #4285f4;
-}
-
-.c--googleplus--fcs:focus {
-  color: #db4437;
-}
-
-.c--pinterest--fcs:focus {
-  color: #bd081c;
-}
-
-.c--vimeo--fcs:focus {
-  color: #1ab7ea;
-}
-
-.c--tumblr--fcs:focus {
-  color: #2c4762;
-}
-
-.c--snapchat--fcs:focus {
-  color: #fffc00;
-}
-
-.c--whatsapp--fcs:focus {
-  color: #25d366;
-}
-
-.c--tiktok--fcs:focus {
-  color: #010101;
-}
-
-.c--mastodon--fcs:focus {
-  color: #2b90d9;
-}
-
-.c--apple--fcs:focus {
-  color: #a6b1b7;
-}
-
-.c--amazon--fcs:focus {
-  color: #ff9900;
-}
-
-.c--microsoft--fcs:focus {
-  color: #f35022;
-}
-
-.c--medium--fcs:focus {
-  color: #02b875;
-}
-
-.c--skype--fcs:focus {
-  color: #00aff0;
-}
-
-.c--android--fcs:focus {
-  color: #a4c639;
-}
-
-.c--yahoo--fcs:focus {
-  color: #430297;
-}
-
-.c--twitch--fcs:focus {
-  color: #9146ff;
-}
-
-.c--soundcloud--fcs:focus {
-  color: #ff5500;
-}
-
-.c--spotify--fcs:focus {
-  color: #1ed760;
-}
-
-.c--reddit--fcs:focus {
-  color: #ff5700;
-}
-
-.c--quora--fcs:focus {
-  color: #aa2200;
-}
-
-.c--vk--fcs:focus {
-  color: #4a76a8;
-}
-
-.c--vine--fcs:focus {
-  color: #00b489;
-}
-
-.c--steam--fcs:focus {
-  color: #171a21;
-}
-
-.c--discord--fcs:focus {
-  color: #5865f2;
-}
-
-.c--telegram--fcs:focus {
+.c--telegram\:fcs:focus {
   color: #0088cc;
+}
+
+.c--telegram--lt--1 {
+  color: #0099e6;
+}
+
+.c--telegram--lt--2 {
+  color: #00aaff;
+}
+
+.c--telegram--lt--3 {
+  color: #1ab3ff;
+}
+
+.c--telegram--lt--4 {
+  color: #33bbff;
+}
+
+.c--telegram--lt--5 {
+  color: #4dc4ff;
+}
+
+.c--telegram--lt--1\:hvr:hover {
+  color: #0099e6;
+}
+
+.c--telegram--lt--2\:hvr:hover {
+  color: #00aaff;
+}
+
+.c--telegram--lt--3\:hvr:hover {
+  color: #1ab3ff;
+}
+
+.c--telegram--lt--4\:hvr:hover {
+  color: #33bbff;
+}
+
+.c--telegram--lt--5\:hvr:hover {
+  color: #4dc4ff;
+}
+
+.c--telegram--lt--1\:fcs:focus {
+  color: #0099e6;
+}
+
+.c--telegram--lt--2\:fcs:focus {
+  color: #00aaff;
+}
+
+.c--telegram--lt--3\:fcs:focus {
+  color: #1ab3ff;
+}
+
+.c--telegram--lt--4\:fcs:focus {
+  color: #33bbff;
+}
+
+.c--telegram--lt--5\:fcs:focus {
+  color: #4dc4ff;
+}
+
+.c--telegram--dk--1 {
+  color: #0077b3;
+}
+
+.c--telegram--dk--2 {
+  color: #006699;
+}
+
+.c--telegram--dk--3 {
+  color: #005580;
+}
+
+.c--telegram--dk--4 {
+  color: #004466;
+}
+
+.c--telegram--dk--5 {
+  color: #00334d;
+}
+
+.c--telegram--dk--1\:hvr:hover {
+  color: #0077b3;
+}
+
+.c--telegram--dk--2\:hvr:hover {
+  color: #006699;
+}
+
+.c--telegram--dk--3\:hvr:hover {
+  color: #005580;
+}
+
+.c--telegram--dk--4\:hvr:hover {
+  color: #004466;
+}
+
+.c--telegram--dk--5\:hvr:hover {
+  color: #00334d;
+}
+
+.c--telegram--dk--1\:fcs:focus {
+  color: #0077b3;
+}
+
+.c--telegram--dk--2\:fcs:focus {
+  color: #006699;
+}
+
+.c--telegram--dk--3\:fcs:focus {
+  color: #005580;
+}
+
+.c--telegram--dk--4\:fcs:focus {
+  color: #004466;
+}
+
+.c--telegram--dk--5\:fcs:focus {
+  color: #00334d;
+}
+
+.c--telegram--compl {
+  color: #cc4400;
+}
+
+.c--telegram--compl\:hvr:hover {
+  color: #cc4400;
+}
+
+.c--telegram--compl\:fcs:focus {
+  color: #cc4400;
 }
 
 .c--red {
   color: #ff0000;
 }
 
-.c--cyan {
-  color: #00ffff;
+.c--red\:hvr:hover {
+  color: #ff0000;
+}
+
+.c--red\:fcs:focus {
+  color: #ff0000;
+}
+
+.c--red--lt--1 {
+  color: #ff1a1a;
+}
+
+.c--red--lt--2 {
+  color: #ff3333;
+}
+
+.c--red--lt--3 {
+  color: #ff4d4d;
+}
+
+.c--red--lt--4 {
+  color: #ff6666;
+}
+
+.c--red--lt--5 {
+  color: #ff8080;
+}
+
+.c--red--lt--1\:hvr:hover {
+  color: #ff1a1a;
+}
+
+.c--red--lt--2\:hvr:hover {
+  color: #ff3333;
+}
+
+.c--red--lt--3\:hvr:hover {
+  color: #ff4d4d;
+}
+
+.c--red--lt--4\:hvr:hover {
+  color: #ff6666;
+}
+
+.c--red--lt--5\:hvr:hover {
+  color: #ff8080;
+}
+
+.c--red--lt--1\:fcs:focus {
+  color: #ff1a1a;
+}
+
+.c--red--lt--2\:fcs:focus {
+  color: #ff3333;
+}
+
+.c--red--lt--3\:fcs:focus {
+  color: #ff4d4d;
+}
+
+.c--red--lt--4\:fcs:focus {
+  color: #ff6666;
+}
+
+.c--red--lt--5\:fcs:focus {
+  color: #ff8080;
+}
+
+.c--red--dk--1 {
+  color: #e60000;
+}
+
+.c--red--dk--2 {
+  color: #cc0000;
+}
+
+.c--red--dk--3 {
+  color: #b30000;
+}
+
+.c--red--dk--4 {
+  color: #990000;
+}
+
+.c--red--dk--5 {
+  color: maroon;
+}
+
+.c--red--dk--1\:hvr:hover {
+  color: #e60000;
+}
+
+.c--red--dk--2\:hvr:hover {
+  color: #cc0000;
+}
+
+.c--red--dk--3\:hvr:hover {
+  color: #b30000;
+}
+
+.c--red--dk--4\:hvr:hover {
+  color: #990000;
+}
+
+.c--red--dk--5\:hvr:hover {
+  color: maroon;
+}
+
+.c--red--dk--1\:fcs:focus {
+  color: #e60000;
+}
+
+.c--red--dk--2\:fcs:focus {
+  color: #cc0000;
+}
+
+.c--red--dk--3\:fcs:focus {
+  color: #b30000;
+}
+
+.c--red--dk--4\:fcs:focus {
+  color: #990000;
+}
+
+.c--red--dk--5\:fcs:focus {
+  color: maroon;
+}
+
+.c--red--compl {
+  color: aqua;
+}
+
+.c--red--compl\:hvr:hover {
+  color: aqua;
+}
+
+.c--red--compl\:fcs:focus {
+  color: aqua;
 }
 
 .c--blue {
   color: #0000ff;
 }
 
+.c--blue\:hvr:hover {
+  color: #0000ff;
+}
+
+.c--blue\:fcs:focus {
+  color: #0000ff;
+}
+
+.c--blue--lt--1 {
+  color: #1a1aff;
+}
+
+.c--blue--lt--2 {
+  color: #3333ff;
+}
+
+.c--blue--lt--3 {
+  color: #4d4dff;
+}
+
+.c--blue--lt--4 {
+  color: #6666ff;
+}
+
+.c--blue--lt--5 {
+  color: #8080ff;
+}
+
+.c--blue--lt--1\:hvr:hover {
+  color: #1a1aff;
+}
+
+.c--blue--lt--2\:hvr:hover {
+  color: #3333ff;
+}
+
+.c--blue--lt--3\:hvr:hover {
+  color: #4d4dff;
+}
+
+.c--blue--lt--4\:hvr:hover {
+  color: #6666ff;
+}
+
+.c--blue--lt--5\:hvr:hover {
+  color: #8080ff;
+}
+
+.c--blue--lt--1\:fcs:focus {
+  color: #1a1aff;
+}
+
+.c--blue--lt--2\:fcs:focus {
+  color: #3333ff;
+}
+
+.c--blue--lt--3\:fcs:focus {
+  color: #4d4dff;
+}
+
+.c--blue--lt--4\:fcs:focus {
+  color: #6666ff;
+}
+
+.c--blue--lt--5\:fcs:focus {
+  color: #8080ff;
+}
+
+.c--blue--dk--1 {
+  color: #0000e6;
+}
+
+.c--blue--dk--2 {
+  color: #0000cc;
+}
+
+.c--blue--dk--3 {
+  color: #0000b3;
+}
+
+.c--blue--dk--4 {
+  color: #000099;
+}
+
+.c--blue--dk--5 {
+  color: navy;
+}
+
+.c--blue--dk--1\:hvr:hover {
+  color: #0000e6;
+}
+
+.c--blue--dk--2\:hvr:hover {
+  color: #0000cc;
+}
+
+.c--blue--dk--3\:hvr:hover {
+  color: #0000b3;
+}
+
+.c--blue--dk--4\:hvr:hover {
+  color: #000099;
+}
+
+.c--blue--dk--5\:hvr:hover {
+  color: navy;
+}
+
+.c--blue--dk--1\:fcs:focus {
+  color: #0000e6;
+}
+
+.c--blue--dk--2\:fcs:focus {
+  color: #0000cc;
+}
+
+.c--blue--dk--3\:fcs:focus {
+  color: #0000b3;
+}
+
+.c--blue--dk--4\:fcs:focus {
+  color: #000099;
+}
+
+.c--blue--dk--5\:fcs:focus {
+  color: navy;
+}
+
+.c--blue--compl {
+  color: yellow;
+}
+
+.c--blue--compl\:hvr:hover {
+  color: yellow;
+}
+
+.c--blue--compl\:fcs:focus {
+  color: yellow;
+}
+
 .c--darkblue {
   color: #0000a0;
+}
+
+.c--darkblue\:hvr:hover {
+  color: #0000a0;
+}
+
+.c--darkblue\:fcs:focus {
+  color: #0000a0;
+}
+
+.c--darkblue--lt--1 {
+  color: #0000ba;
+}
+
+.c--darkblue--lt--2 {
+  color: #0000d3;
+}
+
+.c--darkblue--lt--3 {
+  color: #0000ed;
+}
+
+.c--darkblue--lt--4 {
+  color: #0707ff;
+}
+
+.c--darkblue--lt--5 {
+  color: #2121ff;
+}
+
+.c--darkblue--lt--1\:hvr:hover {
+  color: #0000ba;
+}
+
+.c--darkblue--lt--2\:hvr:hover {
+  color: #0000d3;
+}
+
+.c--darkblue--lt--3\:hvr:hover {
+  color: #0000ed;
+}
+
+.c--darkblue--lt--4\:hvr:hover {
+  color: #0707ff;
+}
+
+.c--darkblue--lt--5\:hvr:hover {
+  color: #2121ff;
+}
+
+.c--darkblue--lt--1\:fcs:focus {
+  color: #0000ba;
+}
+
+.c--darkblue--lt--2\:fcs:focus {
+  color: #0000d3;
+}
+
+.c--darkblue--lt--3\:fcs:focus {
+  color: #0000ed;
+}
+
+.c--darkblue--lt--4\:fcs:focus {
+  color: #0707ff;
+}
+
+.c--darkblue--lt--5\:fcs:focus {
+  color: #2121ff;
+}
+
+.c--darkblue--dk--1 {
+  color: #000087;
+}
+
+.c--darkblue--dk--2 {
+  color: #00006d;
+}
+
+.c--darkblue--dk--3 {
+  color: #000054;
+}
+
+.c--darkblue--dk--4 {
+  color: #00003a;
+}
+
+.c--darkblue--dk--5 {
+  color: #000021;
+}
+
+.c--darkblue--dk--1\:hvr:hover {
+  color: #000087;
+}
+
+.c--darkblue--dk--2\:hvr:hover {
+  color: #00006d;
+}
+
+.c--darkblue--dk--3\:hvr:hover {
+  color: #000054;
+}
+
+.c--darkblue--dk--4\:hvr:hover {
+  color: #00003a;
+}
+
+.c--darkblue--dk--5\:hvr:hover {
+  color: #000021;
+}
+
+.c--darkblue--dk--1\:fcs:focus {
+  color: #000087;
+}
+
+.c--darkblue--dk--2\:fcs:focus {
+  color: #00006d;
+}
+
+.c--darkblue--dk--3\:fcs:focus {
+  color: #000054;
+}
+
+.c--darkblue--dk--4\:fcs:focus {
+  color: #00003a;
+}
+
+.c--darkblue--dk--5\:fcs:focus {
+  color: #000021;
+}
+
+.c--darkblue--compl {
+  color: #a0a000;
+}
+
+.c--darkblue--compl\:hvr:hover {
+  color: #a0a000;
+}
+
+.c--darkblue--compl\:fcs:focus {
+  color: #a0a000;
 }
 
 .c--lightblue {
   color: #add8e6;
 }
 
+.c--lightblue\:hvr:hover {
+  color: #add8e6;
+}
+
+.c--lightblue\:fcs:focus {
+  color: #add8e6;
+}
+
+.c--lightblue--lt--1 {
+  color: #c1e1ec;
+}
+
+.c--lightblue--lt--2 {
+  color: #d4ebf2;
+}
+
+.c--lightblue--lt--3 {
+  color: #e8f4f8;
+}
+
+.c--lightblue--lt--4 {
+  color: #fbfdfe;
+}
+
+.c--lightblue--lt--5 {
+  color: white;
+}
+
+.c--lightblue--lt--1\:hvr:hover {
+  color: #c1e1ec;
+}
+
+.c--lightblue--lt--2\:hvr:hover {
+  color: #d4ebf2;
+}
+
+.c--lightblue--lt--3\:hvr:hover {
+  color: #e8f4f8;
+}
+
+.c--lightblue--lt--4\:hvr:hover {
+  color: #fbfdfe;
+}
+
+.c--lightblue--lt--5\:hvr:hover {
+  color: white;
+}
+
+.c--lightblue--lt--1\:fcs:focus {
+  color: #c1e1ec;
+}
+
+.c--lightblue--lt--2\:fcs:focus {
+  color: #d4ebf2;
+}
+
+.c--lightblue--lt--3\:fcs:focus {
+  color: #e8f4f8;
+}
+
+.c--lightblue--lt--4\:fcs:focus {
+  color: #fbfdfe;
+}
+
+.c--lightblue--lt--5\:fcs:focus {
+  color: white;
+}
+
+.c--lightblue--dk--1 {
+  color: #99cfe0;
+}
+
+.c--lightblue--dk--2 {
+  color: #86c5da;
+}
+
+.c--lightblue--dk--3 {
+  color: #72bcd4;
+}
+
+.c--lightblue--dk--4 {
+  color: #5fb3ce;
+}
+
+.c--lightblue--dk--5 {
+  color: #4baac8;
+}
+
+.c--lightblue--dk--1\:hvr:hover {
+  color: #99cfe0;
+}
+
+.c--lightblue--dk--2\:hvr:hover {
+  color: #86c5da;
+}
+
+.c--lightblue--dk--3\:hvr:hover {
+  color: #72bcd4;
+}
+
+.c--lightblue--dk--4\:hvr:hover {
+  color: #5fb3ce;
+}
+
+.c--lightblue--dk--5\:hvr:hover {
+  color: #4baac8;
+}
+
+.c--lightblue--dk--1\:fcs:focus {
+  color: #99cfe0;
+}
+
+.c--lightblue--dk--2\:fcs:focus {
+  color: #86c5da;
+}
+
+.c--lightblue--dk--3\:fcs:focus {
+  color: #72bcd4;
+}
+
+.c--lightblue--dk--4\:fcs:focus {
+  color: #5fb3ce;
+}
+
+.c--lightblue--dk--5\:fcs:focus {
+  color: #4baac8;
+}
+
+.c--lightblue--compl {
+  color: #e6bbad;
+}
+
+.c--lightblue--compl\:hvr:hover {
+  color: #e6bbad;
+}
+
+.c--lightblue--compl\:fcs:focus {
+  color: #e6bbad;
+}
+
 .c--purple {
   color: #800080;
+}
+
+.c--purple\:hvr:hover {
+  color: #800080;
+}
+
+.c--purple\:fcs:focus {
+  color: #800080;
+}
+
+.c--purple--lt--1 {
+  color: #9a009a;
+}
+
+.c--purple--lt--2 {
+  color: #b300b3;
+}
+
+.c--purple--lt--3 {
+  color: #cd00cd;
+}
+
+.c--purple--lt--4 {
+  color: #e600e6;
+}
+
+.c--purple--lt--5 {
+  color: #ff01ff;
+}
+
+.c--purple--lt--1\:hvr:hover {
+  color: #9a009a;
+}
+
+.c--purple--lt--2\:hvr:hover {
+  color: #b300b3;
+}
+
+.c--purple--lt--3\:hvr:hover {
+  color: #cd00cd;
+}
+
+.c--purple--lt--4\:hvr:hover {
+  color: #e600e6;
+}
+
+.c--purple--lt--5\:hvr:hover {
+  color: #ff01ff;
+}
+
+.c--purple--lt--1\:fcs:focus {
+  color: #9a009a;
+}
+
+.c--purple--lt--2\:fcs:focus {
+  color: #b300b3;
+}
+
+.c--purple--lt--3\:fcs:focus {
+  color: #cd00cd;
+}
+
+.c--purple--lt--4\:fcs:focus {
+  color: #e600e6;
+}
+
+.c--purple--lt--5\:fcs:focus {
+  color: #ff01ff;
+}
+
+.c--purple--dk--1 {
+  color: #670067;
+}
+
+.c--purple--dk--2 {
+  color: #4d004d;
+}
+
+.c--purple--dk--3 {
+  color: #340034;
+}
+
+.c--purple--dk--4 {
+  color: #1a001a;
+}
+
+.c--purple--dk--5 {
+  color: #010001;
+}
+
+.c--purple--dk--1\:hvr:hover {
+  color: #670067;
+}
+
+.c--purple--dk--2\:hvr:hover {
+  color: #4d004d;
+}
+
+.c--purple--dk--3\:hvr:hover {
+  color: #340034;
+}
+
+.c--purple--dk--4\:hvr:hover {
+  color: #1a001a;
+}
+
+.c--purple--dk--5\:hvr:hover {
+  color: #010001;
+}
+
+.c--purple--dk--1\:fcs:focus {
+  color: #670067;
+}
+
+.c--purple--dk--2\:fcs:focus {
+  color: #4d004d;
+}
+
+.c--purple--dk--3\:fcs:focus {
+  color: #340034;
+}
+
+.c--purple--dk--4\:fcs:focus {
+  color: #1a001a;
+}
+
+.c--purple--dk--5\:fcs:focus {
+  color: #010001;
+}
+
+.c--purple--compl {
+  color: green;
+}
+
+.c--purple--compl\:hvr:hover {
+  color: green;
+}
+
+.c--purple--compl\:fcs:focus {
+  color: green;
 }
 
 .c--yellow {
   color: #ffff00;
 }
 
+.c--yellow\:hvr:hover {
+  color: #ffff00;
+}
+
+.c--yellow\:fcs:focus {
+  color: #ffff00;
+}
+
+.c--yellow--lt--1 {
+  color: #ffff1a;
+}
+
+.c--yellow--lt--2 {
+  color: #ffff33;
+}
+
+.c--yellow--lt--3 {
+  color: #ffff4d;
+}
+
+.c--yellow--lt--4 {
+  color: #ffff66;
+}
+
+.c--yellow--lt--5 {
+  color: #ffff80;
+}
+
+.c--yellow--lt--1\:hvr:hover {
+  color: #ffff1a;
+}
+
+.c--yellow--lt--2\:hvr:hover {
+  color: #ffff33;
+}
+
+.c--yellow--lt--3\:hvr:hover {
+  color: #ffff4d;
+}
+
+.c--yellow--lt--4\:hvr:hover {
+  color: #ffff66;
+}
+
+.c--yellow--lt--5\:hvr:hover {
+  color: #ffff80;
+}
+
+.c--yellow--lt--1\:fcs:focus {
+  color: #ffff1a;
+}
+
+.c--yellow--lt--2\:fcs:focus {
+  color: #ffff33;
+}
+
+.c--yellow--lt--3\:fcs:focus {
+  color: #ffff4d;
+}
+
+.c--yellow--lt--4\:fcs:focus {
+  color: #ffff66;
+}
+
+.c--yellow--lt--5\:fcs:focus {
+  color: #ffff80;
+}
+
+.c--yellow--dk--1 {
+  color: #e6e600;
+}
+
+.c--yellow--dk--2 {
+  color: #cccc00;
+}
+
+.c--yellow--dk--3 {
+  color: #b3b300;
+}
+
+.c--yellow--dk--4 {
+  color: #999900;
+}
+
+.c--yellow--dk--5 {
+  color: olive;
+}
+
+.c--yellow--dk--1\:hvr:hover {
+  color: #e6e600;
+}
+
+.c--yellow--dk--2\:hvr:hover {
+  color: #cccc00;
+}
+
+.c--yellow--dk--3\:hvr:hover {
+  color: #b3b300;
+}
+
+.c--yellow--dk--4\:hvr:hover {
+  color: #999900;
+}
+
+.c--yellow--dk--5\:hvr:hover {
+  color: olive;
+}
+
+.c--yellow--dk--1\:fcs:focus {
+  color: #e6e600;
+}
+
+.c--yellow--dk--2\:fcs:focus {
+  color: #cccc00;
+}
+
+.c--yellow--dk--3\:fcs:focus {
+  color: #b3b300;
+}
+
+.c--yellow--dk--4\:fcs:focus {
+  color: #999900;
+}
+
+.c--yellow--dk--5\:fcs:focus {
+  color: olive;
+}
+
+.c--yellow--compl {
+  color: blue;
+}
+
+.c--yellow--compl\:hvr:hover {
+  color: blue;
+}
+
+.c--yellow--compl\:fcs:focus {
+  color: blue;
+}
+
 .c--lime {
   color: #00ff00;
+}
+
+.c--lime\:hvr:hover {
+  color: #00ff00;
+}
+
+.c--lime\:fcs:focus {
+  color: #00ff00;
+}
+
+.c--lime--lt--1 {
+  color: #1aff1a;
+}
+
+.c--lime--lt--2 {
+  color: #33ff33;
+}
+
+.c--lime--lt--3 {
+  color: #4dff4d;
+}
+
+.c--lime--lt--4 {
+  color: #66ff66;
+}
+
+.c--lime--lt--5 {
+  color: #80ff80;
+}
+
+.c--lime--lt--1\:hvr:hover {
+  color: #1aff1a;
+}
+
+.c--lime--lt--2\:hvr:hover {
+  color: #33ff33;
+}
+
+.c--lime--lt--3\:hvr:hover {
+  color: #4dff4d;
+}
+
+.c--lime--lt--4\:hvr:hover {
+  color: #66ff66;
+}
+
+.c--lime--lt--5\:hvr:hover {
+  color: #80ff80;
+}
+
+.c--lime--lt--1\:fcs:focus {
+  color: #1aff1a;
+}
+
+.c--lime--lt--2\:fcs:focus {
+  color: #33ff33;
+}
+
+.c--lime--lt--3\:fcs:focus {
+  color: #4dff4d;
+}
+
+.c--lime--lt--4\:fcs:focus {
+  color: #66ff66;
+}
+
+.c--lime--lt--5\:fcs:focus {
+  color: #80ff80;
+}
+
+.c--lime--dk--1 {
+  color: #00e600;
+}
+
+.c--lime--dk--2 {
+  color: #00cc00;
+}
+
+.c--lime--dk--3 {
+  color: #00b300;
+}
+
+.c--lime--dk--4 {
+  color: #009900;
+}
+
+.c--lime--dk--5 {
+  color: green;
+}
+
+.c--lime--dk--1\:hvr:hover {
+  color: #00e600;
+}
+
+.c--lime--dk--2\:hvr:hover {
+  color: #00cc00;
+}
+
+.c--lime--dk--3\:hvr:hover {
+  color: #00b300;
+}
+
+.c--lime--dk--4\:hvr:hover {
+  color: #009900;
+}
+
+.c--lime--dk--5\:hvr:hover {
+  color: green;
+}
+
+.c--lime--dk--1\:fcs:focus {
+  color: #00e600;
+}
+
+.c--lime--dk--2\:fcs:focus {
+  color: #00cc00;
+}
+
+.c--lime--dk--3\:fcs:focus {
+  color: #00b300;
+}
+
+.c--lime--dk--4\:fcs:focus {
+  color: #009900;
+}
+
+.c--lime--dk--5\:fcs:focus {
+  color: green;
+}
+
+.c--lime--compl {
+  color: fuchsia;
+}
+
+.c--lime--compl\:hvr:hover {
+  color: fuchsia;
+}
+
+.c--lime--compl\:fcs:focus {
+  color: fuchsia;
 }
 
 .c--silver {
   color: #c0c0c0;
 }
 
+.c--silver\:hvr:hover {
+  color: #c0c0c0;
+}
+
+.c--silver\:fcs:focus {
+  color: #c0c0c0;
+}
+
+.c--silver--lt--1 {
+  color: #cdcdcd;
+}
+
+.c--silver--lt--2 {
+  color: #dadada;
+}
+
+.c--silver--lt--3 {
+  color: #e6e6e6;
+}
+
+.c--silver--lt--4 {
+  color: #f3f3f3;
+}
+
+.c--silver--lt--5 {
+  color: white;
+}
+
+.c--silver--lt--1\:hvr:hover {
+  color: #cdcdcd;
+}
+
+.c--silver--lt--2\:hvr:hover {
+  color: #dadada;
+}
+
+.c--silver--lt--3\:hvr:hover {
+  color: #e6e6e6;
+}
+
+.c--silver--lt--4\:hvr:hover {
+  color: #f3f3f3;
+}
+
+.c--silver--lt--5\:hvr:hover {
+  color: white;
+}
+
+.c--silver--lt--1\:fcs:focus {
+  color: #cdcdcd;
+}
+
+.c--silver--lt--2\:fcs:focus {
+  color: #dadada;
+}
+
+.c--silver--lt--3\:fcs:focus {
+  color: #e6e6e6;
+}
+
+.c--silver--lt--4\:fcs:focus {
+  color: #f3f3f3;
+}
+
+.c--silver--lt--5\:fcs:focus {
+  color: white;
+}
+
+.c--silver--dk--1 {
+  color: #b3b3b3;
+}
+
+.c--silver--dk--2 {
+  color: #a7a7a7;
+}
+
+.c--silver--dk--3 {
+  color: #9a9a9a;
+}
+
+.c--silver--dk--4 {
+  color: #8d8d8d;
+}
+
+.c--silver--dk--5 {
+  color: gray;
+}
+
+.c--silver--dk--1\:hvr:hover {
+  color: #b3b3b3;
+}
+
+.c--silver--dk--2\:hvr:hover {
+  color: #a7a7a7;
+}
+
+.c--silver--dk--3\:hvr:hover {
+  color: #9a9a9a;
+}
+
+.c--silver--dk--4\:hvr:hover {
+  color: #8d8d8d;
+}
+
+.c--silver--dk--5\:hvr:hover {
+  color: gray;
+}
+
+.c--silver--dk--1\:fcs:focus {
+  color: #b3b3b3;
+}
+
+.c--silver--dk--2\:fcs:focus {
+  color: #a7a7a7;
+}
+
+.c--silver--dk--3\:fcs:focus {
+  color: #9a9a9a;
+}
+
+.c--silver--dk--4\:fcs:focus {
+  color: #8d8d8d;
+}
+
+.c--silver--dk--5\:fcs:focus {
+  color: gray;
+}
+
+.c--silver--compl {
+  color: silver;
+}
+
+.c--silver--compl\:hvr:hover {
+  color: silver;
+}
+
+.c--silver--compl\:fcs:focus {
+  color: silver;
+}
+
 .c--grey {
   color: #808080;
+}
+
+.c--grey\:hvr:hover {
+  color: #808080;
+}
+
+.c--grey\:fcs:focus {
+  color: #808080;
+}
+
+.c--grey--lt--1 {
+  color: #8d8d8d;
+}
+
+.c--grey--lt--2 {
+  color: #9a9a9a;
+}
+
+.c--grey--lt--3 {
+  color: #a6a6a6;
+}
+
+.c--grey--lt--4 {
+  color: #b3b3b3;
+}
+
+.c--grey--lt--5 {
+  color: silver;
+}
+
+.c--grey--lt--1\:hvr:hover {
+  color: #8d8d8d;
+}
+
+.c--grey--lt--2\:hvr:hover {
+  color: #9a9a9a;
+}
+
+.c--grey--lt--3\:hvr:hover {
+  color: #a6a6a6;
+}
+
+.c--grey--lt--4\:hvr:hover {
+  color: #b3b3b3;
+}
+
+.c--grey--lt--5\:hvr:hover {
+  color: silver;
+}
+
+.c--grey--lt--1\:fcs:focus {
+  color: #8d8d8d;
+}
+
+.c--grey--lt--2\:fcs:focus {
+  color: #9a9a9a;
+}
+
+.c--grey--lt--3\:fcs:focus {
+  color: #a6a6a6;
+}
+
+.c--grey--lt--4\:fcs:focus {
+  color: #b3b3b3;
+}
+
+.c--grey--lt--5\:fcs:focus {
+  color: silver;
+}
+
+.c--grey--dk--1 {
+  color: #737373;
+}
+
+.c--grey--dk--2 {
+  color: #676767;
+}
+
+.c--grey--dk--3 {
+  color: #5a5a5a;
+}
+
+.c--grey--dk--4 {
+  color: #4d4d4d;
+}
+
+.c--grey--dk--5 {
+  color: #404040;
+}
+
+.c--grey--dk--1\:hvr:hover {
+  color: #737373;
+}
+
+.c--grey--dk--2\:hvr:hover {
+  color: #676767;
+}
+
+.c--grey--dk--3\:hvr:hover {
+  color: #5a5a5a;
+}
+
+.c--grey--dk--4\:hvr:hover {
+  color: #4d4d4d;
+}
+
+.c--grey--dk--5\:hvr:hover {
+  color: #404040;
+}
+
+.c--grey--dk--1\:fcs:focus {
+  color: #737373;
+}
+
+.c--grey--dk--2\:fcs:focus {
+  color: #676767;
+}
+
+.c--grey--dk--3\:fcs:focus {
+  color: #5a5a5a;
+}
+
+.c--grey--dk--4\:fcs:focus {
+  color: #4d4d4d;
+}
+
+.c--grey--dk--5\:fcs:focus {
+  color: #404040;
+}
+
+.c--grey--compl {
+  color: gray;
+}
+
+.c--grey--compl\:hvr:hover {
+  color: gray;
+}
+
+.c--grey--compl\:fcs:focus {
+  color: gray;
 }
 
 .c--black {
   color: #000000;
 }
 
+.c--black\:hvr:hover {
+  color: #000000;
+}
+
+.c--black\:fcs:focus {
+  color: #000000;
+}
+
+.c--black--lt--1 {
+  color: #0d0d0d;
+}
+
+.c--black--lt--2 {
+  color: #1a1a1a;
+}
+
+.c--black--lt--3 {
+  color: #262626;
+}
+
+.c--black--lt--4 {
+  color: #333333;
+}
+
+.c--black--lt--5 {
+  color: #404040;
+}
+
+.c--black--lt--1\:hvr:hover {
+  color: #0d0d0d;
+}
+
+.c--black--lt--2\:hvr:hover {
+  color: #1a1a1a;
+}
+
+.c--black--lt--3\:hvr:hover {
+  color: #262626;
+}
+
+.c--black--lt--4\:hvr:hover {
+  color: #333333;
+}
+
+.c--black--lt--5\:hvr:hover {
+  color: #404040;
+}
+
+.c--black--lt--1\:fcs:focus {
+  color: #0d0d0d;
+}
+
+.c--black--lt--2\:fcs:focus {
+  color: #1a1a1a;
+}
+
+.c--black--lt--3\:fcs:focus {
+  color: #262626;
+}
+
+.c--black--lt--4\:fcs:focus {
+  color: #333333;
+}
+
+.c--black--lt--5\:fcs:focus {
+  color: #404040;
+}
+
+.c--black--dk--1 {
+  color: black;
+}
+
+.c--black--dk--2 {
+  color: black;
+}
+
+.c--black--dk--3 {
+  color: black;
+}
+
+.c--black--dk--4 {
+  color: black;
+}
+
+.c--black--dk--5 {
+  color: black;
+}
+
+.c--black--dk--1\:hvr:hover {
+  color: black;
+}
+
+.c--black--dk--2\:hvr:hover {
+  color: black;
+}
+
+.c--black--dk--3\:hvr:hover {
+  color: black;
+}
+
+.c--black--dk--4\:hvr:hover {
+  color: black;
+}
+
+.c--black--dk--5\:hvr:hover {
+  color: black;
+}
+
+.c--black--dk--1\:fcs:focus {
+  color: black;
+}
+
+.c--black--dk--2\:fcs:focus {
+  color: black;
+}
+
+.c--black--dk--3\:fcs:focus {
+  color: black;
+}
+
+.c--black--dk--4\:fcs:focus {
+  color: black;
+}
+
+.c--black--dk--5\:fcs:focus {
+  color: black;
+}
+
+.c--black--compl {
+  color: black;
+}
+
+.c--black--compl\:hvr:hover {
+  color: black;
+}
+
+.c--black--compl\:fcs:focus {
+  color: black;
+}
+
 .c--white {
   color: #ffffff;
+}
+
+.c--white\:hvr:hover {
+  color: #ffffff;
+}
+
+.c--white\:fcs:focus {
+  color: #ffffff;
+}
+
+.c--white--lt--1 {
+  color: white;
+}
+
+.c--white--lt--2 {
+  color: white;
+}
+
+.c--white--lt--3 {
+  color: white;
+}
+
+.c--white--lt--4 {
+  color: white;
+}
+
+.c--white--lt--5 {
+  color: white;
+}
+
+.c--white--lt--1\:hvr:hover {
+  color: white;
+}
+
+.c--white--lt--2\:hvr:hover {
+  color: white;
+}
+
+.c--white--lt--3\:hvr:hover {
+  color: white;
+}
+
+.c--white--lt--4\:hvr:hover {
+  color: white;
+}
+
+.c--white--lt--5\:hvr:hover {
+  color: white;
+}
+
+.c--white--lt--1\:fcs:focus {
+  color: white;
+}
+
+.c--white--lt--2\:fcs:focus {
+  color: white;
+}
+
+.c--white--lt--3\:fcs:focus {
+  color: white;
+}
+
+.c--white--lt--4\:fcs:focus {
+  color: white;
+}
+
+.c--white--lt--5\:fcs:focus {
+  color: white;
+}
+
+.c--white--dk--1 {
+  color: #f2f2f2;
+}
+
+.c--white--dk--2 {
+  color: #e6e6e6;
+}
+
+.c--white--dk--3 {
+  color: #d9d9d9;
+}
+
+.c--white--dk--4 {
+  color: #cccccc;
+}
+
+.c--white--dk--5 {
+  color: #bfbfbf;
+}
+
+.c--white--dk--1\:hvr:hover {
+  color: #f2f2f2;
+}
+
+.c--white--dk--2\:hvr:hover {
+  color: #e6e6e6;
+}
+
+.c--white--dk--3\:hvr:hover {
+  color: #d9d9d9;
+}
+
+.c--white--dk--4\:hvr:hover {
+  color: #cccccc;
+}
+
+.c--white--dk--5\:hvr:hover {
+  color: #bfbfbf;
+}
+
+.c--white--dk--1\:fcs:focus {
+  color: #f2f2f2;
+}
+
+.c--white--dk--2\:fcs:focus {
+  color: #e6e6e6;
+}
+
+.c--white--dk--3\:fcs:focus {
+  color: #d9d9d9;
+}
+
+.c--white--dk--4\:fcs:focus {
+  color: #cccccc;
+}
+
+.c--white--dk--5\:fcs:focus {
+  color: #bfbfbf;
+}
+
+.c--white--compl {
+  color: white;
+}
+
+.c--white--compl\:hvr:hover {
+  color: white;
+}
+
+.c--white--compl\:fcs:focus {
+  color: white;
 }
 
 .c--orange {
   color: #ffa500;
 }
 
+.c--orange\:hvr:hover {
+  color: #ffa500;
+}
+
+.c--orange\:fcs:focus {
+  color: #ffa500;
+}
+
+.c--orange--lt--1 {
+  color: #ffae1a;
+}
+
+.c--orange--lt--2 {
+  color: #ffb733;
+}
+
+.c--orange--lt--3 {
+  color: #ffc04d;
+}
+
+.c--orange--lt--4 {
+  color: #ffc966;
+}
+
+.c--orange--lt--5 {
+  color: #ffd280;
+}
+
+.c--orange--lt--1\:hvr:hover {
+  color: #ffae1a;
+}
+
+.c--orange--lt--2\:hvr:hover {
+  color: #ffb733;
+}
+
+.c--orange--lt--3\:hvr:hover {
+  color: #ffc04d;
+}
+
+.c--orange--lt--4\:hvr:hover {
+  color: #ffc966;
+}
+
+.c--orange--lt--5\:hvr:hover {
+  color: #ffd280;
+}
+
+.c--orange--lt--1\:fcs:focus {
+  color: #ffae1a;
+}
+
+.c--orange--lt--2\:fcs:focus {
+  color: #ffb733;
+}
+
+.c--orange--lt--3\:fcs:focus {
+  color: #ffc04d;
+}
+
+.c--orange--lt--4\:fcs:focus {
+  color: #ffc966;
+}
+
+.c--orange--lt--5\:fcs:focus {
+  color: #ffd280;
+}
+
+.c--orange--dk--1 {
+  color: #e69500;
+}
+
+.c--orange--dk--2 {
+  color: #cc8400;
+}
+
+.c--orange--dk--3 {
+  color: #b37400;
+}
+
+.c--orange--dk--4 {
+  color: #996300;
+}
+
+.c--orange--dk--5 {
+  color: #805300;
+}
+
+.c--orange--dk--1\:hvr:hover {
+  color: #e69500;
+}
+
+.c--orange--dk--2\:hvr:hover {
+  color: #cc8400;
+}
+
+.c--orange--dk--3\:hvr:hover {
+  color: #b37400;
+}
+
+.c--orange--dk--4\:hvr:hover {
+  color: #996300;
+}
+
+.c--orange--dk--5\:hvr:hover {
+  color: #805300;
+}
+
+.c--orange--dk--1\:fcs:focus {
+  color: #e69500;
+}
+
+.c--orange--dk--2\:fcs:focus {
+  color: #cc8400;
+}
+
+.c--orange--dk--3\:fcs:focus {
+  color: #b37400;
+}
+
+.c--orange--dk--4\:fcs:focus {
+  color: #996300;
+}
+
+.c--orange--dk--5\:fcs:focus {
+  color: #805300;
+}
+
+.c--orange--compl {
+  color: #005aff;
+}
+
+.c--orange--compl\:hvr:hover {
+  color: #005aff;
+}
+
+.c--orange--compl\:fcs:focus {
+  color: #005aff;
+}
+
 .c--brown {
   color: #a52a2a;
+}
+
+.c--brown\:hvr:hover {
+  color: #a52a2a;
+}
+
+.c--brown\:fcs:focus {
+  color: #a52a2a;
+}
+
+.c--brown--lt--1 {
+  color: #b92f2f;
+}
+
+.c--brown--lt--2 {
+  color: #cc3636;
+}
+
+.c--brown--lt--3 {
+  color: #d14a4a;
+}
+
+.c--brown--lt--4 {
+  color: #d65f5f;
+}
+
+.c--brown--lt--5 {
+  color: #db7373;
+}
+
+.c--brown--lt--1\:hvr:hover {
+  color: #b92f2f;
+}
+
+.c--brown--lt--2\:hvr:hover {
+  color: #cc3636;
+}
+
+.c--brown--lt--3\:hvr:hover {
+  color: #d14a4a;
+}
+
+.c--brown--lt--4\:hvr:hover {
+  color: #d65f5f;
+}
+
+.c--brown--lt--5\:hvr:hover {
+  color: #db7373;
+}
+
+.c--brown--lt--1\:fcs:focus {
+  color: #b92f2f;
+}
+
+.c--brown--lt--2\:fcs:focus {
+  color: #cc3636;
+}
+
+.c--brown--lt--3\:fcs:focus {
+  color: #d14a4a;
+}
+
+.c--brown--lt--4\:fcs:focus {
+  color: #d65f5f;
+}
+
+.c--brown--lt--5\:fcs:focus {
+  color: #db7373;
+}
+
+.c--brown--dk--1 {
+  color: #912525;
+}
+
+.c--brown--dk--2 {
+  color: #7c2020;
+}
+
+.c--brown--dk--3 {
+  color: #681a1a;
+}
+
+.c--brown--dk--4 {
+  color: #541515;
+}
+
+.c--brown--dk--5 {
+  color: #3f1010;
+}
+
+.c--brown--dk--1\:hvr:hover {
+  color: #912525;
+}
+
+.c--brown--dk--2\:hvr:hover {
+  color: #7c2020;
+}
+
+.c--brown--dk--3\:hvr:hover {
+  color: #681a1a;
+}
+
+.c--brown--dk--4\:hvr:hover {
+  color: #541515;
+}
+
+.c--brown--dk--5\:hvr:hover {
+  color: #3f1010;
+}
+
+.c--brown--dk--1\:fcs:focus {
+  color: #912525;
+}
+
+.c--brown--dk--2\:fcs:focus {
+  color: #7c2020;
+}
+
+.c--brown--dk--3\:fcs:focus {
+  color: #681a1a;
+}
+
+.c--brown--dk--4\:fcs:focus {
+  color: #541515;
+}
+
+.c--brown--dk--5\:fcs:focus {
+  color: #3f1010;
+}
+
+.c--brown--compl {
+  color: #2aa5a5;
+}
+
+.c--brown--compl\:hvr:hover {
+  color: #2aa5a5;
+}
+
+.c--brown--compl\:fcs:focus {
+  color: #2aa5a5;
 }
 
 .c--maroon {
   color: #800000;
 }
 
+.c--maroon\:hvr:hover {
+  color: #800000;
+}
+
+.c--maroon\:fcs:focus {
+  color: #800000;
+}
+
+.c--maroon--lt--1 {
+  color: #9a0000;
+}
+
+.c--maroon--lt--2 {
+  color: #b30000;
+}
+
+.c--maroon--lt--3 {
+  color: #cd0000;
+}
+
+.c--maroon--lt--4 {
+  color: #e60000;
+}
+
+.c--maroon--lt--5 {
+  color: #ff0101;
+}
+
+.c--maroon--lt--1\:hvr:hover {
+  color: #9a0000;
+}
+
+.c--maroon--lt--2\:hvr:hover {
+  color: #b30000;
+}
+
+.c--maroon--lt--3\:hvr:hover {
+  color: #cd0000;
+}
+
+.c--maroon--lt--4\:hvr:hover {
+  color: #e60000;
+}
+
+.c--maroon--lt--5\:hvr:hover {
+  color: #ff0101;
+}
+
+.c--maroon--lt--1\:fcs:focus {
+  color: #9a0000;
+}
+
+.c--maroon--lt--2\:fcs:focus {
+  color: #b30000;
+}
+
+.c--maroon--lt--3\:fcs:focus {
+  color: #cd0000;
+}
+
+.c--maroon--lt--4\:fcs:focus {
+  color: #e60000;
+}
+
+.c--maroon--lt--5\:fcs:focus {
+  color: #ff0101;
+}
+
+.c--maroon--dk--1 {
+  color: #670000;
+}
+
+.c--maroon--dk--2 {
+  color: #4d0000;
+}
+
+.c--maroon--dk--3 {
+  color: #340000;
+}
+
+.c--maroon--dk--4 {
+  color: #1a0000;
+}
+
+.c--maroon--dk--5 {
+  color: #010000;
+}
+
+.c--maroon--dk--1\:hvr:hover {
+  color: #670000;
+}
+
+.c--maroon--dk--2\:hvr:hover {
+  color: #4d0000;
+}
+
+.c--maroon--dk--3\:hvr:hover {
+  color: #340000;
+}
+
+.c--maroon--dk--4\:hvr:hover {
+  color: #1a0000;
+}
+
+.c--maroon--dk--5\:hvr:hover {
+  color: #010000;
+}
+
+.c--maroon--dk--1\:fcs:focus {
+  color: #670000;
+}
+
+.c--maroon--dk--2\:fcs:focus {
+  color: #4d0000;
+}
+
+.c--maroon--dk--3\:fcs:focus {
+  color: #340000;
+}
+
+.c--maroon--dk--4\:fcs:focus {
+  color: #1a0000;
+}
+
+.c--maroon--dk--5\:fcs:focus {
+  color: #010000;
+}
+
+.c--maroon--compl {
+  color: teal;
+}
+
+.c--maroon--compl\:hvr:hover {
+  color: teal;
+}
+
+.c--maroon--compl\:fcs:focus {
+  color: teal;
+}
+
 .c--green {
   color: #008000;
+}
+
+.c--green\:hvr:hover {
+  color: #008000;
+}
+
+.c--green\:fcs:focus {
+  color: #008000;
+}
+
+.c--green--lt--1 {
+  color: #009a00;
+}
+
+.c--green--lt--2 {
+  color: #00b300;
+}
+
+.c--green--lt--3 {
+  color: #00cd00;
+}
+
+.c--green--lt--4 {
+  color: #00e600;
+}
+
+.c--green--lt--5 {
+  color: #01ff01;
+}
+
+.c--green--lt--1\:hvr:hover {
+  color: #009a00;
+}
+
+.c--green--lt--2\:hvr:hover {
+  color: #00b300;
+}
+
+.c--green--lt--3\:hvr:hover {
+  color: #00cd00;
+}
+
+.c--green--lt--4\:hvr:hover {
+  color: #00e600;
+}
+
+.c--green--lt--5\:hvr:hover {
+  color: #01ff01;
+}
+
+.c--green--lt--1\:fcs:focus {
+  color: #009a00;
+}
+
+.c--green--lt--2\:fcs:focus {
+  color: #00b300;
+}
+
+.c--green--lt--3\:fcs:focus {
+  color: #00cd00;
+}
+
+.c--green--lt--4\:fcs:focus {
+  color: #00e600;
+}
+
+.c--green--lt--5\:fcs:focus {
+  color: #01ff01;
+}
+
+.c--green--dk--1 {
+  color: #006700;
+}
+
+.c--green--dk--2 {
+  color: #004d00;
+}
+
+.c--green--dk--3 {
+  color: #003400;
+}
+
+.c--green--dk--4 {
+  color: #001a00;
+}
+
+.c--green--dk--5 {
+  color: #000100;
+}
+
+.c--green--dk--1\:hvr:hover {
+  color: #006700;
+}
+
+.c--green--dk--2\:hvr:hover {
+  color: #004d00;
+}
+
+.c--green--dk--3\:hvr:hover {
+  color: #003400;
+}
+
+.c--green--dk--4\:hvr:hover {
+  color: #001a00;
+}
+
+.c--green--dk--5\:hvr:hover {
+  color: #000100;
+}
+
+.c--green--dk--1\:fcs:focus {
+  color: #006700;
+}
+
+.c--green--dk--2\:fcs:focus {
+  color: #004d00;
+}
+
+.c--green--dk--3\:fcs:focus {
+  color: #003400;
+}
+
+.c--green--dk--4\:fcs:focus {
+  color: #001a00;
+}
+
+.c--green--dk--5\:fcs:focus {
+  color: #000100;
+}
+
+.c--green--compl {
+  color: purple;
+}
+
+.c--green--compl\:hvr:hover {
+  color: purple;
+}
+
+.c--green--compl\:fcs:focus {
+  color: purple;
 }
 
 .c--olive {
   color: #808000;
 }
 
+.c--olive\:hvr:hover {
+  color: #808000;
+}
+
+.c--olive\:fcs:focus {
+  color: #808000;
+}
+
+.c--olive--lt--1 {
+  color: #9a9a00;
+}
+
+.c--olive--lt--2 {
+  color: #b3b300;
+}
+
+.c--olive--lt--3 {
+  color: #cdcd00;
+}
+
+.c--olive--lt--4 {
+  color: #e6e600;
+}
+
+.c--olive--lt--5 {
+  color: #ffff01;
+}
+
+.c--olive--lt--1\:hvr:hover {
+  color: #9a9a00;
+}
+
+.c--olive--lt--2\:hvr:hover {
+  color: #b3b300;
+}
+
+.c--olive--lt--3\:hvr:hover {
+  color: #cdcd00;
+}
+
+.c--olive--lt--4\:hvr:hover {
+  color: #e6e600;
+}
+
+.c--olive--lt--5\:hvr:hover {
+  color: #ffff01;
+}
+
+.c--olive--lt--1\:fcs:focus {
+  color: #9a9a00;
+}
+
+.c--olive--lt--2\:fcs:focus {
+  color: #b3b300;
+}
+
+.c--olive--lt--3\:fcs:focus {
+  color: #cdcd00;
+}
+
+.c--olive--lt--4\:fcs:focus {
+  color: #e6e600;
+}
+
+.c--olive--lt--5\:fcs:focus {
+  color: #ffff01;
+}
+
+.c--olive--dk--1 {
+  color: #676700;
+}
+
+.c--olive--dk--2 {
+  color: #4d4d00;
+}
+
+.c--olive--dk--3 {
+  color: #343400;
+}
+
+.c--olive--dk--4 {
+  color: #1a1a00;
+}
+
+.c--olive--dk--5 {
+  color: #010100;
+}
+
+.c--olive--dk--1\:hvr:hover {
+  color: #676700;
+}
+
+.c--olive--dk--2\:hvr:hover {
+  color: #4d4d00;
+}
+
+.c--olive--dk--3\:hvr:hover {
+  color: #343400;
+}
+
+.c--olive--dk--4\:hvr:hover {
+  color: #1a1a00;
+}
+
+.c--olive--dk--5\:hvr:hover {
+  color: #010100;
+}
+
+.c--olive--dk--1\:fcs:focus {
+  color: #676700;
+}
+
+.c--olive--dk--2\:fcs:focus {
+  color: #4d4d00;
+}
+
+.c--olive--dk--3\:fcs:focus {
+  color: #343400;
+}
+
+.c--olive--dk--4\:fcs:focus {
+  color: #1a1a00;
+}
+
+.c--olive--dk--5\:fcs:focus {
+  color: #010100;
+}
+
+.c--olive--compl {
+  color: navy;
+}
+
+.c--olive--compl\:hvr:hover {
+  color: navy;
+}
+
+.c--olive--compl\:fcs:focus {
+  color: navy;
+}
+
 .c--teal {
   color: teal;
 }
 
-.c--red.lt--10\% {
-  color: #ff3333;
+.c--teal\:hvr:hover {
+  color: teal;
 }
 
-.c--red.lt--15\% {
-  color: #ff4d4d;
+.c--teal\:fcs:focus {
+  color: teal;
 }
 
-.c--red.lt--20\% {
-  color: #ff6666;
+.c--teal--lt--1 {
+  color: #009a9a;
 }
 
-.c--red.lt--25\% {
-  color: #ff8080;
+.c--teal--lt--2 {
+  color: #00b3b3;
 }
 
-.c--red.lt--30\% {
-  color: #ff9999;
+.c--teal--lt--3 {
+  color: #00cdcd;
 }
 
-.c--red.dk--10\% {
-  color: #cc0000;
+.c--teal--lt--4 {
+  color: #00e6e6;
 }
 
-.c--red.dk--15\% {
-  color: #b30000;
+.c--teal--lt--5 {
+  color: #01ffff;
 }
 
-.c--red.dk--20\% {
-  color: #990000;
+.c--teal--lt--1\:hvr:hover {
+  color: #009a9a;
 }
 
-.c--red.dk--25\% {
+.c--teal--lt--2\:hvr:hover {
+  color: #00b3b3;
+}
+
+.c--teal--lt--3\:hvr:hover {
+  color: #00cdcd;
+}
+
+.c--teal--lt--4\:hvr:hover {
+  color: #00e6e6;
+}
+
+.c--teal--lt--5\:hvr:hover {
+  color: #01ffff;
+}
+
+.c--teal--lt--1\:fcs:focus {
+  color: #009a9a;
+}
+
+.c--teal--lt--2\:fcs:focus {
+  color: #00b3b3;
+}
+
+.c--teal--lt--3\:fcs:focus {
+  color: #00cdcd;
+}
+
+.c--teal--lt--4\:fcs:focus {
+  color: #00e6e6;
+}
+
+.c--teal--lt--5\:fcs:focus {
+  color: #01ffff;
+}
+
+.c--teal--dk--1 {
+  color: #006767;
+}
+
+.c--teal--dk--2 {
+  color: #004d4d;
+}
+
+.c--teal--dk--3 {
+  color: #003434;
+}
+
+.c--teal--dk--4 {
+  color: #001a1a;
+}
+
+.c--teal--dk--5 {
+  color: #000101;
+}
+
+.c--teal--dk--1\:hvr:hover {
+  color: #006767;
+}
+
+.c--teal--dk--2\:hvr:hover {
+  color: #004d4d;
+}
+
+.c--teal--dk--3\:hvr:hover {
+  color: #003434;
+}
+
+.c--teal--dk--4\:hvr:hover {
+  color: #001a1a;
+}
+
+.c--teal--dk--5\:hvr:hover {
+  color: #000101;
+}
+
+.c--teal--dk--1\:fcs:focus {
+  color: #006767;
+}
+
+.c--teal--dk--2\:fcs:focus {
+  color: #004d4d;
+}
+
+.c--teal--dk--3\:fcs:focus {
+  color: #003434;
+}
+
+.c--teal--dk--4\:fcs:focus {
+  color: #001a1a;
+}
+
+.c--teal--dk--5\:fcs:focus {
+  color: #000101;
+}
+
+.c--teal--compl {
   color: maroon;
 }
 
-.c--red.dk--30\% {
-  color: #660000;
+.c--teal--compl\:hvr:hover {
+  color: maroon;
+}
+
+.c--teal--compl\:fcs:focus {
+  color: maroon;
 }
 
 /*# sourceMappingURL=color.css.map */

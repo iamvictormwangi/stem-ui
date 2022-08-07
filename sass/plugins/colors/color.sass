@@ -1,0 +1,329 @@
+@use "./../../abstracts/" as *
+
+@each $color, $color-value in $color-list
+  .c--#{$color}
+    color: $color-value
+
+  .c--#{$color}\:hvr:hover
+    color: $color-value
+
+  .c--#{$color}\:fcs:focus
+    color: $color-value
+
+  .c--#{$color}--lt--1
+    color: lighten($color-value, 5%)
+
+  .c--#{$color}--lt--2
+    color: lighten($color-value, 10%)
+
+  .c--#{$color}--lt--3
+    color: lighten($color-value, 15%)
+
+  .c--#{$color}--lt--4
+    color: lighten($color-value, 20%)
+
+  .c--#{$color}--lt--5
+    color: lighten($color-value, 25%)
+
+  .c--#{$color}--lt--1\:hvr:hover
+    color: lighten($color-value, 5%)
+
+  .c--#{$color}--lt--2\:hvr:hover
+    color: lighten($color-value, 10%)
+
+  .c--#{$color}--lt--3\:hvr:hover
+    color: lighten($color-value, 15%)
+
+  .c--#{$color}--lt--4\:hvr:hover
+    color: lighten($color-value, 20%)
+
+  .c--#{$color}--lt--5\:hvr:hover
+    color: lighten($color-value, 25%)
+
+  .c--#{$color}--lt--1\:fcs:focus
+    color: lighten($color-value, 5%)
+
+  .c--#{$color}--lt--2\:fcs:focus
+    color: lighten($color-value, 10%)
+
+  .c--#{$color}--lt--3\:fcs:focus
+    color: lighten($color-value, 15%)
+
+  .c--#{$color}--lt--4\:fcs:focus
+    color: lighten($color-value, 20%)
+
+  .c--#{$color}--lt--5\:fcs:focus
+    color: lighten($color-value, 25%)
+
+  .c--#{$color}--dk--1
+    color: darken($color-value, 5%)
+
+  .c--#{$color}--dk--2
+    color: darken($color-value, 10%)
+
+  .c--#{$color}--dk--3
+    color: darken($color-value, 15%)
+
+  .c--#{$color}--dk--4
+    color: darken($color-value, 20%)
+
+  .c--#{$color}--dk--5
+    color: darken($color-value, 25%)
+
+  .c--#{$color}--dk--1\:hvr:hover
+    color: darken($color-value, 5%)
+
+  .c--#{$color}--dk--2\:hvr:hover
+    color: darken($color-value, 10%)
+
+  .c--#{$color}--dk--3\:hvr:hover
+    color: darken($color-value, 15%)
+
+  .c--#{$color}--dk--4\:hvr:hover
+    color: darken($color-value, 20%)
+
+  .c--#{$color}--dk--5\:hvr:hover
+    color: darken($color-value, 25%)
+
+  .c--#{$color}--dk--1\:fcs:focus
+    color: darken($color-value, 5%)
+
+  .c--#{$color}--dk--2\:fcs:focus
+    color: darken($color-value, 10%)
+
+  .c--#{$color}--dk--3\:fcs:focus
+    color: darken($color-value, 15%)
+
+  .c--#{$color}--dk--4\:fcs:focus
+    color: darken($color-value, 20%)
+
+  .c--#{$color}--dk--5\:fcs:focus
+    color: darken($color-value, 25%)
+
+  .c--#{$color}--compl
+    color: complement($color-value)
+
+  .c--#{$color}--compl\:hvr:hover
+    color: complement($color-value)
+
+  .c--#{$color}--compl\:fcs:focus
+    color: complement($color-value)
+
+@each $color, $color-value in $brand-color-list
+  .c--#{$color}
+    color: $color-value
+
+  .c--#{$color}\:hvr:hover
+    color: $color-value
+
+  .c--#{$color}\:fcs:focus
+    color: $color-value
+
+  .c--#{$color}--lt--1
+    color: lighten($color-value, 5%)
+
+  .c--#{$color}--lt--2
+    color: lighten($color-value, 10%)
+
+  .c--#{$color}--lt--3
+    color: lighten($color-value, 15%)
+
+  .c--#{$color}--lt--4
+    color: lighten($color-value, 20%)
+
+  .c--#{$color}--lt--5
+    color: lighten($color-value, 25%)
+
+  .c--#{$color}--lt--1\:hvr:hover
+    color: lighten($color-value, 5%)
+
+  .c--#{$color}--lt--2\:hvr:hover
+    color: lighten($color-value, 10%)
+
+  .c--#{$color}--lt--3\:hvr:hover
+    color: lighten($color-value, 15%)
+
+  .c--#{$color}--lt--4\:hvr:hover
+    color: lighten($color-value, 20%)
+
+  .c--#{$color}--lt--5\:hvr:hover
+    color: lighten($color-value, 25%)
+
+  .c--#{$color}--lt--1\:fcs:focus
+    color: lighten($color-value, 5%)
+
+  .c--#{$color}--lt--2\:fcs:focus
+    color: lighten($color-value, 10%)
+
+  .c--#{$color}--lt--3\:fcs:focus
+    color: lighten($color-value, 15%)
+
+  .c--#{$color}--lt--4\:fcs:focus
+    color: lighten($color-value, 20%)
+
+  .c--#{$color}--lt--5\:fcs:focus
+    color: lighten($color-value, 25%)
+
+  .c--#{$color}--dk--1
+    color: darken($color-value, 5%)
+
+  .c--#{$color}--dk--2
+    color: darken($color-value, 10%)
+
+  .c--#{$color}--dk--3
+    color: darken($color-value, 15%)
+
+  .c--#{$color}--dk--4
+    color: darken($color-value, 20%)
+
+  .c--#{$color}--dk--5
+    color: darken($color-value, 25%)
+
+  .c--#{$color}--dk--1\:hvr:hover
+    color: darken($color-value, 5%)
+
+  .c--#{$color}--dk--2\:hvr:hover
+    color: darken($color-value, 10%)
+
+  .c--#{$color}--dk--3\:hvr:hover
+    color: darken($color-value, 15%)
+
+  .c--#{$color}--dk--4\:hvr:hover
+    color: darken($color-value, 20%)
+
+  .c--#{$color}--dk--5\:hvr:hover
+    color: darken($color-value, 25%)
+
+  .c--#{$color}--dk--1\:fcs:focus
+    color: darken($color-value, 5%)
+
+  .c--#{$color}--dk--2\:fcs:focus
+    color: darken($color-value, 10%)
+
+  .c--#{$color}--dk--3\:fcs:focus
+    color: darken($color-value, 15%)
+
+  .c--#{$color}--dk--4\:fcs:focus
+    color: darken($color-value, 20%)
+
+  .c--#{$color}--dk--5\:fcs:focus
+    color: darken($color-value, 25%)
+
+  .c--#{$color}--compl
+    color: complement($color-value)
+
+  .c--#{$color}--compl\:hvr:hover
+    color: complement($color-value)
+
+  .c--#{$color}--compl\:fcs:focus
+    color: complement($color-value)
+
+@each $color, $color-value in $color-list-alt
+  .c--#{$color}
+    color: $color-value
+
+  .c--#{$color}\:hvr:hover
+    color: $color-value
+
+  .c--#{$color}\:fcs:focus
+    color: $color-value
+
+  .c--#{$color}--lt--1
+    color: lighten($color-value, 5%)
+
+  .c--#{$color}--lt--2
+    color: lighten($color-value, 10%)
+
+  .c--#{$color}--lt--3
+    color: lighten($color-value, 15%)
+
+  .c--#{$color}--lt--4
+    color: lighten($color-value, 20%)
+
+  .c--#{$color}--lt--5
+    color: lighten($color-value, 25%)
+
+  .c--#{$color}--lt--1\:hvr:hover
+    color: lighten($color-value, 5%)
+
+  .c--#{$color}--lt--2\:hvr:hover
+    color: lighten($color-value, 10%)
+
+  .c--#{$color}--lt--3\:hvr:hover
+    color: lighten($color-value, 15%)
+
+  .c--#{$color}--lt--4\:hvr:hover
+    color: lighten($color-value, 20%)
+
+  .c--#{$color}--lt--5\:hvr:hover
+    color: lighten($color-value, 25%)
+
+  .c--#{$color}--lt--1\:fcs:focus
+    color: lighten($color-value, 5%)
+
+  .c--#{$color}--lt--2\:fcs:focus
+    color: lighten($color-value, 10%)
+
+  .c--#{$color}--lt--3\:fcs:focus
+    color: lighten($color-value, 15%)
+
+  .c--#{$color}--lt--4\:fcs:focus
+    color: lighten($color-value, 20%)
+
+  .c--#{$color}--lt--5\:fcs:focus
+    color: lighten($color-value, 25%)
+
+  .c--#{$color}--dk--1
+    color: darken($color-value, 5%)
+
+  .c--#{$color}--dk--2
+    color: darken($color-value, 10%)
+
+  .c--#{$color}--dk--3
+    color: darken($color-value, 15%)
+
+  .c--#{$color}--dk--4
+    color: darken($color-value, 20%)
+
+  .c--#{$color}--dk--5
+    color: darken($color-value, 25%)
+
+  .c--#{$color}--dk--1\:hvr:hover
+    color: darken($color-value, 5%)
+
+  .c--#{$color}--dk--2\:hvr:hover
+    color: darken($color-value, 10%)
+
+  .c--#{$color}--dk--3\:hvr:hover
+    color: darken($color-value, 15%)
+
+  .c--#{$color}--dk--4\:hvr:hover
+    color: darken($color-value, 20%)
+
+  .c--#{$color}--dk--5\:hvr:hover
+    color: darken($color-value, 25%)
+
+  .c--#{$color}--dk--1\:fcs:focus
+    color: darken($color-value, 5%)
+
+  .c--#{$color}--dk--2\:fcs:focus
+    color: darken($color-value, 10%)
+
+  .c--#{$color}--dk--3\:fcs:focus
+    color: darken($color-value, 15%)
+
+  .c--#{$color}--dk--4\:fcs:focus
+    color: darken($color-value, 20%)
+
+  .c--#{$color}--dk--5\:fcs:focus
+    color: darken($color-value, 25%)
+
+  .c--#{$color}--compl
+    color: complement($color-value)
+
+  .c--#{$color}--compl\:hvr:hover
+    color: complement($color-value)
+
+  .c--#{$color}--compl\:fcs:focus
+    color: complement($color-value)
+
