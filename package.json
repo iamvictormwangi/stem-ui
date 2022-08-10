@@ -1,0 +1,19 @@
+{
+  "name": "stem-ui",
+  "version": "1.0.0",
+  "description": "Awesome css framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkoloni/stem-ui.git"
+  },
+  "author": "mkoloni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkoloni/stem-ui/issues"
+  },
+  "homepage": "https://github.com/mkoloni/stem-ui#readme"
+}

@@ -233,7 +233,7 @@ input:disabled, input[readonly], textarea:disabled, textarea[readonly] {
   min-height: 3rem;
   width: 20rem;
   position: absolute;
-  right: 0 !important;
+  right: 0;
   top: 0.5rem;
   z-index: 1500;
 }
@@ -673,7 +673,7 @@ input:disabled, input[readonly], textarea:disabled, textarea[readonly] {
 }
 
 .footer * {
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 
 .footer {
@@ -1075,7 +1075,7 @@ input:disabled, input[readonly], textarea:disabled, textarea[readonly] {
 }
 
 .navbar * {
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 
 .navbar .navbar--wrapper {
@@ -34249,23 +34249,23 @@ table tr.highlight {
 }
 
 .pos--relative {
-  position: relative !important;
+  position: relative;
 }
 
 .pos--absolute {
-  position: absolute !important;
+  position: absolute;
 }
 
 .pos--fixed {
-  position: fixed !important;
+  position: fixed;
 }
 
 .pos--sticky {
-  position: sticky !important;
+  position: sticky;
 }
 
 .pos--static {
-  position: static !important;
+  position: static;
 }
 
 .sticky--top, .sticky--bottom {
@@ -46193,131 +46193,131 @@ p, .p {
 }
 
 .fs--xxs {
-  font-size: 0.5rem !important;
+  font-size: 0.5rem;
 }
 
 .fs--xs {
-  font-size: 0.7rem !important;
+  font-size: 0.7rem;
 }
 
 .fs--sm {
-  font-size: 0.8rem !important;
+  font-size: 0.8rem;
 }
 
 .fs--md {
-  font-size: 1rem !important;
+  font-size: 1rem;
 }
 
 .fs--lg {
-  font-size: 1.25rem !important;
+  font-size: 1.25rem;
 }
 
 .fs--xl {
-  font-size: 1.5rem !important;
+  font-size: 1.5rem;
 }
 
 .fs--xxl {
-  font-size: 2rem !important;
+  font-size: 2rem;
 }
 
 .fw--100 {
-  font-weight: 100 !important;
+  font-weight: 100;
 }
 
 .fw--200 {
-  font-weight: 200 !important;
+  font-weight: 200;
 }
 
 .fw--300 {
-  font-weight: 300 !important;
+  font-weight: 300;
 }
 
 .fw--400, .fw--normal {
-  font-weight: normal !important;
+  font-weight: normal;
 }
 
 .fw--500 {
-  font-weight: 500 !important;
+  font-weight: 500;
 }
 
 .fw--600 {
-  font-weight: 600 !important;
+  font-weight: 600;
 }
 
 .fw--700, .fw--bold {
-  font-weight: bold !important;
+  font-weight: bold;
 }
 
 .fw--800 {
-  font-weight: 800 !important;
+  font-weight: 800;
 }
 
 .fw--900 {
-  font-weight: 900 !important;
+  font-weight: 900;
 }
 
 .fv--normal {
-  font-variant: normal !important;
+  font-variant: normal;
 }
 
 .fv--small--caps {
-  font-variant: small-caps !important;
+  font-variant: small-caps;
 }
 
 .ta--left {
-  text-align: left !important;
+  text-align: left;
 }
 
 .ta--center {
-  text-align: center !important;
+  text-align: center;
 }
 
 .ta--right {
-  text-align: right !important;
+  text-align: right;
 }
 
 .ta--justify {
-  text-align: justify !important;
+  text-align: justify;
 }
 
 .tt--uppercase {
-  text-transform: uppercase !important;
+  text-transform: uppercase;
 }
 
 .tt--lowercase {
-  text-transform: lowercase !important;
+  text-transform: lowercase;
 }
 
 .tt--capitalize {
-  text-transform: capitalize !important;
+  text-transform: capitalize;
 }
 
 .td--underline {
-  text-decoration: underline !important;
+  text-decoration: underline;
 }
 
 .td--line-through {
-  text-decoration: line-through !important;
+  text-decoration: line-through;
 }
 
 .td--none {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .td--overline {
-  text-decoration: overline !important;
+  text-decoration: overline;
 }
 
 .td--none {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .td--line--through {
-  text-decoration: line-through !important;
+  text-decoration: line-through;
 }
 
 .td--underline {
-  text-decoration: underline !important;
+  text-decoration: underline;
 }
 
 .tshdw--xxs, .tshdw-xs {
@@ -46381,11 +46381,11 @@ p, .p {
 }
 
 .t--link {
-  cursor: pointer !important;
+  cursor: pointer;
 }
 
 .t--link:hover {
-  text-decoration: underline !important;
+  text-decoration: underline;
   transition: text-decoration 0.5s ease;
 }
 
@@ -46678,15 +46678,15 @@ h6, .h6 {
 }
 
 .hide {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
+  display: none;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .show {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
+  display: block;
+  visibility: visible;
+  opacity: 1;
 }
 
 .scroll--auto {
@@ -46812,3 +46812,5 @@ h6, .h6 {
 .zi--1000 {
   z-index: 1000;
 }
+
+/*# sourceMappingURL=stem.css.map */
