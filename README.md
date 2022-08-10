@@ -1,67 +1,40 @@
 # STEM UI
 
-## Build Faster
+## The Awesome Sass Framwork
 
-STEM UI has lost of short and intuitive css classes to help you build faster
+STEM UI is a lightweight, fast and responsive css framwork for faster app development
 
----
+## Why STEM UI
 
-## Table of Content
-- [Why stem-ui](#why-stem-ui)
-<br />
-- [Getting Started](#getting-started)
-<br />
-- [Example](#example)
-<br />
-- [Browser Support](#browser-support)
-<br />
-- [Docs](#docs)
-
-## Why stem-ui
-
+- Responsive
 - Lightweight
-
-- Build websites faster
-
-- Consistence in css naming convention
-
-- No dependencies
-
-- Easy to integrate into existing projects
-
-- Lots of reusable components
-
-- Highly customizable with css variables
-
-- Written in sass-lang
-
-- Has lost of themes
-
-- Integrated with material and glassmorphism design principles
-
-- Good documentation
-
-- Comes with awesome animations
-
----
+- Customizable
+- Themes
+- Templates
+- Good Documentation
+- IDE Integration
 
 ## Getting started
 
-#### cdn
+Through cdn
 
+```html
 
-```css
+<!-- stem file -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/stem-ui/dist/css/stem.min.css">
 
-<link rel="stylesheet" href="https://res.cloudinary.com/mkoloni/raw/upload/v1658725869/stem_vdmgo3.css">
+<!-- animations -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/stem-ui/dist/css/plugin.animations.min.css">
+
+<!-- colors -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/stem-ui/dist/css/plugin.colors.min.css">
+
+<!-- media queries -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/stem-ui/dist/css/plugin.queries.min.css">
 
 ```
+Through npm
 
-#### git clone
-```sh
-git clone https://github.com/mkoloni/stem-ui.git
-```
-
-#### npm
 ```sh
 npm install stem-ui
 ```
@@ -70,26 +43,40 @@ npm install stem-ui
 ## Example
 
 ```html
-<header class="wrapper bgc--dark">
+<header class="wrapper bgc--dark c--light">
   <h1 class="title">Hello stem</h1>
-  <p class="p c--pink ">Sit quia maiores consectetur laborum maiores Atque corrupti sit placeat</p>
+  <p class="p c--accent ">Sit quia maiores consectetur laborum maiores Atque corrupti sit placeat</p>
 </header>
 
 ```
----
 
 ## Docs
 
 You can get the [docs](https://github.io/stem-ui) here
 
----
+
+## Tested with the following frameworks
+
+- React
+- Vue
+- Angular
+- Svelte
+- Polymar
+- jquery
+- Knockout
+
+## IDE Integration
+
+- Vscode
+- Neovim
+- Sublime
+- Vim
 
 ## Browser Support
-
-stem-ui is compatible with all major browsers. ie:
 
 - Chrome
 - Firefox
 - Edge
 - Safari
 - Opera
+
