@@ -1,6 +1,6 @@
 # STEM UI
 
-## The Awesome Sass Framwork
+## The Awesome Sass Framework
 
 STEM UI is a lightweight, fast and responsive css framwork for faster app development
 
@@ -54,23 +54,21 @@ npm install stem-ui
 
 You can get the [docs](https://github.io/stem-ui) here
 
-
 ## Tested with the following frameworks
 
-- React
-- Vue
-- Angular
-- Svelte
-- Polymar
-- jquery
-- Knockout
+- [React](https://reactjs.org)
+- [Vue](https://vuejs.org)
+- [Angular](https://angularjs.org)
+- [Svelte](https://svelte.dev)
+- [Alpine](https://alpinejs.dev)
+- [Knockout](https://knockoutjs.com)
 
 ## IDE Integration
 
-- Vscode
-- Neovim
-- Sublime
-- Vim
+- [Vscode](https://github.com/mkoloni)
+- [Neovim](https://github.com/mkoloni)
+- [Sublime](https://github.com/mkoloni)
+- [Vim](https://github.com/mkoloni)
 
 ## Browser Support
 
