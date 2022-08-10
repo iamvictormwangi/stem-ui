@@ -56,12 +56,14 @@ You can get the [docs](https://github.io/stem-ui) here
 
 ## Tested with the following frameworks
 
-- [React](https://reactjs.org)
-- [Vue](https://vuejs.org)
-- [Angular](https://angularjs.org)
-- [Svelte](https://svelte.dev)
-- [Alpine](https://alpinejs.dev)
-- [Knockout](https://knockoutjs.com)
+- React
+- Vue
+- Angular
+- Svelte
+- Alpine
+- Meteor
+- Preact
+- Backbone
 
 ## IDE Integration
 
