@@ -1,10 +1,11 @@
 @use "./../abstracts/" as *
-.input
+
+.textarea
   border: 1.7px solid var(--border-color)
   transition: border-color 0.5s ease-in
-  border-radius: 5px
-  padding: 0.5rem
+  padding: 0.8rem
 
   @each $color, $color-value in $color-list
-    &.input--#{$color}
+    &.textarea--#{$color}
       background-color: var(--#{$color})
+

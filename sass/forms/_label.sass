@@ -1,0 +1,9 @@
+@use "./../abstracts/" as *
+
+.label
+  font-size: 100%
+  margin-bottom: 1rem
+
+  @each $color, $color-value in $color-list
+    &.label--#{$color}
+      color: var(--#{$color})
