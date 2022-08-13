@@ -2,11 +2,11 @@
 
 @each $color, $color-value in $color-list
   .c--#{$color}
-    color: $color-value
+    color: var(--#{$color})
 
   .c--#{$color}\:hvr:hover
-    color: $color-value
+    color: var(--#{$color})
 
   .c--#{$color}\:fcs:focus
-    color: $color-value
+    color: var(--#{$color})
 

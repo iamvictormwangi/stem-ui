@@ -28,7 +28,7 @@
       font-size: inherit
       margin-bottom: 0.5rem
 
-  @each $color-item, $color-value in $color-list
-    &.modal--#{$color-item}
-      background-color: $color-value
+  @each $color, $color-value in $color-list
+    &.modal--#{$color}
+      background-color: var(--#{$color})
 

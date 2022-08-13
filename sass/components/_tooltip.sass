@@ -1,11 +1,5 @@
 @use "./../abstracts/" as *
 
-@mixin tooltip-color($clr)
-  background-color: $clr
-
-  &:after
-    border-top-color: $clr
-
 .tooltip
   position: absolute
   display: none
@@ -16,9 +10,12 @@
   font-size: 0.8rem
   color: white
 
-  @each $color-item, $color-value in $color-list
-    &.tooltip--#{$color-item}
-      @include tooltip-color($color-value)
+  @each $color, $color-value in $color-list
+    &.tooltip--#{$color}
+      background-color: var(--#{$color})
+
+    &.tooltip--#{$color}:after
+      border-top-color: var(--#{$color})
 
 .tooltip:after
   position: absolute

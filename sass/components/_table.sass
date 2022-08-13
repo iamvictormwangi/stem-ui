@@ -45,7 +45,7 @@ table.striped tr:nth-of-type(odd)
 table tr.highlight
   background-color: lighten(darkgrey, 28%)
 
-@each $color-item, $color-value in $color-list
-  .table--#{$color-item}
-    background-color: $color-value
+@each $color, $color-value in $color-list
+  .table--#{$color}
+    background-color: var(--#{$color})
 

@@ -1,0 +1,48 @@
+@use "./../../abstracts/" as *
+@use "sass:math"
+
+.row
+  @include flex
+  @include flex-wrap
+
+@for $i from 1 through 12
+  .col--#{$i}
+    width: calc(100% * math.div($i, 12))
+
+@media screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width)
+  .\@mobile\:\:row
+    @include flex
+    @include flex-wrap
+
+  @for $i from 1 through 12
+    .\@mobile\:\:col--#{$i}
+      width: calc(100% * math.div($i, 12))
+
+@media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width)
+  .\@tablet\:\:row
+    @include flex
+    @include flex-wrap
+
+  @for $i from 1 through 12
+    .\@tablet\:\:col--#{$i}
+      width: calc(100% * math.div($i, 12))
+
+@media screen and (min-width: $laptop-min-width) and (max-width: $laptop-max-width)
+  .\@laptop\:\:row
+    @include flex
+    @include flex-wrap
+
+  @for $i from 1 through 12
+    .\@laptop\:\:col--#{$i}
+      width: calc(100% * math.div($i, 12))
+
+@media screen and (min-width: $desktop-min-width)
+  .\@desktop\:\:row
+    @include flex
+    @include flex-wrap
+
+  @for $i from 1 through 12
+    .\@desktop\:\:col--#{$i}
+      width: calc(100% * math.div($i, 12))
+
+

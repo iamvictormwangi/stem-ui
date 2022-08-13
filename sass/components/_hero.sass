@@ -9,7 +9,7 @@
   min-height: 20rem
   width: 100%
 
-  @each $color-item, $color-value in $color-list
-    &.hero--#{$color-item}
-      background-color: ($color-value)
+  @each $color, $color-value in $color-list
+    &.hero--#{$color}
+      background-color: var(--#{$color})
 

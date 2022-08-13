@@ -23,8 +23,6 @@
   padding: 0.375rem 1rem
   z-index: 1000
 
-
-@each $color-item, $color-value in $color-list
-  .dropdown--#{$color-item}
-    background-color: $color-value
-
+@each $color, $color-value in $color-list
+  .dropdown--#{$color}
+    background-color: var(--#{$color})

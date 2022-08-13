@@ -1,11 +1,5 @@
 @use "./../abstracts/" as *
 
-@mixin pagination-item-color($clr)
-  background-color: $clr
-
-  &:hover
-    background-color: complement($clr)
-
 .pagination
   list-style: none
   margin: 0
@@ -13,14 +7,13 @@
   @include flex
   @include flex-wrap
 
-  @each $color-item, $color-value in $color-list
-    &.pagination--#{$color-item}
-      background-color: $color-value
+  @each $color, $color-value in $color-list
+    &.pagination--#{$color}
+      background-color: var(--#{$color})
 
   & .pagination--item
     margin: 0 0.08rem
 
-  @each $color-item, $color-value in $color-list
-    & .pagination--item--#{$color-item}
-      @include pagination-item-color($color-value)
-
+  @each $color, $color-value in $color-list
+    & .pagination--item--#{$color}
+      background-color: var(--#{$color})

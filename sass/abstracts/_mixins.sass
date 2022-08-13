@@ -22,3 +22,18 @@
 
   @else
     transform: skewX($value)
+
+@mixin btn-outline($clr)
+  border: $clr solid 0.1rem
+
+  &:hover
+    background-color: $clr
+    border: var(--dark) solid 0.1rem
+
+@mixin link($clr)
+  color: var(--#{clr})
+
+  &:hover
+    background-color: complement($clr)
+
+

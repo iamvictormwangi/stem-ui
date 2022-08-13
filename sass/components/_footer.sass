@@ -16,7 +16,7 @@
       font-weight: 500
       cursor: pointer
 
-  @each $color-item, $color-value in $color-list
-    &.footer--#{$color-item}
-      background-color: $color-value
+  @each $color, $color-value in $color-list
+    &.footer--#{$color}
+      background-color: var(--#{$color})
 

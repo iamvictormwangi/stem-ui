@@ -1,19 +1,35 @@
 {
   "name": "stem-ui",
   "version": "1.0.0",
-  "description": "Awesome css framework",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Awesome SASS Framework",
+  "homepage": "https://stemui.com",
+  "keywords": [
+    "css",
+    "sass",
+    "scss",
+    "resposive",
+    "lightweight",
+    "frontend",
+    "web",
+    "vue",
+    "customizable",
+    "flex",
+    "grid"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mkoloni/stem-ui.git"
   },
-  "author": "mkoloni",
-  "license": "ISC",
+  "author": {
+    "name": "mkoloni",
+    "email": "stemui@gmail.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mkoloni/stem-ui/issues"
   },
-  "homepage": "https://github.com/mkoloni/stem-ui#readme"
+  "sass": "sass/stem.sass",
+  "main": "sass/stem.sass",
+  "unpkg": "dist/css/stem.css",
+  "style": "dist/css/stem.css"
 }

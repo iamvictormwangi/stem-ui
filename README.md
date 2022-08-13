@@ -1,6 +1,6 @@
 # STEM UI
 
-## The Awesome Sass Framework
+## The Awesome sASS Framework
 
 STEM UI is a lightweight, fast and responsive css framwork for faster app development
 

@@ -1,0 +1,308 @@
+@use "./../../abstracts/" as *
+
+@each $color, $color-value in $color-list
+  .c--#{$color}--compl:hover
+    color: complement($color-value)
+
+  .c--#{$color}--lt--1--compl:hover
+    color: complement(lighten($color-value, 5%))
+
+  .c--#{$color}--lt--2--compl:hover
+    color: complement(lighten($color-value, 10%))
+
+  .c--#{$color}--lt--3--compl:hover
+    color: complement(lighten($color-value, 15%))
+
+  .c--#{$color}--lt--4--compl:hover
+    color: complement(lighten($color-value, 20%))
+
+  .c--#{$color}--lt--5--compl:hover
+    color: complement(lighten($color-value, 25%))
+
+  .c--#{$color}--dk--1--comp:hover
+    color: complement(darken($color-value, 5%))
+
+  .c--#{$color}--dk--2--comp:hover
+    color: complement(darken($color-value, 10%))
+
+  .c--#{$color}--dk--3--comp:hover
+    color: complement(darken($color-value, 15%))
+
+  .c--#{$color}--dk--4--comp:hover
+    color: complement(darken($color-value, 20%))
+
+  .c--#{$color}--dk--5--comp:hover
+    color: complement(darken($color-value, 25%))
+
+  @each $color, $color-value in $brand-color-list
+  .c--#{$color}--comp:hover
+    color: complement($color-value)
+
+  .c--#{$color}--lt--1--comp:hover
+    color: complement(lighten($color-value, 5%))
+
+  .c--#{$color}--lt--2--comp:hover
+    color: complement(lighten($color-value, 10%))
+
+  .c--#{$color}--lt--3--comp:hover
+    color: complement(lighten($color-value, 15%))
+
+  .c--#{$color}--lt--4--comp:hover
+    color: complement(lighten($color-value, 20%))
+
+  .c--#{$color}--lt--5--comp:hover
+    color: complement(lighten($color-value, 25%))
+
+  .c--#{$color}--dk--1--comp:hover
+    color: complement(darken($color-value, 5%))
+
+  .c--#{$color}--dk--2--comp:hover
+    color: complement(darken($color-value, 10%))
+
+  .c--#{$color}--dk--3--comp:hover
+    color: complement(darken($color-value, 15%))
+
+  .c--#{$color}--dk--4--comp:hover
+    color: complement(darken($color-value, 20%))
+
+  .c--#{$color}--dk--5--comp:hover
+    color: complement(darken($color-value, 25%))
+
+@each $color, $color-value in $color-list-alt
+  .c--#{$color}--comp:hover
+    color: complement($color-value)
+
+  .c--#{$color}--lt--1--comp:hover
+    color: complement(lighten($color-value, 5%))
+
+  .c--#{$color}--lt--2--comp:hover
+    color: complement(lighten($color-value, 10%))
+
+  .c--#{$color}--lt--3--comp:hover
+    color: complement(lighten($color-value, 15%))
+
+  .c--#{$color}--lt--4--comp:hover
+    color: complement(lighten($color-value, 20%))
+
+  .c--#{$color}--lt--5--comp:hover
+    color: complement(lighten($color-value, 25%))
+
+  .c--#{$color}--dk--1--comp:hover
+    color: complement(darken($color-value, 5%))
+
+  .c--#{$color}--dk--2--comp:hover
+    color: complement(darken($color-value, 10%))
+
+  .c--#{$color}--dk--3--comp:hover
+    color: complement(darken($color-value, 15%))
+
+  .c--#{$color}--dk--4--comp:hover
+    color: complement(darken($color-value, 20%))
+
+  .c--#{$color}--dk--5--comp:hover
+    color: complement(darken($color-value, 25%))
+
+@each $color, $color-value in $color-list
+  .bgc--#{$color}--comp:hover
+    background-color: complement($color-value)
+
+  .bgc--#{$color}--lt--1--comp:hover
+    background-color: complement(lighten($color-value, 5%))
+
+  .bgc--#{$color}--lt--2--comp:hover
+    background-color: complement(lighten($color-value, 10%))
+
+  .bgc--#{$color}--lt--3--comp:hover
+    background-color: complement(lighten($color-value, 15%))
+
+  .bgc--#{$color}--lt--4--comp:hover
+    background-color: complement(lighten($color-value, 20%))
+
+  .bgc--#{$color}--lt--5--comp:hover
+    background-color: complement(lighten($color-value, 25%))
+
+  .bgc--#{$color}--dk--1--comp:hover
+    background-color: complement(darken($color-value, 5%))
+
+  .bgc--#{$color}--dk--2--comp:hover
+    background-color: complement(darken($color-value, 10%))
+
+  .bgc--#{$color}--dk--3--comp:hover
+    background-color: complement(darken($color-value, 15%))
+
+  .bgc--#{$color}--dk--4--comp:hover
+    background-color: complement(darken($color-value, 20%))
+
+  .bgc--#{$color}--dk--5--comp:hover
+    background-color: complement(darken($color-value, 25%))
+
+@each $color, $color-value in $brand-color-list
+  .bgc--#{$color}--comp:hover
+    background-color: complement($color-value)
+
+  .bgc--#{$color}--lt--1--comp:hover
+    background-color: complement(lighten($color-value, 5%))
+
+  .bgc--#{$color}--lt--2--comp:hover
+    background-color: complement(lighten($color-value, 10%))
+
+  .bgc--#{$color}--lt--3--comp:hover
+    background-color: complement(lighten($color-value, 15%))
+
+  .bgc--#{$color}--lt--4--comp:hover
+    background-color: complement(lighten($color-value, 20%))
+
+  .bgc--#{$color}--lt--5--comp:hover
+    background-color: complement(lighten($color-value, 25%))
+
+  .bgc--#{$color}--dk--1--comp:hover
+    background-color: complement(darken($color-value, 5%))
+
+  .bgc--#{$color}--dk--2--comp:hover
+    background-color: complement(darken($color-value, 10%))
+
+  .bgc--#{$color}--dk--3--comp:hover
+    background-color: complement(darken($color-value, 15%))
+
+  .bgc--#{$color}--dk--4--comp:hover
+    background-color: complement(darken($color-value, 20%))
+
+  .bgc--#{$color}--dk--5--comp:hover
+    background-color: complement(darken($color-value, 25%))
+
+@each $color, $color-value in $color-list-alt
+  .bgc--#{$color}--comp:hover
+    background-color: complement($color-value)
+
+  .bgc--#{$color}--lt--1--comp:hover
+    background-color: complement(lighten($color-value, 5%))
+
+  .bgc--#{$color}--lt--2--comp:hover
+    background-color: complement(lighten($color-value, 10%))
+
+  .bgc--#{$color}--lt--3--comp:hover
+    background-color: complement(lighten($color-value, 15%))
+
+  .bgc--#{$color}--lt--4--comp:hover
+    background-color: complement(lighten($color-value, 20%))
+
+  .bgc--#{$color}--lt--5--comp:hover
+    background-color: complement(lighten($color-value, 25%))
+
+  .bgc--#{$color}--dk--1--comp:hover
+    background-color: complement(darken($color-value, 5%))
+
+  .bgc--#{$color}--dk--2--comp:hover
+    background-color: complement(darken($color-value, 10%))
+
+  .bgc--#{$color}--dk--3--comp:hover
+    background-color: complement(darken($color-value, 15%))
+
+  .bgc--#{$color}--dk--4--comp:hover
+    background-color: complement(darken($color-value, 20%))
+
+  .bgc--#{$color}--dk--5--comp:hover
+    background-color: complement(darken($color-value, 25%))
+
+@each $color, $color-value in $color-list
+  .bdc--#{$color}--comp:hover
+    border-color: complement($color-value)
+
+  .bdc--#{$color}--lt--1--comp:hover
+    border-color: complement(lighten($color-value, 5%))
+
+  .bdc--#{$color}--lt--2--comp:hover
+    border-color: complement(lighten($color-value, 10%))
+
+  .bdc--#{$color}--lt--3--comp:hover
+    border-color: complement(lighten($color-value, 15%))
+
+  .bdc--#{$color}--lt--4--comp:hover
+    border-color: complement(lighten($color-value, 20%))
+
+  .bdc--#{$color}--lt--5--comp:hover
+    border-color: complement(lighten($color-value, 25%))
+
+  .bdc--#{$color}--dk--1--comp:hover
+    border-color: complement(darken($color-value, 5%))
+
+  .bdc--#{$color}--dk--2--comp:hover
+    border-color: complement(darken($color-value, 10%))
+
+  .bdc--#{$color}--dk--3--comp:hover
+    border-color: complement(darken($color-value, 15%))
+
+  .bdc--#{$color}--dk--4--comp:hover
+    border-color: complement(darken($color-value, 20%))
+
+  .bdc--#{$color}--dk--5--comp:hover
+    border-color: complement(darken($color-value, 25%))
+
+@each $color, $color-value in $brand-color-list
+  .bdc--#{$color}--comp:hover
+    border-color: complement($color-value)
+
+  .bdc--#{$color}--lt--1--comp:hover
+    border-color: complement(lighten($color-value, 5%))
+
+  .bdc--#{$color}--lt--2--comp:hover
+    border-color: complement(lighten($color-value, 10%))
+
+  .bdc--#{$color}--lt--3--comp:hover
+    border-color: complement(lighten($color-value, 15%))
+
+  .bdc--#{$color}--lt--4--comp:hover
+    border-color: complement(lighten($color-value, 20%))
+
+  .bdc--#{$color}--lt--5--comp:hover
+    border-color: complement(lighten($color-value, 25%))
+
+  .bdc--#{$color}--dk--1--comp:hover
+    border-color: complement(darken($color-value, 5%))
+
+  .bdc--#{$color}--dk--2--comp:hover
+    border-color: complement(darken($color-value, 10%))
+
+  .bdc--#{$color}--dk--3--comp:hover
+    border-color: complement(darken($color-value, 15%))
+
+  .bdc--#{$color}--dk--4--comp:hover
+    border-color: complement(darken($color-value, 20%))
+
+  .bdc--#{$color}--dk--5--comp:hover
+    border-color: complement(darken($color-value, 25%))
+
+@each $color, $color-value in $color-list-alt
+  .bdc--#{$color}--comp:hover
+    border-color: complement($color-value)
+
+  .bdc--#{$color}--lt--1--comp:hover
+    border-color: complement(lighten($color-value, 5%))
+
+  .bdc--#{$color}--lt--2--comp:hover
+    border-color: complement(lighten($color-value, 10%))
+
+  .bdc--#{$color}--lt--3--comp:hover
+    border-color: complement(lighten($color-value, 15%))
+
+  .bdc--#{$color}--lt--4--comp:hover
+    border-color: complement(lighten($color-value, 20%))
+
+  .bdc--#{$color}--lt--5--comp:hover
+    border-color: complement(lighten($color-value, 25%))
+
+  .bdc--#{$color}--dk--1--comp:hover
+    border-color: complement(darken($color-value, 5%))
+
+  .bdc--#{$color}--dk--2--comp:hover
+    border-color: complement(darken($color-value, 10%))
+
+  .bdc--#{$color}--dk--3--comp:hover
+    border-color: complement(darken($color-value, 15%))
+
+  .bdc--#{$color}--dk--4--comp:hover
+    border-color: complement(darken($color-value, 20%))
+
+  .bdc--#{$color}--dk--5--comp:hover
+    border-color: complement(darken($color-value, 25%))
+

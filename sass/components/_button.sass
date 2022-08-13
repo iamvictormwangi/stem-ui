@@ -1,18 +1,5 @@
 @use "./../abstracts/" as *
 
-@mixin btn-outline($clr)
-  border: $clr solid 0.1rem
-
-  &:hover
-    background-color: $clr
-    border: $border-color solid 0.1rem
-
-@mixin btn-color($clr)
-  background: $clr
-
-  &:hover
-    background-color: complement($clr)
-
 .btn
   border: $dark solid 0.1rem
   border-radius: 0.25rem
@@ -41,12 +28,12 @@
   &.btn--xxl
     font-size: 1.5rem
 
-  @each $color-item, $color-value in $color-list
-    &.box--#{$color-item}
-      @include btn-color($color-value)
+  @each $color, $color-value in $color-list
+    &.btn--#{$color}
+      background-color: var(--#{$color})
 
-  @each $color-item, $color-value in $color-list
-    &.outline--#{$color-item}
+  @each $color, $color-value in $color-list
+    &.outline--#{$color}
       @include btn-outline($color-value)
 
 .btn--floating

@@ -10,7 +10,7 @@
   & .notepad--text
     font-weight: inherit
 
-  @each $color-item, $color-value in $color-list
-    &.notepad--#{$color-item}
-      border-color: $color-value
+  @each $color, $color-value in $color-list
+    &.notepad--#{$color}
+      border-color: var(--#{$color})
 

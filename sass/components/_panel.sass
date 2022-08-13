@@ -1,20 +1,20 @@
 @use "./../abstracts/" as *
 
-.navbar *
+.panel *
   margin-bottom: 0
 
-.navbar
-  & .navbar--wrapper
+.panel
+  & .panel--wrapper
     padding-top: 1rem
     padding-bottom: 1rem
     @include flex
     justify-content: space-between
 
-    & .navbar--brand
+    & .panel--brand
       font-weight: 500
       cursor: pointer
 
-  @each $color-item, $color-value in $color-list
-    &.navbar--#{$color-item}
-      background-color: $color-value
+  @each $color, $color-value in $color-list
+    &.panel--#{$color}
+      background-color: var(--#{$color})
 

@@ -14,7 +14,7 @@
     padding-top: 1rem
     border-bottom: 2px solid lightgrey
 
-  @each $color-item, $color-value in $color-list
-    &.sidebar--#{$color-item}
-      background-color: $color-value
+  @each $color, $color-value in $color-list
+    &.sidebar--#{$color}
+      background-color: var(--#{$color})
 

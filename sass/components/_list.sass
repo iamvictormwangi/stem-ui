@@ -1,0 +1,13 @@
+@use "./../abstracts/" as *
+.list
+  @each $color, $color-value in $color-list
+    &.list--#{$color}
+      background-color: var(--#{$color})
+
+  & .list--item
+    padding: 0.35rem 1rem
+
+  @each $color, $color-value in $color-list
+    & .list--item--#{$color}
+      background-color: var(--#{$color})
+

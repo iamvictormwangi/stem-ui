@@ -15,10 +15,10 @@
 .textarea
   padding: 12px
 
-  @each $color-item, $color-value in $color-list
-    &.input--#{$color-item}
-      border-color: ($color-value)
+  @each $color, $color-value in $color-list
+    &.input--#{$color}
+      border-color: var(--#{$color})
 
     &.textarea--#{$color-item}
-      background-color: ($color-value)
+      border-color: var(--#{$color})
 

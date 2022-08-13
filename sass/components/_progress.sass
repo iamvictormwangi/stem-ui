@@ -6,16 +6,16 @@
   height: 2rem
   border: 1px solid lighten(black, 10%)
 
-  @each $color-item, $color-value in $color-list
-    &.progress--#{$color-item}
-      background-color: $color-value
+  @each $color, $color-value in $color-list
+    &.progress--#{$color}
+      background-color: var(--#{$color})
 
   & .progress--meter
     width: 15%
     height: 100%
     background-color: $dark
 
-  @each $color-item, $color-value in $color-list
-    & .progress--meter--#{$color-item}
-      background-color: $color-value
+  @each $color, $color-value in $color-list
+    & .progress--meter--#{$color}
+      background-color: var(--#{$color})
 

@@ -1,19 +1,19 @@
 @use "./../abstracts/" as *
 
 .bd
-  border: 1px solid $dark
+  border: 1px solid var(--border-color)
 
-.bd--top
-  border-top: 1px solid $dark
+.bd--t
+  border-top: 1px solid var(--border-color)
 
-.bd--right
-  border-right: 1px solid $dark
+.bd--r
+  border-right: 1px solid var(--border-color)
 
-.bd--bottom
-  border-bottom: 1px solid $dark
+.bd--b
+  border-bottom: 1px solid var(--border-color)
 
-.bd--left
-  border-left: 1px solid $dark
+.bd--l
+  border-left: 1px solid var(--border-color)
 
 .bd--none
   border-style: none
@@ -44,13 +44,13 @@
 
 @each $color, $color-value in $color-list
   .bdc--#{$color}
-    border-color: $color-value
+    border-color: var(--#{$color})
 
   .bdc--#{$color}\:hvr:hover
-    border-color: $color-value
+    border-color: var(--#{$color})
 
   .bdc--#{$color}\:fcs:focus
-    border-color: $color-value
+    border-color: var(--#{$color})
 
 @each $i, $value in $border-list
   .bd--#{$i}
@@ -60,31 +60,31 @@
   .bd--rds--#{$i}
     border-radius: $value
 
-  .bd--rds--top--#{$i}
+  .bd--rds--t--#{$i}
     border-top-right-radius: $value
     border-top-left-radius: $value
 
-  .bd--rds--right--#{$i}
+  .bd--rds--r--#{$i}
     border-top-right-radius: $value
     border-bottom-right-radius: $value
 
-  .bd--rds--bottom--#{$i}
+  .bd--rds--b--#{$i}
     border-bottom-right-radius: $value
     border-bottom-left-radius: $value
 
-  .bd--rds--left--#{$i}
+  .bd--rds--l--#{$i}
     border-top-left-radius: $value
     border-bottom-left-radius: $value
 
-  .bd--rds--t--right--#{$i}
+  .bd--rds--t--r--#{$i}
     border-top-right-radius: $value
 
-  .bd--rds--t--left--#{$i}
+  .bd--rds--t--l--#{$i}
     border-top-left-radius: $value
 
-  .bd--rds--b--right--#{$i}
+  .bd--rds--b--r--#{$i}
     border-bottom-right-radius: $value
 
-  .bd--rds--b--left--#{$i}
+  .bd--rds--b--l--#{$i}
     border-bottom-left-radius: $value
 

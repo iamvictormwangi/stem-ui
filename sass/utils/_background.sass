@@ -2,11 +2,11 @@
 
 @each $color, $color-value in $color-list
   .bgc--#{$color}
-    background-color: $color-value
+    background-color: var(--#{$color})
 
   .bgc--#{$color}\:hvr:hover
-    background-color: $color-value
+    background-color: var(--#{$color})
 
   .bgc--#{$color}\:fcs:focus
-    background-color: $color-value
+    background-color: var(--#{$color})
 
